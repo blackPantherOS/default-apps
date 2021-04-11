@@ -1,0 +1,2720 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-09 13:57+0100\n"
+"PO-Revision-Date: 2016-08-05 23:31+0200\n"
+"Last-Translator: Charles K. Barcza <kbarcza@blackpanther.hu>\n"
+"Language-Team: none\n"
+"Language: gb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: default-aplayer:31 default-dvbplayer:33 default-cdwriter:31
+msgid ""
+"Personal $appname definied, please restart `basename $0` without parameter."
+msgstr ""
+
+#: default-aplayer:49 default-dvbplayer:51 default-filemanager:49
+#: default-partedit:49 default-editor:48 default-mailer:48 default-vplayer:48
+#, sh-format
+msgid "Define user ${appname}.."
+msgstr ""
+
+#: default-aplayer:57 default-dvbplayer:59 default-filemanager:71
+#: default-partedit:57 default-terminal:57 default-browser:44 default-editor:56
+#: default-mailer:56 default-cdwriter:57 default-vplayer:56 default-netchk:99
+#: default-netchk:83
+#, sh-format
+msgid "${GRN}This is a$BLK blackPanther OS$GRN specific tool"
+msgstr ""
+
+#: default-aplayer:59 default-dvbplayer:61 default-filemanager:73
+#: default-partedit:59 default-terminal:59 default-browser:46 default-editor:58
+#: default-mailer:58 default-cdwriter:59 default-vplayer:58 default-netchk:101
+#: default-netchk:85
+#, sh-format
+msgid "$MAG  Usage:"
+msgstr ""
+
+#: default-aplayer:60 default-dvbplayer:62 default-filemanager:74
+#: default-partedit:60 default-terminal:60 default-browser:47 default-editor:59
+#: default-mailer:59 default-cdwriter:60 default-vplayer:59
+msgid ""
+"$YEL       `basename $0` -s $DEF Set a personal ${appname} (You conf file: "
+"$HOME/.personal-${appname})"
+msgstr ""
+
+#: default-aplayer:61 default-dvbplayer:63 default-filemanager:75
+#: default-partedit:61 default-terminal:61 default-browser:48 default-editor:60
+#: default-mailer:60 default-cdwriter:61 default-vplayer:60
+msgid ""
+"$YEL       `basename $0` -u $DEF Unset definied ${appname} (Remove you conf "
+"file: $HOME/.personal-${appname})"
+msgstr ""
+
+#: default-aplayer:62 default-dvbplayer:64 default-filemanager:76
+#: default-partedit:62 default-terminal:62 default-browser:49 default-editor:61
+#: default-mailer:61 default-cdwriter:62 default-vplayer:61
+msgid "$YEL       `basename $0` -h $DEF This screen"
+msgstr ""
+
+#: default-aplayer:64 default-dvbplayer:66
+msgid ""
+"$CYN  [$RED Example:$CYN `basename $0` -s audacious$RED OR to autodetect:"
+"$CYN `basename $0`]$DEF"
+msgstr ""
+
+#: default-aplayer:93
+msgid ""
+"Sorry. Audio Player applications not detected, please install on PC (etc: "
+"installing amarok)"
+msgstr ""
+
+#: default-aplayer:94
+msgid ""
+"Sorry. Audio Player not detected! Please install on PC (etc: installing "
+"amarok)"
+msgstr ""
+
+#: default-dvbplayer:102
+msgid ""
+"Kaffeine functions not complete!<br>Please go to Kaffeine DVB-t settings, "
+"and add your favorite TV's <br>to left side to playing"
+msgstr ""
+
+#: default-dvbplayer:107
+msgid ""
+"DVB-t Playing with MPlayer temporary won't work! Please install another "
+"player: vlc, mpv, kaffeine"
+msgstr ""
+
+#: default-dvbplayer:113
+msgid ""
+"DVB-t Playing with mplayer temporary won't work! <br>Please go to SMPlayer "
+"setting and change engine to mpv"
+msgstr ""
+
+#: default-dvbplayer:154
+msgid "Config not found for DVB-t playing. Please run search first"
+msgstr ""
+
+#: default-dvbplayer:164
+msgid "DVB-T Channel Search.."
+msgstr ""
+
+#: default-dvbplayer:166
+msgid "DVB-T Channel scanner </h3><br>Initializing..."
+msgstr ""
+
+#: default-dvbplayer:171 default-dvbplayer:175
+msgid ""
+"Scanning DVB-T Channels..</h3> <br>This is a slow progress! Please wait "
+"patient.."
+msgstr ""
+
+#: default-dvbplayer:198 default-dvbplayer:202
+msgid "Sorry. DVB-T Playing error detected"
+msgstr ""
+
+#: default-dvbplayer:205
+msgid ""
+"Sorry, DVB-T Player applications not detected, please install on PC [etc: "
+"installing kaffeine]"
+msgstr ""
+
+#: default-filemanager:31 default-editor:30
+msgid ""
+"Personal ${appname} definied, please restart `basename $0` without parameter."
+msgstr ""
+
+#: default-filemanager:53 default-partedit:53 default-editor:52
+#: default-mailer:52 default-cdwriter:53 default-vplayer:52
+#, sh-format
+msgid "Clear definied personal ${appname} conf.."
+msgstr ""
+
+#: default-filemanager:65
+#, sh-format
+msgid ""
+"$RED XDG definitions currently not available under your $HOME/.config/user-"
+"dirs.dirs on blackPanther OS system.. $DEF"
+msgstr ""
+
+#: default-filemanager:78
+#, sh-format
+msgid "$MAG  For XDG-DIRS: $DEF/MUSIC, DOWNLOAD, HOME, etc/"
+msgstr ""
+
+#: default-filemanager:79
+msgid ""
+"$YEL       `basename $0` -xdg $DEF List available definied XDG directories"
+msgstr ""
+
+#: default-filemanager:81
+msgid ""
+"$CYN       [$RED Example:$CYN `basename $0` -s dolphin$RED OR to open own "
+"video dir:$CYN `basename $0` VIDEOS ]$DEF"
+msgstr ""
+
+#: default-filemanager:126
+msgid ""
+"Sorry. Filemanager applications not detected, please install on PC (etc: "
+"installing dolphin)"
+msgstr ""
+
+#: default-filemanager:127
+msgid ""
+"Sorry. Filemanager not detected! Please install on PC (etc: installing "
+"dolphin)"
+msgstr ""
+
+#: default-partedit:26 default-cdwriter:26 default-vplayer:25
+msgid "Presonal conf found!"
+msgstr ""
+
+#: default-partedit:31 default-mailer:30
+msgid "Personal ${appname} definied, please restart $0 without parameter."
+msgstr ""
+
+#: default-partedit:64
+msgid ""
+"$CYN  [$RED Example:$CYN `basename $0` -s gparted$RED OR to autodetect:$CYN "
+"`basename $0`]$DEF"
+msgstr ""
+
+#: default-partedit:100
+msgid ""
+"Sorry. Partition manager applications not detected, please install on PC "
+"(etc: installing partitionmanager)"
+msgstr ""
+
+#: default-partedit:101
+msgid ""
+"Sorry. Partition manager not detected! Please install on PC (etc: installing "
+"partitionmanager)"
+msgstr ""
+
+#: default-speedtest:18
+msgid "SKIPPED! MISSING COMPONENT"
+msgstr ""
+
+#: default-installgui:35
+msgid "on KDE/Plasma desktop"
+msgstr ""
+
+#: default-installgui:54
+msgid ""
+"Sorry. INSTALLGUI applications not detected, please install on PC (etc: "
+"installing package-wizard)"
+msgstr ""
+
+#: default-installgui:55
+msgid ""
+"Sorry. INSTALLGUI manager not detected! Please install on PC (etc: "
+"installing package-wizard)"
+msgstr ""
+
+#: default-settings:103
+msgid ""
+"Sorry. Systemsettings applications not detected, please install on PC (etc: "
+"installing systemsettings)"
+msgstr ""
+
+#: default-settings:104
+msgid ""
+"Sorry.  Systemsettings not detected! Please install on PC (etc: installing "
+"systemsettings)"
+msgstr ""
+
+#: default-terminal:29
+msgid "Personal terminal definied, please restart $0 without parameter."
+msgstr ""
+
+#: default-terminal:49
+msgid "Force define user terminal.."
+msgstr ""
+
+#: default-terminal:53
+msgid "Clear definied personal terminal conf.."
+msgstr ""
+
+#: default-terminal:64
+msgid ""
+"$YEL       `basename $0` --newtab/--tab $DEF Only for Yakuake Terminal. "
+"Example: default-terminal --newtab YOURCOMMAND"
+msgstr ""
+
+#: default-terminal:66
+msgid ""
+"$CYN  [$RED Example:$CYN `basename $0` -s yakuake$RED OR to autodetect:$CYN "
+"`basename $0`]$DEF"
+msgstr ""
+
+#: default-terminal:154
+msgid ""
+"Sorry. Terminal not detected, please install on PC (etc: installing xterm)"
+msgstr ""
+
+#: default-terminal:155
+msgid ""
+"Sorry. Terminal not detected! Please install on PC (etc: installing xterm)"
+msgstr ""
+
+#: default-browser:30
+msgid ""
+"Personal browser definied, please restart `basename $0` without parameter."
+msgstr ""
+
+#: default-browser:36
+msgid "Force define user browser.."
+msgstr ""
+
+#: default-browser:40
+msgid "Clear definied personal browser conf.."
+msgstr ""
+
+#: default-browser:51
+msgid ""
+"$CYN  [$RED Example:$CYN `basename $0` -s opera$RED OR to autodetect:$CYN "
+"`basename $0`]$DEF"
+msgstr ""
+
+#: default-browser:142
+msgid ""
+"Sorry. Browser not detected, please install to System (ex: installing "
+"firefox)"
+msgstr ""
+
+#: default-browser:143
+msgid ""
+"Sorry. Browser not detected! Please install to System (ex: installing "
+"firefox)"
+msgstr ""
+
+#: default-scanner:117
+msgid ""
+"Sorry. Scanner applications not detected, please install on PC (etc: "
+"installing skanlite)"
+msgstr ""
+
+#: default-scanner:118
+msgid ""
+"Sorry. Scanner not detected! Please install one (etc: installing skanlite)"
+msgstr ""
+
+#: default-editor:63
+msgid ""
+"$CYN  [$RED Example:$CYN `basename $0` -s kwrite$RED OR to autodetect:$CYN "
+"`basename $0`]$DEF"
+msgstr ""
+
+#: default-editor:105
+msgid ""
+"Sorry. Editor applications not detected, please install on PC (etc: "
+"installing kwrite)"
+msgstr ""
+
+#: default-editor:106
+msgid ""
+"Sorry. Editor not detected! Please install on PC (etc: installing kwrite)"
+msgstr ""
+
+#: default-uninstallgui:54
+msgid ""
+"Sorry. UN-INSTALLGUI applications not detected, please install on PC (etc: "
+"installing package-wizard)"
+msgstr ""
+
+#: default-uninstallgui:55
+msgid ""
+"Sorry. UN-INSTALLGUI manager not detected! Please install on PC (etc: "
+"installing package-wizard)"
+msgstr ""
+
+#: default-voipclient:111
+msgid ""
+"Sorry. Voip Client applications not detected, please install on PC (etc: "
+"installing ekiga)"
+msgstr ""
+
+#: default-voipclient:112
+msgid ""
+"Sorry. Voip Client not detected! Please install one (etc: installing ekiga)"
+msgstr ""
+
+#: default-mailer:63
+msgid ""
+"$CYN  [$RED Example:$CYN `basename $0` -s evolution$RED OR to autodetect:"
+"$CYN `basename $0` ]$DEF"
+msgstr ""
+
+#: default-mailer:109
+msgid ""
+"Sorry. Mailer applications not detected, please install on PC (etc: "
+"installing evolution)"
+msgstr ""
+
+#: default-mailer:110
+msgid ""
+"Sorry. CD Mailer not detected! Please install on PC (etc: installing "
+"evolution)"
+msgstr ""
+
+#: default-cdwriter:64
+msgid ""
+"$CYN  [$RED Example:$CYN `basename $0` -s k3b$RED OR to autodetect:$CYN "
+"`basename $0`]$DEF"
+msgstr ""
+
+#: default-cdwriter:81
+msgid ""
+"Sorry. CD Writer applications not detected, please install on PC (etc: "
+"installing k3b)"
+msgstr ""
+
+#: default-cdwriter:82
+msgid ""
+"Sorry. CD Writer not detected! Please install on PC (etc: installing k3b)"
+msgstr ""
+
+#: default-vplayer:30
+msgid "Personal $appname definied, please restart $0 without parameter."
+msgstr ""
+
+#: default-vplayer:63
+msgid ""
+"$CYN  [$RED Example:$CYN `basename $0` -s smplayer$RED OR to autodetect:$CYN "
+"`basename $0`]$DEF"
+msgstr ""
+
+#: default-netchk:77 default-netchk:60
+msgid ""
+" ------------ blackPanther OS INTERACTIVE NetConsole and Benchmark "
+"------------------"
+msgstr ""
+
+#: default-netchk:82 default-netchk:65
+msgid ""
+" --------------------------------------- DONE "
+"---------------------------------------"
+msgstr ""
+
+#: default-netchk:93 default-netchk:76
+msgid "NO IMPLEMENTED YET"
+msgstr ""
+
+#: default-netchk:102 default-netchk:86
+msgid ""
+"$YEL       `basename $0` internet $MAG Check the Internet connection status "
+"$DEF\n"
+"\t\t$DEF(or 'i' switch is shorter OR run without parameter) "
+msgstr ""
+
+#: default-netchk:104 default-netchk:88
+msgid ""
+"$YEL       `basename $0` local $MAG Check the local network status$DEF\n"
+"\t\t$DEF(or 'l' switch is shorter OR run without parameter) "
+msgstr ""
+
+#: default-netchk:106 default-netchk:90
+msgid ""
+"$YEL       `basename $0` interactive $MAG Check the local network status"
+"$DEF\n"
+"\t\t$DEF(or 'ii' switch is shorter OR run without parameter) "
+msgstr ""
+
+#: default-netchk:108 default-netchk:92
+msgid ""
+"$YEL       `basename $0` benchmark $MAG Internet connection speed test$DEF\n"
+"\t\t$DEF(or 'ib' switch is shorter OR run without parameter) "
+msgstr ""
+
+#: default-netchk:111 default-netchk:95
+msgid "$YEL       `basename $0` h|-h $DEF This screen"
+msgstr ""
+
+#: default-netchk:113 default-netchk:97
+msgid ""
+"$CYN  [$RED Example:$CYN `basename $0` i$RED OR to autodetect:$CYN `basename "
+"$0` ]$DEF"
+msgstr ""
+
+#: plasma-demos:30
+msgid "Do you want running quick desktop demo ?"
+msgstr ""
+
+#: plasma-demos:56
+msgid "Exit demo mode..."
+msgstr ""
+
+#: plasma-demos:61
+msgid "Demo mode finished!"
+msgstr ""
+
+#: wrongdistro:94 wrongdistro:87
+msgid "Perfect:"
+msgstr ""
+
+#: wrongdistro:99 wrongdistro:92
+msgid "     Ohh my Gas..."
+msgstr ""
+
+#: wrongdistro:101 wrongdistro:94
+msgid "     You are a prisoner in the MATRIX!"
+msgstr ""
+
+#: wrongdistro:103 wrongdistro:96
+msgid "     You need freedom"
+msgstr ""
+
+#: wrongdistro:106 wrongdistro:99
+msgid "     Press any key and read message on display.."
+msgstr ""
+
+#: wrongdistro:109 wrongdistro:102
+msgid "     Because seems this is the MATRIX as well..."
+msgstr ""
+
+#: wrongdistro:117 wrongdistro:110
+msgid "     You are now freed by blackPanther OS! NOTICE, please READ FIRST:"
+msgstr ""
+
+#: wrongdistro:120 wrongdistro:113
+msgid "    * This is a "
+msgstr ""
+
+#: wrongdistro:125 wrongdistro:118
+msgid "     and not a"
+msgstr ""
+
+#: wrongdistro:128
+msgid "     Please run blackPanher OS based command instead"
+msgstr ""
+
+#: wrongdistro:131
+msgid ""
+"     or run commands --help OR simple type and run for available actions: "
+"commands"
+msgstr ""
+
+#: swapcheck:44 swapcheck:43 swapcheck:42
+msgid "Swap Not Found"
+msgstr ""
+
+#: swapcheck:45 swapcheck:44 swapcheck:43
+msgid ""
+"Seem the swap does not available.. Recommend made a swap for your installed "
+"system stabilisation! I will made now, please wait to finish."
+msgstr ""
+
+#: swapcheck:70 swapcheck:69
+msgid "Swap Created!"
+msgstr ""
+
+#: swapcheck:71 swapcheck:70
+msgid "You can change swap size here:"
+msgstr ""
+
+#: imsgui:47 imsgui:49
+msgid "RepoConfig"
+msgstr ""
+
+#: imsgui:47 imsgui:49
+msgid ""
+"Missing Update Repo address, or disabled Update!<br>Please update "
+"repositories manually."
+msgstr ""
+
+#: imsgui:50 imsgui:52
+msgid "Manual"
+msgstr ""
+
+#: imsgui:54 imsgui:56
+msgid "Automatic"
+msgstr ""
+
+#: imsgui:102
+msgid "IMS Repo Rebuild is Running.."
+msgstr ""
+
+#: imsgui:104
+msgid "Cleaning and Rebuild..."
+msgstr ""
+
+#: imsgui:112 imsgui:102 imsgui:100 imsgui:99
+msgid "IMS Repo Updater Running.."
+msgstr ""
+
+#: imsgui:114 drakgrub:62 imsgui:104 imsgui:102 imsgui:101
+msgid "Initializing..."
+msgstr ""
+
+#: imsgui:119 imsgui:109 imsgui:107 imsgui:106
+msgid "Looking for available repositories.."
+msgstr ""
+
+#: imsgui:133 imsgui:123 imsgui:121 imsgui:120
+msgid "Repository Updater is Running.."
+msgstr ""
+
+#: imsgui:134 imsgui:124 imsgui:122 imsgui:121
+msgid "The following"
+msgstr ""
+
+#: imsgui:135 imsgui:125
+msgid "repo are in progress.<br>Please wait to finish.."
+msgstr ""
+
+#: imsgui:147 imsgui:137 imsgui:28 imsgui:135 imsgui:134
+msgid "IMSGUI - IMS Settings"
+msgstr ""
+
+#: imsgui:148 imsgui:138 imsgui:136 imsgui:135
+msgid "Repositories Updated"
+msgstr ""
+
+#: imsgui:149 imsgui:139 imsgui:137 imsgui:136
+msgid "You packages database is updated. Have nice day!"
+msgstr ""
+
+#: imsgui:157 imsgui:173 imsgui:147 imsgui:163 imsgui:145 imsgui:144 imsgui:162
+msgid "IMS Settings"
+msgstr ""
+
+#: imsgui:157 imsgui:147 imsgui:145 imsgui:144
+msgid "Intelligent Mirror Selector - Mode:"
+msgstr ""
+
+#: imsgui:157 imsgui:173 imsgui:147 imsgui:163 imsgui:145 imsgui:144 imsgui:162
+msgid "Selected Mirror Addr:"
+msgstr ""
+
+#: imsgui:157 imsgui:147 imsgui:145 imsgui:144
+msgid "Automatic Mirror Selection [recommend]"
+msgstr ""
+
+#: imsgui:157 imsgui:147 imsgui:145 imsgui:144
+msgid "Manual Mode - Select Default Mirror"
+msgstr ""
+
+#: imsgui:159 imsgui:149 imsgui:147 imsgui:146
+msgid "Selected Automatic IMS Mode"
+msgstr ""
+
+#: imsgui:164 imsgui:154 imsgui:152 imsgui:151
+msgid "Selected Manual IMS Mode"
+msgstr ""
+
+#: imsgui:169 imsgui:189 imsgui:159 imsgui:173 imsgui:158 imsgui:157 imsgui:172
+msgid "Exiting From IMSGUI"
+msgstr ""
+
+#: imsgui:173 imsgui:163 imsgui:162
+msgid "IMS Settings Done!"
+msgstr ""
+
+#: imsgui:173 imsgui:163 imsgui:162
+msgid "Selected IMS Mode Now:"
+msgstr ""
+
+#: imsgui:173 imsgui:163 imsgui:162
+msgid "Update Repository Now [recommend]"
+msgstr ""
+
+#: imsgui:173
+msgid "Rebuild and Refresh Repository"
+msgstr ""
+
+#: imsgui:173 imsgui:163 imsgui:162
+msgid "Just Exit Now - Update repos later"
+msgstr ""
+
+#: imsgui:176 imsgui:166 imsgui:165
+msgid "Selected Repository Update.."
+msgstr ""
+
+#: imsgui:180
+msgid "Selected Rebuild Repository.."
+msgstr ""
+
+#: imsgui:186 imsgui:170 imsgui:169
+msgid "Selected Skip Repo Update.."
+msgstr ""
+
+#: update.repos:47
+msgid "Application Repository"
+msgstr ""
+
+#: update.repos:48
+msgid ""
+"Repository auto-update in progress.. Do not restart the computer while "
+"running! Please wait to finish."
+msgstr ""
+
+#: update.repos:63
+msgid "new update are available in repository."
+msgstr ""
+
+#: update.repos:65
+msgid "new updates are available in repository."
+msgstr ""
+
+#: update.repos:67 update.repos:71
+msgid "Repository Updated!"
+msgstr ""
+
+#: update.repos:68 update.repos:72
+msgid "All repo updating done!"
+msgstr ""
+
+#: update.repos:70
+msgid "No new updates available.."
+msgstr ""
+
+#: telepites:53 frissites:17
+msgid ""
+"* You are not system Administrator [root].\\n * Please usage [rootmod] "
+"command to authentication and run this action again OR\\n\\n ** Enter "
+"Administrator password now!\\n"
+msgstr ""
+
+#: telepites:54
+msgid "The following package[s] install have in progress:"
+msgstr ""
+
+#: telepites:55
+msgid "Input error! The input only just some *.rpm file are allowed.."
+msgstr ""
+
+#: telepites:56
+msgid ""
+"[Error 1000] - The installer engine not found! Please install anyone and run "
+"command again!\\nAvailable engines for blackPanther OS: rpm, dnf, urpmi, "
+"smart, yum, apt-rpm"
+msgstr ""
+
+#: telepites:57
+msgid ""
+"So so an error occured during istallaton! [code: 1010]\\\\nPlease run "
+"command again with ${YEL}'--engine='${RED} parameter to finish package "
+"installing or fixing error.\\\\nAvailable additional packager-engines:\\\\n\\"
+"\\n${MAG} * rpm, dnf, urpmi, smart, yum, apt-rpm \\\\n\\\\n${GRN}Usage if "
+"you selected smart engine:\\n${CYN} `basename $0` $@ --engine=smart${DEF} \\"
+"\\n\\\\nPlease run command again:  ${YEL}`basename $0` --help${DEF} to more "
+"information."
+msgstr ""
+
+#: telepites:58
+msgid ""
+"Packages and repository management of blackPanther OS based on command promt"
+msgstr ""
+
+#: telepites:59
+msgid "Checking Database Status:"
+msgstr ""
+
+#: telepites:60 frissites:20
+msgid "Checking Database Status Again:"
+msgstr ""
+
+#: telepites:61 frissites:21
+msgid "Checking Internet Status:"
+msgstr ""
+
+#: telepites:62 frissites:22
+msgid "Access Possible"
+msgstr ""
+
+#: telepites:63 frissites:23
+msgid "The database access timeout. Please try again later!"
+msgstr ""
+
+#: telepites:64
+msgid "Wait to access to database.."
+msgstr ""
+
+#: telepites:65
+msgid ""
+"${GRN}\n"
+"\tThis is smart program for ${BLU}blackPanther OS.${GRN} If you running \n"
+"\tthe script then auto select an installer engine for package install. \n"
+"\tWorking with follow engines : ${YEL}rpm|dnf|urpmi|yum|smart|apt-rpm${GRN}\n"
+"\t\n"
+"\tEasy Usage:\n"
+"\t${CYN}Simple install example  : $(echo `basename $0`) packagename (or "
+"packagename-version-release)\n"
+"\t\n"
+"\t${GRN}or (for advanced users)\n"
+"\t${CYN}Advanced install example: $(echo `basename $0`) packagename --"
+"engine=rpm\n"
+"\t\n"
+"\t${GRN}or (for developers)\n"
+"\t${CYN}Extended install example: $(echo `basename $0`) DEBUG packagename --"
+"engine=rpm\n"
+"\t\n"
+"\t${BLU}Best Regards: Charles Barcza from Hungary\n"
+"\tkbarcza@blackpanther.hu - www.blackpantheros.eu\n"
+"\t/This feature thanks to 10 years old my daughter - New feature: recorded "
+"install for bundled uninstall/\n"
+"\t$DEF"
+msgstr ""
+
+#: telepites:217 telepites:208
+msgid " * Core filesystem usage is:"
+msgstr ""
+
+#: telepites:252 telepites:245 telepites:236 telepites:226
+msgid " * This file: "
+msgstr ""
+
+#: telepites:253 telepites:246 telepites:237 telepites:227
+msgid "Not found or path is wrong?"
+msgstr ""
+
+#: telepites:263 telepites:255 telepites:246 telepites:233
+msgid "This item: "
+msgstr ""
+
+#: telepites:265 telepites:257 telepites:248 telepites:235
+msgid " is a[n]"
+msgstr ""
+
+#: telepites:267 telepites:259 telepites:250 telepites:237
+msgid "compressed data!"
+msgstr ""
+
+#: telepites:271 telepites:263 telepites:254
+msgid " Not a installable RPM package.."
+msgstr ""
+
+#: rendszernaplo:46
+msgid " === SystemLog Help =="
+msgstr ""
+
+#: rendszernaplo:48
+msgid "- Usage: "
+msgstr ""
+
+#: rendszernaplo:50
+msgid "name"
+msgstr ""
+
+#: rendszernaplo:58
+msgid ""
+"You are not root now. Access to full features requires the root permission! "
+"[wait to 3sec]"
+msgstr ""
+
+#: rendszernaplo:100 rendszernaplo:103
+msgid "Filtering log to service name..."
+msgstr ""
+
+#: parancsok:92 parancsok:89
+msgid "/display in terminal/"
+msgstr ""
+
+#: parancsok:93 parancsok:90
+msgid "/display in dialog/"
+msgstr ""
+
+#: parancsok:94 parancsok:91
+msgid "/display this help/"
+msgstr ""
+
+#: netspeed:9
+msgid " - Just run"
+msgstr ""
+
+#: netspeed:9
+msgid "without parameter or look this command:"
+msgstr ""
+
+#: menuinstall:28
+msgid "MenuInstall"
+msgstr ""
+
+#: menuinstall:28 menuinstall:29
+msgid "Another install command already running! Exiting.."
+msgstr ""
+
+#: menuinstall:39
+msgid " - Use only for install a application form main menu.. Exiting.."
+msgstr ""
+
+#: listaz:20
+msgid " This is blackPanther OS listing command help!"
+msgstr ""
+
+#: listaz:22
+msgid " - Just run 'listing' command to Files/Directories list"
+msgstr ""
+
+#: listaz:23
+msgid ""
+" - or just run 'listing perm' to Files/Directories list with permissions"
+msgstr ""
+
+#: listaz:27
+msgid "Switches:"
+msgstr ""
+
+#: listaz:28
+msgid "  [-h|--help|h] - Print this help"
+msgstr ""
+
+#: listaz:29
+msgid "  [-perm|perm] - Print files/directories with owners permissions"
+msgstr ""
+
+#: listaz:30
+msgid "  [-white|white] - Print results without colorize"
+msgstr ""
+
+#: listaz:31
+msgid "  [-size|size] - Print sizes on this or added path"
+msgstr ""
+
+#: listaz:32
+msgid "  [-mount|mount] - Print mounted disks os filesystems"
+msgstr ""
+
+#: listaz:33
+msgid "  [-hw|hw|hardware]  -  Print hardwares and kernel modules"
+msgstr ""
+
+#: listaz:34
+msgid "  [-usb|--usb|usb] - Print connected USB-devices "
+msgstr ""
+
+#: listaz:35
+msgid ""
+"  [-modules|--modules|drivers|kernelmodules] - Print loaded kernel modules, "
+"drivers"
+msgstr ""
+
+#: listaz:36
+msgid ""
+"  [-rpm|--installed|rpm]   -     Print installed RPM packages. Additional "
+"parameter are available, example: date"
+msgstr ""
+
+#: listaz:37
+msgid ""
+"  [-gui|--gui|gui|graphical] -   Print installed graphical packages. "
+"Additional parameter are available, example: date"
+msgstr ""
+
+#: listaz:39 listaz:38 listaz:36 listaz:35
+msgid "Have a nice day without Windows !"
+msgstr ""
+
+#: listaz:88 listaz:87 listaz:85
+msgid "HARDVARE LIST"
+msgstr ""
+
+#: listaz:91 listaz:100 listaz:90 listaz:99 listaz:88 listaz:97
+msgid "LIST END"
+msgstr ""
+
+#: listaz:97 listaz:96 listaz:94
+msgid "USB DEV LIST"
+msgstr ""
+
+#: listaz:109 listaz:105
+msgid "LISTED ALL INSTALLED PACKAGES"
+msgstr ""
+
+#: listaz:121
+msgid "LISTED ALL INSTALLED DESKTOP APP ONLY"
+msgstr ""
+
+#: listaz:127 listaz:111
+msgid "LOADED KERNEL MODULES/DRIVERS"
+msgstr ""
+
+#: listaz:128 listaz:112
+msgid "LISTED ALL LOADED KERNEL MODULES"
+msgstr ""
+
+#: listaz:131 listaz:115 listaz:101 listaz:86
+msgid "BAD COMMAND OR PARAMETER:"
+msgstr ""
+
+#: kotegtelepites:198 csomagkereses:198 csomagkereses:199 csomagkereses:188
+msgid "I have found not anywhere a package with the following name:"
+msgstr ""
+
+#: kotegtelepites:206 csomagkereses:206 csomagkereses:207 csomagkereses:196
+msgid "Successful!"
+msgstr ""
+
+#: kotegtelepites:207 csomagkereses:207 csomagkereses:208 csomagkereses:197
+msgid "The discovering progress successful."
+msgstr ""
+
+#: kotegtelepites:219 csomagkereses:219 csomagkereses:220 csomagkereses:209
+msgid "Go to command section"
+msgstr ""
+
+#: kotegtelepites:222 kotegtelepites:259 csomagkereses:222 csomagkereses:259
+#: csomagkereses:223 csomagkereses:260 csomagkereses:212 csomagkereses:242
+msgid "Missing parameter!"
+msgstr ""
+
+#: kotegtelepites:227 csomagkereses:227 csomagkereses:228 csomagkereses:217
+msgid "Print Help Text"
+msgstr ""
+
+#: kotegtelepites:260 csomagkereses:260 csomagkereses:261 csomagkereses:243
+msgid "Format: command --engine enginetype pacakagename"
+msgstr ""
+
+#: kotegtelepites:289 csomagkereses:289 csomagkereses:290 csomagkereses:270
+msgid "An error occured! Please report to me in users group"
+msgstr ""
+
+#: kotegtelepites:307 csomagkereses:307 csomagkereses:308 csomagkereses:288
+msgid "Go click section"
+msgstr ""
+
+#: kotegtelepites:310 csomagkereses:310 csomagkereses:311 csomagkereses:291
+msgid "Empty or missing parameter"
+msgstr ""
+
+#: kotegtelepites:315 kotegtelepites:327 csomagkereses:315 csomagkereses:327
+#: csomagkereses:316 csomagkereses:328 csomagkereses:296 csomagkereses:305
+msgid "Search"
+msgstr ""
+
+#: kotegtelepites:332
+msgid "BatchSearch"
+msgstr ""
+
+#: kotegtelepites:333 kotegtelepites:343 csomagkereses:333 csomagkereses:343
+#: csomagkereses:335 csomagkereses:345 csomagkereses:311 csomagkereses:321
+msgid "Quick Search Result[s]"
+msgstr ""
+
+#: kotegtelepites:334
+msgid "You can select one or more items to install"
+msgstr ""
+
+#: kotegtelepites:341 csomagkereses:341 csomagkereses:343 csomagkereses:319
+msgid "Not found"
+msgstr ""
+
+#: kotegtelepites:344 csomagkereses:344 csomagkereses:346 csomagkereses:322
+msgid "Not found what you find:"
+msgstr ""
+
+#: kotegtelepites:345 csomagkereses:345 csomagkereses:347 csomagkereses:323
+msgid "Do you want run an another searching?"
+msgstr ""
+
+#: kotegtelepites:378 csomagkereses:377 csomagkereses:379 csomagkereses:355
+msgid "Nothing was chosen any application, exit"
+msgstr ""
+
+#: kotegtelepites:386 csomagkereses:385 csomagkereses:387 csomagkereses:363
+msgid "PackageFind Gui Finished"
+msgstr ""
+
+#: kotegtelepites:391 csomagkereses:390 csomagkereses:391 csomagkereses:367
+msgid "PackageFind Ended"
+msgstr ""
+
+#: klonozas:16
+msgid " - blackPanther OS cloning service. Clone anything!"
+msgstr ""
+
+#: klonozas:22
+msgid "ROOT permission requires!"
+msgstr ""
+
+#: klonozas:37
+msgid "Cloner component missing! Please install one, example: dd_rescue"
+msgstr ""
+
+#: klonozas:47
+msgid "Engigne"
+msgstr ""
+
+#: klonozas:50
+msgid "Quick usage example for disc cloning to image: "
+msgstr ""
+
+#: klonozas:52
+msgid " /dev/sdb1 /home/anyusername/my_sdb1_disc.img"
+msgstr ""
+
+#: kdesu:28 draksamba:29
+msgid "Error"
+msgstr ""
+
+#: kdesu:28
+msgid ""
+"Graphical SU application not found! Please report this error to blackPanther "
+"Developers"
+msgstr ""
+
+#: kdesu:31
+msgid ""
+"Graphical SU not found! Please report this error to blackPanther OS "
+"developers. You can use your command in terminal."
+msgstr ""
+
+#: frissites:18
+msgid ""
+"* Packages and repository management of blackPanther OS based on command "
+"promt"
+msgstr ""
+
+#: frissites:19
+msgid "Check Local Package DB Status:"
+msgstr ""
+
+#: frissites:24
+msgid "The Database Busy Now. I Wait to Database Access"
+msgstr ""
+
+#: frissites:25
+msgid ""
+"   [all | packages]  and/or  [repos | repo]  - to packages and/or repository "
+"update\\n\\t\\t[system] - to system upgrade\\n\\t\\t[help] - to short help "
+"display\\n\\t\\t[--info|--help|usage] - to long help to usage\\n\\n\\t\\t[db|"
+"database] - to fixating broken RPM Database\\n\\t\\t[fix|repair] - Repair "
+"the RPM packages connections Run: updating repo first!\\n\\t\\t[clean] - "
+"Clean downloaded RPM cache or broken packages\\n\\t\\t[--verbose] - Display "
+"detailed informations\\n\\t\\t[--force] - Clean caches first and rebuild all "
+"newone\\n"
+msgstr ""
+
+#: frissites:26
+msgid "OK"
+msgstr ""
+
+#: frissites:27
+msgid "FAIL"
+msgstr ""
+
+#: frissites:28
+#, sh-format
+msgid "You know that ${YEL}Devel${RED} repo is ENABLED ?!"
+msgstr ""
+
+#: frissites:42
+msgid " - Your"
+msgstr ""
+
+#: frissites:43
+msgid "[/] filesystem usage is:"
+msgstr ""
+
+#: frissites:91 frissites:89
+msgid "DATABASE LOCKED! "
+msgstr ""
+
+#: frissites:96 frissites:94
+msgid "Another package manager is running!"
+msgstr ""
+
+#: frissites:98 frissites:96
+msgid "=> DB Locked by: "
+msgstr ""
+
+#: frissites:100
+msgid " => Please close this application first or type here: "
+msgstr ""
+
+#: frissites:102 frissites:100
+msgid " and press enter"
+msgstr ""
+
+#: frissites:112 frissites:110 frissites:103
+msgid "Smart Found on Your System!"
+msgstr ""
+
+#: frissites:122 frissites:120 frissites:113
+msgid "Slave RPM engine found on Your System!"
+msgstr ""
+
+#: frissites:156 drakgrub:108 frissites:154 frissites:147
+msgid "ERROR"
+msgstr ""
+
+#: frissites:161 frissites:159 frissites:311 frissites:310
+msgid "[ -- Done ------------------------------------------ ]"
+msgstr ""
+
+#: frissites:176 frissites:174 frissites:159
+msgid "Previous backup exists here:"
+msgstr ""
+
+#: frissites:187 frissites:185 frissites:170 frissites:169
+msgid "Missing SMART engine for Fixating System Packages"
+msgstr ""
+
+#: frissites:229 frissites:227
+msgid " => Go to cache cleaning task..."
+msgstr ""
+
+#: frissites:243 frissites:241 frissites:223 frissites:222
+msgid " Unknown"
+msgstr ""
+
+#: frissites:243 frissites:241 frissites:223 frissites:222
+msgid " option! Try with --help option. This is not a Mandriva/Mandrake!\\n"
+msgstr ""
+
+#: frissites:246 frissites:244 frissites:226 frissites:225
+msgid "Options of Updating Application:"
+msgstr ""
+
+#: frissites:249 frissites:247 frissites:229 frissites:228
+msgid "\\tExample:"
+msgstr ""
+
+#: frissites:249 frissites:247 frissites:229 frissites:228
+msgid "repo XYREPONAME"
+msgstr ""
+
+#: frissites:285 frissites:283 frissites:265 frissites:264
+msgid "[ -- Started ---------------------------------------------------- ]"
+msgstr ""
+
+#: frissites:288 frissites:286 frissites:268 frissites:267
+msgid "the Slave Database Update :"
+msgstr ""
+
+#: frissites:288 frissites:295 frissites:297 frissites:305 frissites:307
+#: frissites:320 frissites:286 frissites:293 frissites:303 frissites:318
+#: frissites:268 frissites:267 frissites:287
+msgid "Done"
+msgstr ""
+
+#: frissites:289 frissites:287 frissites:269 frissites:268
+msgid " - the Slave database update in background.. "
+msgstr ""
+
+#: frissites:295 frissites:297 frissites:305 frissites:307 frissites:322
+#: frissites:293 frissites:303 frissites:320
+msgid "Database Busy"
+msgstr ""
+
+#: frissites:316 frissites:314 frissites:284 frissites:283
+msgid " - the main database update in background.. "
+msgstr ""
+
+#: frissites:320 frissites:318 frissites:288 frissites:287
+msgid "the Main Database Update :"
+msgstr ""
+
+#: frissites:326 frissites:338 frissites:324 frissites:336 frissites:294
+#: frissites:306 frissites:293 frissites:305
+msgid " This Command Successfully Completed"
+msgstr ""
+
+#: frissites:336 frissites:334 frissites:304 frissites:303
+msgid " * This mission running in background.. Please wait to finish!"
+msgstr ""
+
+#: draksound:33
+msgid ""
+"Error occurred while select a Sound Manager Applicaion. Please report me!"
+msgstr ""
+
+#: draksound:37 drakscan:29 draksamba:33 drakprint:31 drakpartition:31
+#: draknfsm:30 draknetsec:32 draknet:31 drakmice:32 drakgrub:124 drakfw:33
+#: drakfileshare:32 drakdvbtv:31 drakdevices:31 checkupdates:66
+#: browserselector:39 drakfileshare:31 browserselector:29
+msgid "blackPanther Live System!"
+msgstr ""
+
+#: draksound:38 drakscan:30 draksamba:34 drakprint:32 drakpartition:32
+#: draknfsm:31 draknetsec:33 draknet:32 drakmice:33 drakgrub:125 drakfw:34
+#: drakfileshare:33 drakdvbtv:32 drakdevices:32 browserselector:39
+#: drakfileshare:32 browserselector:29
+msgid ""
+"Please install blackPanther OS first to available free space before using "
+"this operation"
+msgstr ""
+
+#: draksound:42 drakscan:35 drakprint:47 drakpartition:38 draknet:37
+#: drakmice:38 drakgrub:131 drakfw:40 browserselector:86 browserselector:76
+msgid "Component Missing!"
+msgstr ""
+
+#: draksound:43 drakscan:36 drakprint:48 drakpartition:39 draknet:38
+#: drakmice:39 drakgrub:132 drakfw:41 browserselector:87 browserselector:77
+msgid "Component auto installing in progress! Please wait to finish..."
+msgstr ""
+
+#: draksound:48 drakscan:41 draksamba:42 drakprint:53 drakpartition:44
+#: draknfsm:39 draknetsec:41 draknet:43 drakmice:44 drakgrub:137 drakfw:46
+#: drakfileshare:41 drakdvbtv:41 drakdevices:40 browserselector:92
+#: drakfileshare:40 browserselector:82
+msgid "Component is Missing!"
+msgstr ""
+
+#: draksound:49 drakscan:42 draksamba:43 drakpartition:45 draknfsm:40
+#: draknetsec:42 draknet:44 drakmice:45 drakfw:47 drakfileshare:42 drakdvbtv:42
+#: drakdevices:41 browserselector:93 drakfileshare:41 browserselector:83
+msgid "Component isntall failed!"
+msgstr ""
+
+#: draksound:56 drakscan:49 draksamba:50 drakprint:61 drakpartition:52
+#: draknfsm:47 draknetsec:49 draknet:51 drakmice:52 drakgrub:145 drakfw:54
+#: drakfileshare:50 drakdvbtv:49 drakdevices:48 browserselector:45
+#: drakfileshare:49 browserselector:35
+msgid "Force resolve?"
+msgstr ""
+
+#: draksound:57 drakscan:50 draksamba:51 drakprint:62 drakpartition:53
+#: draknfsm:48 draknetsec:50 draknet:52 drakmice:53 drakgrub:146 drakfw:55
+#: drakfileshare:51 drakdvbtv:50 drakdevices:49 browserselector:46
+#: drakfileshare:50 browserselector:36
+msgid "The lockfile will be force deleted if you try the start again!"
+msgstr ""
+
+#: draksound:59 drakscan:52 draksamba:53 drakprint:64 drakpartition:55
+#: draknfsm:50 draknetsec:52 draknet:54 drakmice:55 drakgrub:148 drakfw:57
+#: drakfileshare:53 drakdvbtv:52 drakdevices:51 browserselector:48
+#: drakfileshare:52 browserselector:38
+msgid "Already Running!"
+msgstr ""
+
+#: draksound:60
+msgid "The sound manager already running. Be patient or close first"
+msgstr ""
+
+#: draksound:67 drakscan:60 draksamba:61 drakprint:71 drakpartition:63
+#: draknfsm:58 draknetsec:60 draknet:62 drakmice:63 drakgrub:156 drakfw:91
+#: drakfileshare:61 drakdvbtv:60 drakdevices:59 browserselector:68
+#: drakfileshare:60 browserselector:58
+msgid "Force resolve lockfile.."
+msgstr ""
+
+#: draksound:78 drakscan:70 draksamba:72 drakprint:81 drakpartition:73
+#: draknfsm:68 draknetsec:70 draknet:73 drakmice:73 drakgrub:167 drakfw:103
+#: drakfileshare:71 drakdvbtv:70 drakdevices:69 drakfileshare:70
+msgid "System Installer"
+msgstr ""
+
+#: draksound:78
+msgid "System Sound-System Manager - <b><u>Install</b></u> / Run.."
+msgstr ""
+
+#: draksound:78
+msgid "SoundSystem Manager [important!]"
+msgstr ""
+
+#: draksound:78
+msgid "Plasma PulseAudio Manager"
+msgstr ""
+
+#: draksound:78
+msgid "Gtk PulseAudio Manager"
+msgstr ""
+
+#: draksound:78
+msgid "PulseAudio EQ Manager"
+msgstr ""
+
+#: draksound:81 draksound:84 draksound:87 drakscan:78 drakscan:81 draksamba:75
+#: draksamba:78 drakprint:85 drakprint:92 drakpartition:76 drakpartition:79
+#: draknfsm:71 draknfsm:74 draknetsec:73 draknetsec:76 draknet:81 draknet:84
+#: drakmice:81 drakmice:84 drakgrub:170 drakgrub:173 drakfw:111 drakfw:114
+#: drakfileshare:74 drakfileshare:77 drakdvbtv:73 drakdevices:72
+#: drakfileshare:73 drakfileshare:76
+msgid "Mission has finished!<br>Please repeat original action now!"
+msgstr ""
+
+#: draksound:95
+msgid "System-Sound-Settings"
+msgstr ""
+
+#: draksound:97 draksound:99 draksound:120
+msgid "Pulse-SoundServer-Manager"
+msgstr ""
+
+#: draksound:101 draksound:121
+msgid "PulseAudio-Manager-Qt"
+msgstr ""
+
+#: draksound:102 draksound:122
+msgid "PulseAudio-Manager-Gtk"
+msgstr ""
+
+#: draksound:103 draksound:124
+msgid "EQ-PulseAudio-Equalizer-Gtk"
+msgstr ""
+
+#: draksound:104 draksound:123
+msgid "PulseEffects-Equalizer"
+msgstr ""
+
+#: draksound:106 draksound:126
+msgid "Jack-AudioSystem-Control"
+msgstr ""
+
+#: draksound:107 draksound:127
+msgid "Simple-Aumix-Mixer"
+msgstr ""
+
+#: draksound:108 draksound:128
+msgid "Firewire-Ffado-Mixer"
+msgstr ""
+
+#: draksound:109 draksound:129
+msgid "AlsaMixer-konsole"
+msgstr ""
+
+#: draksound:110
+msgid "SoundServer-Settings"
+msgstr ""
+
+#: draksound:114 draksound:116 drakdvbtv:92 drakdvbtv:94 drakdevices:90
+#: drakdevices:92
+msgid "Search for other quick installable device tools.."
+msgstr ""
+
+#: draksound:131 drakscan:102 draksamba:110 drakprint:110 drakpartition:108
+#: draknfsm:97 draknetsec:106 draknet:105 drakmice:111 drakgrub:202 drakfw:144
+#: drakfileshare:114 drakdvbtv:104 drakdevices:103 browserselector:129
+#: drakfileshare:112 drakfileshare:111 browserselector:119
+msgid "Installed-on-system"
+msgstr ""
+
+#: draksound:131 drakscan:102 draksamba:110 drakprint:110 drakpartition:108
+#: draknfsm:97 draknetsec:106 draknet:105 drakmice:111 drakgrub:202 drakfw:144
+#: drakfileshare:114 drakdvbtv:104 drakdevices:103 browserselector:129
+#: drakfileshare:112 drakfileshare:111 browserselector:119
+msgid "More-Installable"
+msgstr ""
+
+#: draksound:133 drakscan:104 draksamba:112 drakprint:112 drakpartition:110
+#: draknfsm:99 draknetsec:108 draknet:107 drakmice:113 drakgrub:204 drakfw:146
+#: drakfileshare:116 drakdvbtv:106 drakdevices:105 browserselector:133
+#: drakfileshare:114 drakfileshare:113 browserselector:123
+msgid "System Admin"
+msgstr ""
+
+#: draksound:133
+msgid "Possible Managing Sound System with.. <br>[please select]"
+msgstr ""
+
+#: draksound:148 drakscan:117 drakpartition:126 draknet:124 draknet:137
+#: drakmice:126 drakgrub:222 drakfw:159 browserselector:177 browserselector:167
+msgid "!DANGER-ACTION!"
+msgstr ""
+
+#: draksound:148 drakscan:117 drakpartition:126 draknet:137 drakmice:126
+#: drakgrub:222 drakfw:159 drakdvbtv:126 drakdevices:121 browserselector:177
+#: browserselector:167
+msgid "Please enter the applicaion path, name and/or parameter"
+msgstr ""
+
+#: drakscan:23
+msgid "DrakScan"
+msgstr ""
+
+#: drakscan:25
+msgid ""
+"Error occurred while select a Scanner Manager Applicaion. Please report me!"
+msgstr ""
+
+#: drakscan:53
+msgid "The scanner manager already running. Be patient or close first"
+msgstr ""
+
+#: drakscan:70
+msgid "System Scanner Manager - <b><u>Install</b></u> / Run.."
+msgstr ""
+
+#: drakscan:70 draknet:73 drakfw:103
+msgid "System NetworkManager [important!]"
+msgstr ""
+
+#: drakscan:70
+msgid "DrakScan Scanner Manager [for expert]"
+msgstr ""
+
+#: drakscan:88 drakscan:100
+msgid "SkanLite-Qt5"
+msgstr ""
+
+#: drakscan:89 drakscan:97
+msgid "Simple-Scan"
+msgstr ""
+
+#: drakscan:90 drakscan:96
+msgid "System-Scanner-Wizard"
+msgstr ""
+
+#: drakscan:91 drakscan:98
+msgid "XSane"
+msgstr ""
+
+#: drakscan:92 drakscan:99
+msgid "XScanImage"
+msgstr ""
+
+#: drakscan:93 drakscan:101
+msgid "Sane-PyGtk"
+msgstr ""
+
+#: drakscan:94
+msgid "Other-Scanner-Config"
+msgstr ""
+
+#: drakscan:104
+msgid "Possible Managing Scanner Devices with.. <br>[please select]"
+msgstr ""
+
+#: draksamba:29
+msgid ""
+"Unknown Error occurred while select a SAMBA Manager Applicaion. Please "
+"report me!"
+msgstr ""
+
+#: draksamba:54
+msgid "The Samba manager already running. Be patient or close first"
+msgstr ""
+
+#: draksamba:72
+msgid "Samba Manager - Install / Run.."
+msgstr ""
+
+#: draksamba:72
+msgid "DrakSambaShare Manager [important!]"
+msgstr ""
+
+#: draksamba:72
+msgid "Other Samba Manager [for expert]"
+msgstr ""
+
+#: draksamba:86 draksamba:103
+msgid "SambaDrake-SambaServer-Manager"
+msgstr ""
+
+#: draksamba:87 draksamba:104
+msgid "System-Config-SambaServer-Manager"
+msgstr ""
+
+#: draksamba:88 draksamba:105
+msgid "SambaScanner-ShareMount-Manager"
+msgstr ""
+
+#: draksamba:89 draksamba:106
+msgid "Gigolo-GVFS-Manager"
+msgstr ""
+
+#: draksamba:90 draksamba:107 draknetsec:103
+msgid "QtSMBStatus-SambaManager"
+msgstr ""
+
+#: draksamba:91 draksamba:92 draksamba:108
+msgid "Smb4K-SambaManager"
+msgstr ""
+
+#: draksamba:93 draknetsec:91 drakfileshare:94 drakfileshare:93
+#: drakfileshare:92
+msgid "Other-SambaManager"
+msgstr ""
+
+#: draksamba:97 draksamba:99 drakfileshare:98 drakfileshare:100
+#: drakfileshare:97 drakfileshare:99 drakfileshare:96
+msgid "Search for other quick installable share tools.."
+msgstr ""
+
+#: draksamba:109
+msgid "Komba2-SambaManager"
+msgstr ""
+
+#: draksamba:112
+msgid "Possible Managing Samba Shares with.. <br>[please select]"
+msgstr ""
+
+#: drakprint:27
+msgid ""
+"Error occurred while select a Printer Manager Applicaion. Please report me!"
+msgstr ""
+
+#: drakprint:42 browserselector:60 browserselector:147 browserselector:50
+#: browserselector:137
+msgid "Update Repos!"
+msgstr ""
+
+#: drakprint:43 browserselector:61 browserselector:148 browserselector:51
+#: browserselector:138
+msgid "Please run [updating repos] command first before installing!"
+msgstr ""
+
+#: drakprint:54 drakgrub:138
+msgid "Component install failed!"
+msgstr ""
+
+#: drakprint:65
+msgid "The printing manager already running. Be patient or close first"
+msgstr ""
+
+#: drakprint:81
+msgid "Cups Printing System and Printer Manager - Install/Run.."
+msgstr ""
+
+#: drakprint:81
+msgid "Install full printing system now [important!]"
+msgstr ""
+
+#: drakprint:81
+msgid "Run Plasma Printer manager [for expert]"
+msgstr ""
+
+#: drakprint:102 drakprint:109
+msgid "Plasma-Printer-Manager"
+msgstr ""
+
+#: drakprint:103 drakprint:107
+msgid "Systeme-Config-Printer"
+msgstr ""
+
+#: drakprint:104 drakprint:108
+msgid "Systeme-Config-Printer-as-root"
+msgstr ""
+
+#: drakprint:105
+msgid "CUPS-Web-Interface"
+msgstr ""
+
+#: drakprint:112
+msgid "The Printing System Manager Open.. [please select]"
+msgstr ""
+
+#: drakprint:143
+msgid ""
+"Printer Manager is Missing!\\nPlease install a printer manager gui.\\n"
+"\\nExample: system-config-printer or printer-manager"
+msgstr ""
+
+#: drakpartition:27
+msgid ""
+"Error occurred while select a Partition Manager Applicaion. Please report me!"
+msgstr ""
+
+#: drakpartition:56
+msgid "The partitions manager already running. Be patient or close first"
+msgstr ""
+
+#: drakpartition:73
+msgid "A Storage and Partitions Manager - <b><u>Install</b></u> / Run.."
+msgstr ""
+
+#: drakpartition:73
+msgid "System Disks Partitinon Manager [important!]"
+msgstr ""
+
+#: drakpartition:73
+msgid "Plasma Partition Manager [for expert]"
+msgstr ""
+
+#: drakpartition:86 drakpartition:102
+msgid "DiskDrake-PartitionManager"
+msgstr ""
+
+#: drakpartition:87 drakpartition:103
+msgid "Plasma-PartitionManager"
+msgstr ""
+
+#: drakpartition:88 drakpartition:104
+msgid "StorageDisk-Monitor"
+msgstr ""
+
+#: drakpartition:89 drakpartition:105
+msgid "GParted-PartitionManager"
+msgstr ""
+
+#: drakpartition:90 drakpartition:106
+msgid "GnomeDisks-PartitionManager"
+msgstr ""
+
+#: drakpartition:91 drakpartition:107
+msgid "GSmartControl-PartitionManager"
+msgstr ""
+
+#: drakpartition:92
+msgid "Other-PartitionManager"
+msgstr ""
+
+#: drakpartition:96 drakpartition:98
+msgid "Search for other quick installable partition tools.."
+msgstr ""
+
+#: drakpartition:110
+msgid "Possible Managing System Partitions with.. <br>[please select]"
+msgstr ""
+
+#: draknfsm:26
+msgid "Error occurred while select a NFS Manager Applicaion. Please report me!"
+msgstr ""
+
+#: draknfsm:51
+msgid "The NFS-manager already running. Be patient or close first"
+msgstr ""
+
+#: draknfsm:68
+msgid "NFS Manager - Install / Run.."
+msgstr ""
+
+#: draknfsm:68
+msgid "DrakNFSShare Manager [important!]"
+msgstr ""
+
+#: draknfsm:68
+msgid "Other NFS Manager [for expert]"
+msgstr ""
+
+#: draknfsm:82
+msgid "NFS-Local-Server-Shares-Settings"
+msgstr ""
+
+#: draknfsm:83
+msgid "NFS-Remote-Share-Scanner-and-mount-as-Client"
+msgstr ""
+
+#: draknfsm:84
+msgid "System-Config-NFS-Server-and-Local-Share-Manager"
+msgstr ""
+
+#: draknfsm:85
+msgid "Other-NFSManager"
+msgstr ""
+
+#: draknfsm:89 draknfsm:91 draknetsec:95 draknetsec:97
+msgid "Search for other quick installable security tools.."
+msgstr ""
+
+#: draknfsm:94
+msgid "System-NFSDrake-Manager"
+msgstr ""
+
+#: draknfsm:95
+msgid "NFS-Share-Scanner-as-Client"
+msgstr ""
+
+#: draknfsm:96
+msgid "System-Config-NFS-Server-Manager"
+msgstr ""
+
+#: draknfsm:99
+msgid "Possible Managing NFS Shares with.. <br>[please select]"
+msgstr ""
+
+#: draknetsec:28
+msgid ""
+"Error occurred while select a Security Manager Applicaion. Please report me!"
+msgstr ""
+
+#: draknetsec:53
+msgid "The network security manager already running. Be patient or close first"
+msgstr ""
+
+#: draknetsec:70
+msgid "Security Manager - Install / Run.."
+msgstr ""
+
+#: draknetsec:70
+msgid "Security Manager [important!]"
+msgstr ""
+
+#: draknetsec:70
+msgid "Other Security Manager [for expert]"
+msgstr ""
+
+#: draknetsec:84
+msgid "Firewalls-Config-Wizards"
+msgstr ""
+
+#: draknetsec:85
+msgid "Proxy-Config-Wizard"
+msgstr ""
+
+#: draknetsec:86
+msgid "VPN-Config-Settings"
+msgstr ""
+
+#: draknetsec:101 draknetsec:102 drakfileshare:104 drakfileshare:105
+#: drakfileshare:103 drakfileshare:102
+msgid "blackPanther-Apps-Wizards"
+msgstr ""
+
+#: draknetsec:108
+msgid "Possible Managing Network Security with.. <br>[please select]"
+msgstr ""
+
+#: draknet:27
+msgid ""
+"Error occurred while select a Network Manager Applicaion. Please report me!"
+msgstr ""
+
+#: draknet:55
+msgid "The networks manager already running. Be patient or close first"
+msgstr ""
+
+#: draknet:73
+msgid "System Network Manager - <b><u>Install</b></u> / Run.."
+msgstr ""
+
+#: draknet:73
+msgid "DrakNet Network Manager [for expert]"
+msgstr ""
+
+#: draknet:91 draknet:92
+msgid "NetworkManager-Connection-Editor"
+msgstr ""
+
+#: draknet:93 draknet:104
+msgid "NetProfile-Manager"
+msgstr ""
+
+#: draknet:94 draknet:101
+msgid "DrakNetCenter-Manager"
+msgstr ""
+
+#: draknet:95 draknet:102
+msgid "DrakConnect-Wizard"
+msgstr ""
+
+#: draknet:96 draknet:103
+msgid "DrakRoaming-Wizard"
+msgstr ""
+
+#: draknet:97
+msgid "Other-Network-Configurator"
+msgstr ""
+
+#: draknet:99
+msgid "NetworkManager-Settings-Plasma"
+msgstr ""
+
+#: draknet:100
+msgid "NetworkManager-Settings-Gtk"
+msgstr ""
+
+#: draknet:107
+msgid "Possible Managing Network Connections with.. <br>[please select]"
+msgstr ""
+
+#: draknet:125
+msgid "POSSIBLE DANGER ACTION!"
+msgstr ""
+
+#: draknet:127
+msgid ""
+"This is an old legacy network settings method! Any wrong modification will "
+"be kill Network Manager settings <br><br>If you are not an expert, please "
+"exit now and use <u>NetworkManager</u> from system tray!"
+msgstr ""
+
+#: drakmice:28
+msgid ""
+"Error occurred while select a Mouse/Touchpad Manager Applicaion. Please "
+"report me!"
+msgstr ""
+
+#: drakmice:56
+msgid "The mouse manager already running. Be patient or close first"
+msgstr ""
+
+#: drakmice:73
+msgid "System Mouse/Touchpad Manager - <b><u>Install</b></u> / Run.."
+msgstr ""
+
+#: drakmice:73
+msgid "System Settings [important!]"
+msgstr ""
+
+#: drakmice:73
+msgid "DrakMouse-Manager"
+msgstr ""
+
+#: drakmice:92
+msgid "Mouse-user-settings"
+msgstr ""
+
+#: drakmice:93
+msgid "Touchpad-user-settings"
+msgstr ""
+
+#: drakmice:94
+msgid "TouchScreen-gestures"
+msgstr ""
+
+#: drakmice:95
+msgid "Mouse-Ports-settings"
+msgstr ""
+
+#: drakmice:96 drakmice:110
+msgid "Mouse-automation-tool"
+msgstr ""
+
+#: drakmice:97
+msgid "Mouse-dbp-config"
+msgstr ""
+
+#: drakmice:101 drakmice:103
+msgid "Search for other quick installable mouse tools.."
+msgstr ""
+
+#: drakmice:107
+msgid "Mouse-hardware-manager"
+msgstr ""
+
+#: drakmice:108
+msgid "Mouse-in-Plasma"
+msgstr ""
+
+#: drakmice:109
+msgid "TouchScreen-in-KWIN"
+msgstr ""
+
+#: drakmice:113
+msgid "Possible Managing Mouse/Touchpad with.. <br>[please select]"
+msgstr ""
+
+#: drakgrub:61
+msgid " New Initrd Regenerator.."
+msgstr ""
+
+#: drakgrub:82
+msgid "Generate new ramdisk.."
+msgstr ""
+
+#: drakgrub:86
+msgid "Working on new ramdisk, this is a long process.."
+msgstr ""
+
+#: drakgrub:92
+msgid "Detecting new ramdisk.."
+msgstr ""
+
+#: drakgrub:97
+msgid "New ramdisk is exists!"
+msgstr ""
+
+#: drakgrub:103
+msgid "New ramdisk MISSING!"
+msgstr ""
+
+#: drakgrub:109
+msgid "Generator Error!"
+msgstr ""
+
+#: drakgrub:110
+msgid "Error occured when tried generate new ramdisk!"
+msgstr ""
+
+#: drakgrub:111
+msgid "Backup is restored now!"
+msgstr ""
+
+#: drakgrub:112
+msgid "Try run manually this command as root:"
+msgstr ""
+
+#: drakgrub:120
+msgid ""
+"Error occurred while select a Grub Manager Applicaion. Please report me!"
+msgstr ""
+
+#: drakgrub:149
+msgid "The bootloader manager already running. Be patient or close first"
+msgstr ""
+
+#: drakgrub:167
+msgid "Grub2 System Loader Manager - <b><u>Install</b></u> / Run.."
+msgstr ""
+
+#: drakgrub:167
+msgid "System Grub2 Manager [important!]"
+msgstr ""
+
+#: drakgrub:167
+msgid "System Loaders Manager [for expert]"
+msgstr ""
+
+#: drakgrub:184 drakgrub:199
+msgid "BootkDrake-GrubManager"
+msgstr ""
+
+#: drakgrub:185 drakgrub:201
+msgid "Grub-Customizer"
+msgstr ""
+
+#: drakgrub:186
+msgid "Starter-Ramdisk-Initrd-regenerator"
+msgstr ""
+
+#: drakgrub:187 drakgrub:200
+msgid "Systemd-Services-Settings"
+msgstr ""
+
+#: drakgrub:188
+msgid "ReGeneratie-Grub2-conf"
+msgstr ""
+
+#: drakgrub:189
+msgid "Create-Grub2-config-and-more"
+msgstr ""
+
+#: drakgrub:193 drakgrub:195
+msgid "Search for other quick installable bootloader tools.."
+msgstr ""
+
+#: drakgrub:204
+msgid "Possible Managing System Loaders with.. <br>[please select]"
+msgstr ""
+
+#: drakgrub:231
+msgid "Initrd-generator"
+msgstr ""
+
+#: drakgrub:231
+msgid "Do you want run mkInitrd ?"
+msgstr ""
+
+#: drakgrub:235
+msgid "!DANGER!"
+msgstr ""
+
+#: drakgrub:236
+msgid "System starter ramdisk is missing! Does NOT restart computer now!"
+msgstr ""
+
+#: drakgrub:237
+msgid "Run this command manually to solve this problem as root:"
+msgstr ""
+
+#: drakfw:29
+msgid ""
+"Error occurred while select a Firewall Manager Applicaion. Please report me!"
+msgstr ""
+
+#: drakfw:58
+msgid "The firewall manager already running. Be patient or close first"
+msgstr ""
+
+#: drakfw:79 beallitas:306 beallitas:333 beallitas:350 beallitas:367
+#: beallitas:372 beallitas:403 beallitas:435 beallitas:440 beallitas:294
+#: beallitas:320 beallitas:336 beallitas:352 beallitas:357 beallitas:388
+#: beallitas:419 beallitas:424 beallitas:293 beallitas:317 beallitas:345
+#: beallitas:316 beallitas:341 beallitas:506 beallitas:450
+msgid "Warning!"
+msgstr ""
+
+#: drakfw:81
+msgid ""
+"<h2>The following network name[s] is too long!</h2> These interface[s] have "
+"too long name[s]:"
+msgstr ""
+
+#: drakfw:83
+msgid ""
+"The firewall supports up to 15 characters long name, please rename [essid] "
+"or delete unneccary networks!"
+msgstr ""
+
+#: drakfw:84
+msgid ""
+"If you want fix before you apply firewall settings, click Cancel on the next "
+"dialog!"
+msgstr ""
+
+#: drakfw:103
+msgid "System Firewall Manager - <b><u>Install</b></u> / Run.."
+msgstr ""
+
+#: drakfw:103
+msgid "DrakNet Firewall Manager [for expert]"
+msgstr ""
+
+#: drakfw:122
+msgid "System-Firewall-Manager"
+msgstr ""
+
+#: drakfw:123
+msgid "Invictus-Firewall"
+msgstr ""
+
+#: drakfw:124 drakfw:140
+msgid "Interactive-Firewall"
+msgstr ""
+
+#: drakfw:125 drakfw:141
+msgid "FirewallD-Config"
+msgstr ""
+
+#: drakfw:126
+msgid "Gtk-UFW"
+msgstr ""
+
+#: drakfw:127 drakfw:143
+msgid "Firewall-Builder"
+msgstr ""
+
+#: drakfw:128
+msgid "Other-Firewall-Config"
+msgstr ""
+
+#: drakfw:132 drakfw:134
+msgid "Search for other quick installable firewalls.."
+msgstr ""
+
+#: drakfw:138
+msgid "System-DrakFirewall"
+msgstr ""
+
+#: drakfw:139
+msgid "Invictus-DrakFirewall"
+msgstr ""
+
+#: drakfw:142
+msgid "Gtk-UFW-tool"
+msgstr ""
+
+#: drakfw:146
+msgid "Possible Managing Firewall Connections with.. <br>[please select]"
+msgstr ""
+
+#: drakfileshare:28 drakfileshare:27
+msgid ""
+"Error occurred while select a FileShare Manager Applicaion.<br>Please report "
+"me!"
+msgstr ""
+
+#: drakfileshare:54 drakfileshare:53
+msgid "The fileshare manager already running. Be patient or close first"
+msgstr ""
+
+#: drakfileshare:71 drakfileshare:70
+msgid "Share Manager - Install / Run.."
+msgstr ""
+
+#: drakfileshare:71 drakfileshare:70
+msgid "Share Manager [important!]"
+msgstr ""
+
+#: drakfileshare:71 drakfileshare:70
+msgid "Other Share Manager [for expert]"
+msgstr ""
+
+#: drakfileshare:85 drakfileshare:84
+msgid "Samba-Config-Wizards"
+msgstr ""
+
+#: drakfileshare:86 drakfileshare:85
+msgid "NFS-Config-Wizards"
+msgstr ""
+
+#: drakfileshare:87 drakfileshare:86
+msgid "DLNA-MediaShare-Settings"
+msgstr ""
+
+#: drakfileshare:88 drakfileshare:87
+msgid "ProftpD-Settings"
+msgstr ""
+
+#: drakfileshare:89 drakfileshare:88
+msgid "Network-Discover-Avahi"
+msgstr ""
+
+#: drakfileshare:91 drakfileshare:90
+msgid "Global-Sharing-Settings"
+msgstr ""
+
+#: drakfileshare:92 drakfileshare:91
+msgid "Global-DavFS-Settings"
+msgstr ""
+
+#: drakfileshare:93 drakfileshare:107
+msgid "CurlFTPfs-Manager"
+msgstr ""
+
+#: drakfileshare:106 drakfileshare:105 drakfileshare:104
+msgid "DLNA-MediaShare"
+msgstr ""
+
+#: drakfileshare:108 drakfileshare:106 drakfileshare:105
+msgid "ProFTP-Server"
+msgstr ""
+
+#: drakfileshare:109 drakfileshare:107 drakfileshare:106
+msgid "Avahi-Discover"
+msgstr ""
+
+#: drakfileshare:110 drakfileshare:108 drakfileshare:107
+msgid "Global-Shares-Manager"
+msgstr ""
+
+#: drakfileshare:116 drakfileshare:114 drakfileshare:113
+msgid "Possible Managing FileShares with.. <br>[please select]"
+msgstr ""
+
+#: drakdvbtv:27 drakdevices:27
+msgid ""
+"Error occurred while select a Hardware Manager Applicaion. Please report me!"
+msgstr ""
+
+#: drakdvbtv:53
+msgid "The TV-device manager already running. Be patient or close first"
+msgstr ""
+
+#: drakdvbtv:70 drakdevices:69
+msgid "System HardwareManager GUI - <u><b>Install</b></u> / Run.."
+msgstr ""
+
+#: drakdvbtv:70 drakdevices:69
+msgid "A Hardware Manager [important!]"
+msgstr ""
+
+#: drakdvbtv:70 drakdevices:69
+msgid "Run Other Hardware Manager [for expert]"
+msgstr ""
+
+#: drakdvbtv:83
+msgid "System-DrakDVB-Manager"
+msgstr ""
+
+#: drakdvbtv:84
+msgid "System-DrakxTv-Analog-Devices"
+msgstr ""
+
+#: drakdvbtv:85
+msgid "System-DVB-t-scanner"
+msgstr ""
+
+#: drakdvbtv:98 drakdevices:81 drakdevices:96
+msgid "System-Hardware-Manager"
+msgstr ""
+
+#: drakdvbtv:99 drakdevices:82 drakdevices:97
+msgid "Hardinfo-and-Benchmark-Manager"
+msgstr ""
+
+#: drakdvbtv:106 drakdevices:105
+msgid "Possible Managing Your Harwares with.. <br>[please select]"
+msgstr ""
+
+#: drakdvbtv:120
+msgid "DVB-Scan?"
+msgstr ""
+
+#: drakdvbtv:120
+msgid "Do you want run the DVB-T channel scanning?"
+msgstr ""
+
+#: drakdvbtv:126 drakdevices:121
+msgid "Add-HW-Manager"
+msgstr ""
+
+#: drakdevices:52
+msgid "The device manager already running. Be patient or close first"
+msgstr ""
+
+#: drakdevices:83 drakdevices:98
+msgid "USB-Devices-View"
+msgstr ""
+
+#: drakdevices:84 drakdevices:99
+msgid "Lstopology-HardwareTopology"
+msgstr ""
+
+#: drakdevices:85 drakdevices:100
+msgid "LSPCIDrake-in-terminal"
+msgstr ""
+
+#: drakdevices:86
+msgid "Other-HardwareManager"
+msgstr ""
+
+#: drakcheck:24 drakcheck:21
+msgid "== HELP for blackPanther OS Device Checker =="
+msgstr ""
+
+#: drakcheck:26 drakcheck:23
+msgid " --help|-h = This help screemn"
+msgstr ""
+
+#: drakcheck:27 drakcheck:24
+msgid "[commandparamter] DEBUG = Enable verbose/debug mode"
+msgstr ""
+
+#: drakcheck:28 drakcheck:25
+msgid "vganum|videonum|vdevice|-vganum = Print number of video devices"
+msgstr ""
+
+#: drakcheck:29 drakcheck:26
+msgid "vga|video|vdevice|-vga = Print list of videocards in your system"
+msgstr ""
+
+#: drakcheck:30 drakcheck:27
+msgid ""
+"3DVendor|3dvendor|gfxvendor|openglvendor|glvendor|-gv = Print vendor of "
+"active device"
+msgstr ""
+
+#: drakcheck:31 drakcheck:28
+msgid "activevga|activegpu|videorender|avga|-ar = Print active video/3D device"
+msgstr ""
+
+#: drakcheck:33 drakcheck:30
+msgid "soundnum|sndnum = Print number of sound devices"
+msgstr ""
+
+#: drakcheck:34 drakcheck:31
+msgid "sound|snd = Print list of sound devices"
+msgstr ""
+
+#: drakcheck:36 drakcheck:33
+msgid "all|-a = Print all available lists of multimedia/sound/video devices"
+msgstr ""
+
+#: drakcheck:83 drakcheck:88 drakcheck:93 drakcheck:99 drakcheck:104
+#: drakcheck:109 drakcheck:114 drakcheck:119 drakcheck:124 drakcheck:76
+#: drakcheck:81 drakcheck:86 drakcheck:92 drakcheck:97 drakcheck:102
+#: drakcheck:107 drakcheck:112 drakcheck:117
+msgid "Devices check..."
+msgstr ""
+
+#: drakcheck:133 drakcheck:126
+msgid "Please add parameter for check..."
+msgstr ""
+
+#: csomagkereses:332 csomagkereses:334 csomagkereses:310
+msgid "QuickSearch"
+msgstr ""
+
+#: csomagkereses:334 csomagkereses:336 csomagkereses:312
+msgid "Please select a package to quick install"
+msgstr ""
+
+#: checkupdates:53 checkupdates:57 checkupdates:85 checkupdates:88
+#: checkupdates:221 checkupdates:224 checkupdates:218
+msgid "Easy System Updater"
+msgstr ""
+
+#: checkupdates:54
+msgid "Failed: tried 3 times query updates! Try again later.."
+msgstr ""
+
+#: checkupdates:58
+msgid "Failed: tried 3 times query updates! Try later.."
+msgstr ""
+
+#: checkupdates:67
+msgid ""
+"Please install blackPanther OS to available free space before using system "
+"operations."
+msgstr ""
+
+#: checkupdates:86 checkupdates:89 checkupdates:222 checkupdates:225
+#: checkupdates:219
+msgid "No internet or package repository access!"
+msgstr ""
+
+#: checkupdates:196 checkupdates:193
+msgid "packages"
+msgstr ""
+
+#: checkupdates:198 checkupdates:195
+msgid "package"
+msgstr ""
+
+#: checkupdates:203 checkupdates:200
+msgid "Update Check Warning!"
+msgstr ""
+
+#: checkupdates:204 checkupdates:201
+msgid "is waiting for update that is older than"
+msgstr ""
+
+#: checkupdates:205 checkupdates:202
+msgid "5 days! Please update system now..."
+msgstr ""
+
+#: checkupdates:210 checkupdates:207
+msgid "Easy System Updates!"
+msgstr ""
+
+#: checkupdates:211 checkupdates:208
+msgid "update are available!"
+msgstr ""
+
+#: browserselector:35 browserselector:25
+msgid "Error occurred while select a Browser Applicaion. Please report me!"
+msgstr ""
+
+#: browserselector:49 browserselector:39
+msgid "The Browser Selector already running. Be patient or close first"
+msgstr ""
+
+#: browserselector:78 browserselector:68
+msgid "Empty-RepoCache"
+msgstr ""
+
+#: browserselector:79 browserselector:69
+msgid ""
+"<h2>Browser selector started first time</h2>The install repository cache "
+"still empty.<br>Update requires for new browsers install.<br>Do you want run "
+"repo updater now?"
+msgstr ""
+
+#: browserselector:99 browserselector:119 browserselector:89
+#: browserselector:109
+msgid "Google-Chromium"
+msgstr ""
+
+#: browserselector:100 browserselector:120 browserselector:90
+#: browserselector:110
+msgid "Google-Chrome"
+msgstr ""
+
+#: browserselector:101 browserselector:121 browserselector:91
+#: browserselector:111
+msgid "Firefox-Quantum"
+msgstr ""
+
+#: browserselector:102 browserselector:122 browserselector:92
+#: browserselector:112
+msgid "Vivaldi-Browser"
+msgstr ""
+
+#: browserselector:103 browserselector:123 browserselector:93
+#: browserselector:113
+msgid "Opera-Browser"
+msgstr ""
+
+#: browserselector:104 browserselector:124 browserselector:94
+#: browserselector:114
+msgid "Brave-Browser"
+msgstr ""
+
+#: browserselector:105 browserselector:125 browserselector:95
+#: browserselector:115
+msgid "Waterfox-Browser"
+msgstr ""
+
+#: browserselector:106 browserselector:126 browserselector:96
+#: browserselector:116
+msgid "Otter-Browser"
+msgstr ""
+
+#: browserselector:107 browserselector:127 browserselector:97
+#: browserselector:117
+msgid "Falkon-Browser"
+msgstr ""
+
+#: browserselector:108 browserselector:128 browserselector:98
+#: browserselector:118
+msgid "Konqueror-Browser"
+msgstr ""
+
+#: browserselector:114 browserselector:116 browserselector:104
+#: browserselector:106
+msgid "Search for other quick installable browsers.."
+msgstr ""
+
+#: browserselector:133 browserselector:123
+msgid "blackPanther Browser Selector"
+msgstr ""
+
+#: browserselector:133 browserselector:123
+msgid ""
+"There are available Internet Browsers for your system.. <br>[please select "
+"or install]"
+msgstr ""
+
+#: browserselector:146 browserselector:136
+msgid "Double Check Fail: Exiting Manual Update Requires..."
+msgstr ""
+
+#: browserselector:153 browserselector:143
+msgid "Switch to search new available browsers.."
+msgstr ""
+
+#: browserselector:166 browserselector:156
+msgid "Chrome-Installer"
+msgstr ""
+
+#: browserselector:167 browserselector:157
+msgid ""
+"<h2>The Google Chrome downloading and auto-install still running in "
+"background!</h2>Until it is in progress, the application restarts for the "
+"usability of<br>the internet and when the download is completed will be "
+"added to the seletable list."
+msgstr ""
+
+#: beallitas:307 beallitas:295 beallitas:294 beallitas:506 beallitas:450
+msgid ""
+"This is Xorg Server custom settings <b>ONLY for Experts.</b> <br>The "
+"modification will rewrite the system settings. If you do not know what can "
+"you do, then will you kill your screen and you get a blank screen."
+msgstr ""
+
+#: beallitas:310 beallitas:298 beallitas:297
+msgid ""
+"This is Xorg Server custom settings, ONLY for Experts! Any modifications "
+"will rewrite the system settings..."
+msgstr ""
+
+#: beallitas:311 beallitas:299 beallitas:298
+msgid ""
+"If you do not know what can you do, then will you kill your screen, and you "
+"will get a blank screen..."
+msgstr ""
+
+#: beallitas:313 beallitas:301 beallitas:300
+msgid "Do you wish to install this program?"
+msgstr ""
+
+#: beallitas:314 beallitas:420 beallitas:302 beallitas:404 beallitas:301
+#: beallitas:332 beallitas:329
+msgid "Yes"
+msgstr ""
+
+#: beallitas:314 beallitas:420 beallitas:302 beallitas:404 beallitas:301
+#: beallitas:332 beallitas:329
+msgid "No"
+msgstr ""
+
+#: beallitas:314 beallitas:420 beallitas:302 beallitas:404 beallitas:301
+#: beallitas:332 beallitas:329
+msgid "Cancel"
+msgstr ""
+
+#: beallitas:316 beallitas:304 beallitas:303
+msgid "The potentional risk is accepted..."
+msgstr ""
+
+#: beallitas:334 beallitas:351 beallitas:321 beallitas:337
+msgid "<h2>Multiple VGA devices detected!</h2>"
+msgstr ""
+
+#: beallitas:336
+msgid ""
+"This is NOT compatible with Optimus!<br>Do you want try run Xorg settings?!"
+"<br> - Yes = Continue and install optimus components<br> - No = Run Xorg "
+"config wizard <br> - Cancel = Just exit <br><br>If you do not know what can "
+"you do, then will you kill your screen and you get a blank screen..."
+msgstr ""
+
+#: beallitas:343 beallitas:360 beallitas:329 beallitas:345
+msgid "Multiple VGA: Selected exit.."
+msgstr ""
+
+#: beallitas:353
+msgid ""
+"This is OLD Optimus method detected!<br><b>Bumblebee</b> recommend use for "
+"this system! Do you wan continue install?<br> - Yes = Continue and install "
+"Bumblebee<br> - No = Run Xorg config wizard <br> - Cancel = Just exit "
+"<br><br>If you do not know what can you do, then will you kill your screen "
+"and you get a blank screen..."
+msgstr ""
+
+#: beallitas:368 beallitas:436 beallitas:353 beallitas:420 beallitas:346
+#: beallitas:342
+msgid "<h2>Restart requires...</h2>"
+msgstr ""
+
+#: beallitas:369 beallitas:437 beallitas:354 beallitas:421 beallitas:347
+#: beallitas:343
+msgid "Restart system to apply new settings...<br>"
+msgstr ""
+
+#: beallitas:370 beallitas:355
+msgid "Bumblebe will available your menu and on system tray after restart."
+msgstr ""
+
+#: beallitas:373 beallitas:441 beallitas:358 beallitas:425 beallitas:351
+msgid "<h2>Already installed...</h2>"
+msgstr ""
+
+#: beallitas:374 beallitas:359
+msgid ""
+"If you have any problem with Bumblebee, remove first and run settings "
+"again..."
+msgstr ""
+
+#: beallitas:383 beallitas:450 beallitas:368 beallitas:434 beallitas:357
+#: beallitas:348
+msgid "Restart system to apply new settings..."
+msgstr ""
+
+#: beallitas:384 beallitas:369
+msgid "Bumblebee available your menu and on system tray after restart."
+msgstr ""
+
+#: beallitas:385 beallitas:370
+msgid "For manual gpu test ex.: optirun glxspheres64"
+msgstr ""
+
+#: beallitas:389 beallitas:456 beallitas:374 beallitas:440 beallitas:363
+msgid "Already installed..."
+msgstr ""
+
+#: beallitas:390 beallitas:442 beallitas:457 beallitas:375 beallitas:426
+#: beallitas:441 beallitas:352 beallitas:364
+msgid ""
+"If you have any problem with Optimus-Manager, remove first and run settings "
+"again..."
+msgstr ""
+
+#: beallitas:404 beallitas:389 beallitas:318 beallitas:317
+msgid "<h2>Dual Optimus VGA is detected!</h2>"
+msgstr ""
+
+#: beallitas:406
+msgid ""
+"Thats correct?!<br>Do you wish to continue progress of Nvidia Optimus "
+"settings?<br> - Yes = Continue and install optimus components<br> - No = Run "
+"Xorg config wizard <br> - Cancel = Just exit <br><br> If you do not know "
+"what can you do, then will you kill your screen and you get a blank screen..."
+msgstr ""
+
+#: beallitas:412 beallitas:396 beallitas:325 beallitas:322
+msgid "DUAL VGA: Selected exit.."
+msgstr ""
+
+#: beallitas:418 beallitas:402 beallitas:330 beallitas:327
+msgid "Dual Optimus VGA is detected..."
+msgstr ""
+
+#: beallitas:419 beallitas:403 beallitas:331 beallitas:328
+msgid "Thats correct?! Do you wish to continue progress?"
+msgstr ""
+
+#: beallitas:422 beallitas:406 beallitas:334 beallitas:331
+msgid "Optimus settings is accepted..."
+msgstr ""
+
+#: beallitas:438 beallitas:422 beallitas:348 beallitas:344
+msgid ""
+"Optimus-Manager will available your menu and on system tray after restart."
+msgstr ""
+
+#: beallitas:451 beallitas:435 beallitas:358 beallitas:349
+msgid "Optimus-Manager available your menu and on system tray after restart."
+msgstr ""
+
+#: beallitas:452 beallitas:436 beallitas:359 beallitas:350
+msgid "For manual vga switching: optimus-manager --switch integrated/or/nvidia"
+msgstr ""
+
+#: beallitas:503 beallitas:514 beallitas:487 beallitas:498 beallitas:410
+#: beallitas:421 beallitas:395 beallitas:406 beallitas:325 beallitas:336
+msgid "Missing Connection Manager!"
+msgstr ""
+
+#: beallitas:644 beallitas:649 beallitas:654 beallitas:658 beallitas:693
+#: beallitas:628 beallitas:633 beallitas:638 beallitas:642 beallitas:677
+#: beallitas:551 beallitas:556 beallitas:561 beallitas:565 beallitas:600
+#: beallitas:536 beallitas:541 beallitas:546 beallitas:550 beallitas:585
+#: beallitas:466 beallitas:471 beallitas:476 beallitas:480 beallitas:516
+#: beallitas:410 beallitas:415 beallitas:420 beallitas:424 beallitas:460
+msgid "This configurator cannot be run in console mode, sorry"
+msgstr ""
+
+#: beallitas:709 beallitas:693 beallitas:616 beallitas:601 beallitas:532
+#: beallitas:476
+msgid "Service not available or system already installed"
+msgstr ""
+
+#: beallitas:740 beallitas:724 beallitas:647 beallitas:632 beallitas:563
+#: beallitas:507
+msgid "Exiting.. Not the KDE Install mode !"
+msgstr ""
+
+#: autoupdater:251 autoupdater:250 autoupdater:249
+msgid "package error!"
+msgstr ""
+
+#: autoupdater:252 autoupdater:251 autoupdater:250
+msgid "Stopped! Maybe this a modified or malicious software!"
+msgstr ""
+
+#: autoupdater:400 autoupdater:403 autoupdater:397 autoupdater:390
+#: autoupdater:393
+msgid "Updates found in repo!"
+msgstr ""
+
+#: autoupdater:401 autoupdater:404 autoupdater:398 autoupdater:391
+#: autoupdater:394
+msgid "Repository Auto Update in progress.. please wait to finish"
+msgstr ""
+
+#: beallitas:353 beallitas:339
+msgid ""
+"This is OLD Optimus method detected!<br><b>Bumblebee</b> recommend use for "
+"this system! Do you wan continue install?<br><br>If you do not know what can "
+"you do, then will you kill your screen and you get a blank screen..."
+msgstr ""
+
+#: beallitas:406 beallitas:391 beallitas:320 beallitas:319
+msgid ""
+"Thats correct?!<br>Do you wish to continue progress of Nvidia Optimus "
+"settings?<br> If you do not know what can you do, then will you kill your "
+"screen and you get a blank screen..."
+msgstr ""
+
+#: beallitas:336 beallitas:323
+msgid ""
+"This is NOT compatible with Optimus!<br>Do you want try run Xorg settings?!"
+"<br><br>If you do not know what can you do, then will you kill your screen "
+"and you get a blank screen..."
+msgstr ""
+
+#: imsgui:29
+msgid "You are not a administrator [root].."
+msgstr ""
+
+#: imsgui:30
+msgid "Please run imsgui as root or enter the root password to next dialog"
+msgstr ""
+
+#: imsgui:123 imsgui:122
+msgid "repo are in progress, please wait.."
+msgstr ""
+
+#: frissites:25
+msgid ""
+"   [all | packages]  and/or  [repos | repo]  - to packages and/or repository "
+"update\\n\\t\\t[system] - to system upgrade\\n\\t\\t[help] - to short help "
+"display\\n\\t\\t[--info|--help|usage] - to long help to usage\\n\\n\\t\\t[db|"
+"database] - to fixating broken RPM Database\\n\\t\\t[fix|repair] - Repair "
+"the RPM packages connections Run: updating repo first!\\n\\t\\t[clean] - "
+"Clean downloaded RPM cache or broken packages\\n\\t\\t[--verbose] - Display "
+"detailed informations\\n"
+msgstr ""
+
+#: frissites:93
+msgid "Another package manager is running! Exiting.."
+msgstr ""
+
+#: checkupdates:200
+msgid "Update Check Warning"
+msgstr ""
+
+#: wrongdistro:121
+msgid ""
+"     Please run installing / updating / uninstall command on blackPanher OS "
+"instead"
+msgstr ""
+
+#: wrongdistro:124
+msgid ""
+"     or run yourcommand --help OR simple type and run for available actions: "
+"commands"
+msgstr ""

@@ -1,0 +1,3331 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-09 13:57+0100\n"
+"PO-Revision-Date: 2016-08-05 23:31+0200\n"
+"Last-Translator: Barcza Károly <kbarcza@blackpanther.hu>\n"
+"Language-Team: none\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: default-aplayer:31 default-dvbplayer:33 default-cdwriter:31
+msgid ""
+"Personal $appname definied, please restart `basename $0` without parameter."
+msgstr ""
+"${appname} személyesen definiálva, kérlek a(z) `basename $0` alkalmazást "
+"indítsd paraméterek nélkül."
+
+#: default-aplayer:49 default-dvbplayer:51 default-filemanager:49
+#: default-partedit:49 default-editor:48 default-mailer:48 default-vplayer:48
+#, sh-format
+msgid "Define user ${appname}.."
+msgstr "Felhasználi definicíó  ehhez: ${appname}.."
+
+#: default-aplayer:57 default-dvbplayer:59 default-filemanager:71
+#: default-partedit:57 default-terminal:57 default-browser:44 default-editor:56
+#: default-mailer:56 default-cdwriter:57 default-vplayer:56 default-netchk:99
+#: default-netchk:83
+#, sh-format
+msgid "${GRN}This is a$BLK blackPanther OS$GRN specific tool"
+msgstr "${GRN}Ez egy $BLK blackPanther OS$GRN specifikus eszköz"
+
+#: default-aplayer:59 default-dvbplayer:61 default-filemanager:73
+#: default-partedit:59 default-terminal:59 default-browser:46 default-editor:58
+#: default-mailer:58 default-cdwriter:59 default-vplayer:58 default-netchk:101
+#: default-netchk:85
+#, sh-format
+msgid "$MAG  Usage:"
+msgstr "$MAG  Használat:"
+
+#: default-aplayer:60 default-dvbplayer:62 default-filemanager:74
+#: default-partedit:60 default-terminal:60 default-browser:47 default-editor:59
+#: default-mailer:59 default-cdwriter:60 default-vplayer:59
+msgid ""
+"$YEL       `basename $0` -s $DEF Set a personal ${appname} (You conf file: "
+"$HOME/.personal-${appname})"
+msgstr ""
+"$YEL       `basename $0` -s $DEF Állítson be személyesen: ${appname} "
+"(Beállítási fájl helye: $HOME/.personal-${appname})"
+
+#: default-aplayer:61 default-dvbplayer:63 default-filemanager:75
+#: default-partedit:61 default-terminal:61 default-browser:48 default-editor:60
+#: default-mailer:60 default-cdwriter:61 default-vplayer:60
+msgid ""
+"$YEL       `basename $0` -u $DEF Unset definied ${appname} (Remove you conf "
+"file: $HOME/.personal-${appname})"
+msgstr ""
+"$YEL       `basename $0` -s $DEF Állítson be személyesen: ${appname} "
+"(Beállítási fájl helye: $HOME/.personal-${appname})"
+
+#: default-aplayer:62 default-dvbplayer:64 default-filemanager:76
+#: default-partedit:62 default-terminal:62 default-browser:49 default-editor:61
+#: default-mailer:61 default-cdwriter:62 default-vplayer:61
+msgid "$YEL       `basename $0` -h $DEF This screen"
+msgstr "$YEL       `basename $0` -h $DEF ez a képernyő"
+
+#: default-aplayer:64 default-dvbplayer:66
+msgid ""
+"$CYN  [$RED Example:$CYN `basename $0` -s audacious$RED OR to autodetect:"
+"$CYN `basename $0`]$DEF"
+msgstr ""
+"$CYN  [$RED Például:$CYN `basename $0` -s audacious$RED VAGY automata módhoz"
+"$CYN `basename $0`]$DEF"
+
+#: default-aplayer:93
+msgid ""
+"Sorry. Audio Player applications not detected, please install on PC (etc: "
+"installing amarok)"
+msgstr ""
+"Elnézést. Audio lejátszó alkalmazást nem találtam, kérjük telepíts a PC-re "
+"egyet. (Pl.: telepites amarok)"
+
+#: default-aplayer:94
+msgid ""
+"Sorry. Audio Player not detected! Please install on PC (etc: installing "
+"amarok)"
+msgstr ""
+"Elnézést. Audio lejátszó alkalmazást nem találtam, kérjük telepíts a PC-re "
+"egyet. (Pl.: telepites amarok)"
+
+#: default-dvbplayer:102
+msgid ""
+"Kaffeine functions not complete!<br>Please go to Kaffeine DVB-t settings, "
+"and add your favorite TV's <br>to left side to playing"
+msgstr ""
+"Kaffeine funkciok nem készek!<br>Kérlek menj a Kaffeine DVB-t "
+"beállításokhozés add hozzá a kedvenc TV-ket<br> a bal oldalra a lejátszáshoz"
+
+#: default-dvbplayer:107
+msgid ""
+"DVB-t Playing with MPlayer temporary won't work! Please install another "
+"player: vlc, mpv, kaffeine"
+msgstr ""
+"DVB-t lejátszás az MPLayer-el átmenetileg nem működik! Kérlek telepíts egy "
+"másik lejátszót: vlc, mpv, kaffeine"
+
+#: default-dvbplayer:113
+msgid ""
+"DVB-t Playing with mplayer temporary won't work! <br>Please go to SMPlayer "
+"setting and change engine to mpv"
+msgstr ""
+"DVB-t lejátszás az mplayer-el átmenetileg nem működik! Kérlek menj az "
+"SMPlayer beállításokhoz és váltsd a motort mpv-re"
+
+#: default-dvbplayer:154
+msgid "Config not found for DVB-t playing. Please run search first"
+msgstr ""
+"Konfiguráció nem található a DVB-t lejátszáshoz. Kérlek futtasd a keresést "
+"először"
+
+#: default-dvbplayer:164
+msgid "DVB-T Channel Search.."
+msgstr "DVB-T Csatorna Keresés.."
+
+#: default-dvbplayer:166
+msgid "DVB-T Channel scanner </h3><br>Initializing..."
+msgstr "DVB-T Csatorna szkenner </h3><br>Előkészítés..."
+
+#: default-dvbplayer:171 default-dvbplayer:175
+msgid ""
+"Scanning DVB-T Channels..</h3> <br>This is a slow progress! Please wait "
+"patient.."
+msgstr ""
+"DVB-T Csatornák pásztázása..</h3> <br>Ez egy lassú folyamat! Kérlek várj "
+"türelmesen.."
+
+#: default-dvbplayer:198 default-dvbplayer:202
+msgid "Sorry. DVB-T Playing error detected"
+msgstr "Sorry. DVB-T lejátszási hiba észlelve"
+
+#: default-dvbplayer:205
+msgid ""
+"Sorry, DVB-T Player applications not detected, please install on PC [etc: "
+"installing kaffeine]"
+msgstr ""
+"Elnézést. DVB-T lejátszó alkalmazást nem találtam, kérjük telepíts a PC-re "
+"egyet. (Pl.: telepites kaffeine)"
+
+#: default-filemanager:31 default-editor:30
+msgid ""
+"Personal ${appname} definied, please restart `basename $0` without parameter."
+msgstr ""
+"${appname} személyesen definiálva, kérem a(z) `basename $0` alkalmazást "
+"indítsd paraméterek nélkül."
+
+#: default-filemanager:53 default-partedit:53 default-editor:52
+#: default-mailer:52 default-cdwriter:53 default-vplayer:52
+#, sh-format
+msgid "Clear definied personal ${appname} conf.."
+msgstr "Személyes definíció törlése ehhez: ${appname} konf.."
+
+#: default-filemanager:65
+#, sh-format
+msgid ""
+"$RED XDG definitions currently not available under your $HOME/.config/user-"
+"dirs.dirs on blackPanther OS system.. $DEF"
+msgstr ""
+"$RED XDG beállítás jelenleg nem található a te $HOME/.config/user-dirs.dirs "
+"útvonalon a blackPanther OS rendszereden.. $DEF"
+
+#: default-filemanager:78
+#, sh-format
+msgid "$MAG  For XDG-DIRS: $DEF/MUSIC, DOWNLOAD, HOME, etc/"
+msgstr "$MAG Az XDG-MAPPÁK: $DEF/ZENE, LETÖLTÉS, SAJÁT KÖNYTVÁR, stb./"
+
+#: default-filemanager:79
+msgid ""
+"$YEL       `basename $0` -xdg $DEF List available definied XDG directories"
+msgstr "$YEL       `basename $0` -xdg $DEF Elérhető XDG mappák listája"
+
+#: default-filemanager:81
+msgid ""
+"$CYN       [$RED Example:$CYN `basename $0` -s dolphin$RED OR to open own "
+"video dir:$CYN `basename $0` VIDEOS ]$DEF"
+msgstr ""
+"$CYN       [$RED Például:$CYN `basename $0` -s dolphin$RED vagy egy saját "
+"videó mappa:$CYN `basename $0` VIDEOS ]$DEF"
+
+#: default-filemanager:126
+msgid ""
+"Sorry. Filemanager applications not detected, please install on PC (etc: "
+"installing dolphin)"
+msgstr ""
+"Sajnálom: Fájlkezekő alkalmazás nem található, kérlek telepíts egyet a PC-"
+"re. (pl: telepites dolphin)"
+
+#: default-filemanager:127
+msgid ""
+"Sorry. Filemanager not detected! Please install on PC (etc: installing "
+"dolphin)"
+msgstr ""
+"Sajnálom: Fájlkezelőő alkalmazás nem található, kérlek telepíts egyet a PC-"
+"re. (pl: telepites dolphin)"
+
+#: default-partedit:26 default-cdwriter:26 default-vplayer:25
+msgid "Presonal conf found!"
+msgstr "Személyes konfig található!"
+
+#: default-partedit:31 default-mailer:30
+msgid "Personal ${appname} definied, please restart $0 without parameter."
+msgstr ""
+"${appname} személyesen definiálva, kérlek a(z) `basename $0` alkalmazást "
+"indítsd paraméterek nélkül."
+
+#: default-partedit:64
+msgid ""
+"$CYN  [$RED Example:$CYN `basename $0` -s gparted$RED OR to autodetect:$CYN "
+"`basename $0`]$DEF"
+msgstr ""
+"$CYN  [$RED Például:$CYN `basename $0` -s gparted$RED VAGY automata módhoz"
+"$CYN `basename $0`]$DEF"
+
+#: default-partedit:100
+msgid ""
+"Sorry. Partition manager applications not detected, please install on PC "
+"(etc: installing partitionmanager)"
+msgstr ""
+"Sajnálom: Partíciókezelő alkalmazás nem található, kérlek telepíts egyet a "
+"PC-re. (pl: telepites partitionmanager)"
+
+#: default-partedit:101
+msgid ""
+"Sorry. Partition manager not detected! Please install on PC (etc: installing "
+"partitionmanager)"
+msgstr ""
+"Sajnálom: Partíciókezelő alkalmazás nem található, kérlek telepíts egyet a "
+"PC-re. (pl: telepites partitionmanager)"
+
+#: default-speedtest:18
+msgid "SKIPPED! MISSING COMPONENT"
+msgstr "KIHAGYVA! HIÁNYZÓ KOMPONENS"
+
+#: default-installgui:35
+msgid "on KDE/Plasma desktop"
+msgstr "KDE/Plasma asztalon"
+
+#: default-installgui:54
+msgid ""
+"Sorry. INSTALLGUI applications not detected, please install on PC (etc: "
+"installing package-wizard)"
+msgstr ""
+"Sajnálom: grafikus telepítő nem található, kérlek telepíts egyet a PC-re. "
+"(pl: telepites package-wizard)"
+
+#: default-installgui:55
+msgid ""
+"Sorry. INSTALLGUI manager not detected! Please install on PC (etc: "
+"installing package-wizard)"
+msgstr ""
+"Sajnálom: grafikus telepítő nem található, kérlek telepíts egyet a PC-re. "
+"(pl: telepites package-wizard)"
+
+#: default-settings:103
+msgid ""
+"Sorry. Systemsettings applications not detected, please install on PC (etc: "
+"installing systemsettings)"
+msgstr ""
+"Sajnálom: Rendszerbeállító alkalmazás nem található, kérlek telepíts egyet a "
+"PC-re. (pl: telepites systemsettings)"
+
+#: default-settings:104
+msgid ""
+"Sorry.  Systemsettings not detected! Please install on PC (etc: installing "
+"systemsettings)"
+msgstr ""
+"Sajnálom: Rendszerbeállító alkalmazás nem található, kérlek telepíts egyet a "
+"PC-re. (pl: telepites systemsettings)"
+
+#: default-terminal:29
+msgid "Personal terminal definied, please restart $0 without parameter."
+msgstr "Személyes terminál beállítva, kérlek indítsd $0  paraméterek nékül."
+
+#: default-terminal:49
+msgid "Force define user terminal.."
+msgstr "Kényszeríti a felhasználói terminál definiálását"
+
+#: default-terminal:53
+msgid "Clear definied personal terminal conf.."
+msgstr "Személyes definíció törlése a terminálnál"
+
+#: default-terminal:64
+msgid ""
+"$YEL       `basename $0` --newtab/--tab $DEF Only for Yakuake Terminal. "
+"Example: default-terminal --newtab YOURCOMMAND"
+msgstr ""
+"$YEL       `basename $0` --newtab/--tab $DEF Csak a Yakuake terminálhoz "
+"Például: default-terminal --newtab FUTTATANDOPARANCS"
+
+#: default-terminal:66
+msgid ""
+"$CYN  [$RED Example:$CYN `basename $0` -s yakuake$RED OR to autodetect:$CYN "
+"`basename $0`]$DEF"
+msgstr ""
+"$CYN  [$RED Például:$CYN `basename $0` -s yakuake$RED VAGY automata módhoz"
+"$CYN `basename $0`]$DEF"
+
+#: default-terminal:154
+msgid ""
+"Sorry. Terminal not detected, please install on PC (etc: installing xterm)"
+msgstr ""
+"Sajnálom: Szerkesztő alkalmazás nem található, kérlek telepíts egyet a PC-"
+"re. (pl: telepites kwrite"
+
+#: default-terminal:155
+msgid ""
+"Sorry. Terminal not detected! Please install on PC (etc: installing xterm)"
+msgstr ""
+"Sajnálom: Terminál alkalmazás nem található, kérlek telepíts egyet a PC-re. "
+"(pl: telepites kwrite"
+
+#: default-browser:30
+msgid ""
+"Personal browser definied, please restart `basename $0` without parameter."
+msgstr ""
+"Böngésző személyesen definiálva, kérem a(z) `basename $0` alkalmazást "
+"indítsd paraméterek nélkül."
+
+#: default-browser:36
+msgid "Force define user browser.."
+msgstr "Kényszeríti a felhasználói terminál definiálását."
+
+#: default-browser:40
+msgid "Clear definied personal browser conf.."
+msgstr "Személyes definíció törlése ehhez: böngésző"
+
+#: default-browser:51
+msgid ""
+"$CYN  [$RED Example:$CYN `basename $0` -s opera$RED OR to autodetect:$CYN "
+"`basename $0`]$DEF"
+msgstr ""
+"$CYN  [$RED Például:$CYN `basename $0` -s opera$RED VAGY automata módhoz: "
+"$CYN `basename $0`]$DEF"
+
+#: default-browser:142
+msgid ""
+"Sorry. Browser not detected, please install to System (ex: installing "
+"firefox)"
+msgstr ""
+"Sajnálom: Böngésző alkalmazás nem található, kérlek telepíts egyet a PC-re. "
+"(pl: telepites firefox)"
+
+#: default-browser:143
+msgid ""
+"Sorry. Browser not detected! Please install to System (ex: installing "
+"firefox)"
+msgstr ""
+"Sajnálom: Böngésző alkalmazás nem található, kérlek telepíts egyet a PC-re. "
+"(pl: telepites firefox)"
+
+#: default-scanner:117
+msgid ""
+"Sorry. Scanner applications not detected, please install on PC (etc: "
+"installing skanlite)"
+msgstr ""
+"Sajnálom: Szkenner alkalmazás nem található, kérlek telepíts egyet a PC-re. "
+"(pl: telepites skanlite)"
+
+#: default-scanner:118
+msgid ""
+"Sorry. Scanner not detected! Please install one (etc: installing skanlite)"
+msgstr ""
+"Sajnálom: Szkenner alkalmazás nem található, kérlek telepíts egyet a PC-re. "
+"(pl: telepites skanlite)"
+
+#: default-editor:63
+msgid ""
+"$CYN  [$RED Example:$CYN `basename $0` -s kwrite$RED OR to autodetect:$CYN "
+"`basename $0`]$DEF"
+msgstr ""
+"$CYN  [$RED Például:$CYN `basename $0` -s kwrite$RED VAGY automata módhoz"
+"$CYN `basename $0`]$DEF"
+
+#: default-editor:105
+msgid ""
+"Sorry. Editor applications not detected, please install on PC (etc: "
+"installing kwrite)"
+msgstr ""
+"Sajnálom: Szerkesztő alkalmazás nem található, kérlek telepíts egyet a PC-"
+"re. (pl: telepites kwrite)"
+
+#: default-editor:106
+msgid ""
+"Sorry. Editor not detected! Please install on PC (etc: installing kwrite)"
+msgstr ""
+"Sajnálom: Szerkesztő alkalmazás nem található, kérlek telepíts egyet a PC-"
+"re. (pl: telepites kwrite)"
+
+#: default-uninstallgui:54
+msgid ""
+"Sorry. UN-INSTALLGUI applications not detected, please install on PC (etc: "
+"installing package-wizard)"
+msgstr ""
+"Sajnálom: Grafikus csomageltávolító nem található, kérlek telepíts egyet a "
+"PC-re. (pl: telepites package-wizard)"
+
+#: default-uninstallgui:55
+msgid ""
+"Sorry. UN-INSTALLGUI manager not detected! Please install on PC (etc: "
+"installing package-wizard)"
+msgstr ""
+"Sajnálom: grafikus programeltávolító  nem található, kérlek telepíts egyet a "
+"PC-re. (pl: telepites dolphin)"
+
+#: default-voipclient:111
+msgid ""
+"Sorry. Voip Client applications not detected, please install on PC (etc: "
+"installing ekiga)"
+msgstr ""
+"Sajnálom: Voip kliens alkalmazás nem található, kérlek telepíts egyet a PC-"
+"re. (pl: telepites ekiga)"
+
+#: default-voipclient:112
+msgid ""
+"Sorry. Voip Client not detected! Please install one (etc: installing ekiga)"
+msgstr ""
+"Sajnálom: Voip kliens alkalmazás nem található, kérlek telepíts egyet a PC-"
+"re. (pl: telepites ekiga)"
+
+#: default-mailer:63
+msgid ""
+"$CYN  [$RED Example:$CYN `basename $0` -s evolution$RED OR to autodetect:"
+"$CYN `basename $0` ]$DEF"
+msgstr ""
+"$CYN  [$RED Például:$CYN `basename $0` -s evolution$RED VAGY automata "
+"módhoz: $CYN `basename $0`]$DEF"
+
+#: default-mailer:109
+msgid ""
+"Sorry. Mailer applications not detected, please install on PC (etc: "
+"installing evolution)"
+msgstr ""
+"Sajnálom: Levelező alkalmazás nem található, kérlek telepíts egyet a PC-re. "
+"(pl: telepites kwrite)"
+
+#: default-mailer:110
+msgid ""
+"Sorry. CD Mailer not detected! Please install on PC (etc: installing "
+"evolution)"
+msgstr ""
+"Sajnálom: Levelező alkalmazás nem található, kérlek telepíts egyet a PC-re. "
+"(pl: telepites evolution)"
+
+#: default-cdwriter:64
+msgid ""
+"$CYN  [$RED Example:$CYN `basename $0` -s k3b$RED OR to autodetect:$CYN "
+"`basename $0`]$DEF"
+msgstr ""
+"$CYN  [$RED Például:$CYN `basename $0` -s k3b$RED VAGY automata módhoz$CYN "
+"`basename $0`]$DEF"
+
+#: default-cdwriter:81
+msgid ""
+"Sorry. CD Writer applications not detected, please install on PC (etc: "
+"installing k3b)"
+msgstr ""
+"Sajnálom: CD-író alkalmazás nem található, kérlek telepíts egyet a PC-re. "
+"(pl: telepites k3b)"
+
+#: default-cdwriter:82
+msgid ""
+"Sorry. CD Writer not detected! Please install on PC (etc: installing k3b)"
+msgstr ""
+"Sajnálom: CD-író alkalmazás nem található, kérlek telepíts egyet a PC-re. "
+"(pl: telepites k3b)"
+
+#: default-vplayer:30
+msgid "Personal $appname definied, please restart $0 without parameter."
+msgstr ""
+"${appname} személyesen definiálva, kérlek a(z) `basename $0` alkalmazást "
+"indítse paraméterek nélkül."
+
+#: default-vplayer:63
+msgid ""
+"$CYN  [$RED Example:$CYN `basename $0` -s smplayer$RED OR to autodetect:$CYN "
+"`basename $0`]$DEF"
+msgstr ""
+"$CYN  [$RED Például:$CYN `basename $0` -s smplayer$RED VAGY automata módhoz: "
+"$CYN `basename $0`]$DEF"
+
+#: default-netchk:77 default-netchk:60
+msgid ""
+" ------------ blackPanther OS INTERACTIVE NetConsole and Benchmark "
+"------------------"
+msgstr ""
+" ------------ blackPanther OS INTERACTíV Net-konzol és teljesítményteszt "
+"------------------"
+
+#: default-netchk:82 default-netchk:65
+msgid ""
+" --------------------------------------- DONE "
+"---------------------------------------"
+msgstr ""
+" --------------------------------------- Kész "
+"---------------------------------------"
+
+#: default-netchk:93 default-netchk:76
+msgid "NO IMPLEMENTED YET"
+msgstr "Még nincs jelenleg beépítve"
+
+#: default-netchk:102 default-netchk:86
+msgid ""
+"$YEL       `basename $0` internet $MAG Check the Internet connection status "
+"$DEF\n"
+"\t\t$DEF(or 'i' switch is shorter OR run without parameter) "
+msgstr ""
+"$YEL       `basename $0` internet $DEF Internet kapcsolat ellenőrzése "
+"állapot \n"
+"\t\t$DEF(És még az: 'i' kapcsoló is, web VAGY futtasd paraméter nélkül) "
+
+#: default-netchk:104 default-netchk:88
+msgid ""
+"$YEL       `basename $0` local $MAG Check the local network status$DEF\n"
+"\t\t$DEF(or 'l' switch is shorter OR run without parameter) "
+msgstr ""
+"$YEL       `basename $0` local $DEF Helyi hálózat állapota\n"
+"\t\t$DEF(És még az: 'l' kapcsoló is, halozat VAGY futtasd paraméter nélkül) "
+
+#: default-netchk:106 default-netchk:90
+msgid ""
+"$YEL       `basename $0` interactive $MAG Check the local network status"
+"$DEF\n"
+"\t\t$DEF(or 'ii' switch is shorter OR run without parameter) "
+msgstr ""
+"$YEL       `basename $0` interactive $DEF Helyi hálózat állapota\n"
+"\t\t$DEF(És még az: 'ii' kapcsoló is,  VAGY csak futtasd paraméter nélkül) "
+
+#: default-netchk:108 default-netchk:92
+msgid ""
+"$YEL       `basename $0` benchmark $MAG Internet connection speed test$DEF\n"
+"\t\t$DEF(or 'ib' switch is shorter OR run without parameter) "
+msgstr ""
+"$YEL       `basename $0` benchmark $DEF Internet kapcsolat sebességteszje\n"
+"\t\t$DEF(És még az: 'ib' kapcsoló is, web VAGY futtasd paraméter nélkül) "
+
+#: default-netchk:111 default-netchk:95
+msgid "$YEL       `basename $0` h|-h $DEF This screen"
+msgstr "$YEL       `basename $0` h|-h $DEF Ez a képernyő"
+
+#: default-netchk:113 default-netchk:97
+msgid ""
+"$CYN  [$RED Example:$CYN `basename $0` i$RED OR to autodetect:$CYN `basename "
+"$0` ]$DEF"
+msgstr ""
+"$CYN  [$RED Például:$CYN `basename $0` i$RED VAGY az automata módhoz: $CYN "
+"`basename $0`]$DEF"
+
+#: plasma-demos:30
+msgid "Do you want running quick desktop demo ?"
+msgstr "Szeretnél futtatni egy gyors asztali demót ?"
+
+#: plasma-demos:56
+msgid "Exit demo mode..."
+msgstr "Kilépés a demó módból..."
+
+#: plasma-demos:61
+msgid "Demo mode finished!"
+msgstr "A Demó-mód befejeződött!"
+
+#: wrongdistro:94 wrongdistro:87
+msgid "Perfect:"
+msgstr "Tökéletes:"
+
+#: wrongdistro:99 wrongdistro:92
+msgid "     Ohh my Gas..."
+msgstr "     Ó édes Istenem.."
+
+#: wrongdistro:101 wrongdistro:94
+msgid "     You are a prisoner in the MATRIX!"
+msgstr "     Te egy fogoly vagy a MÁTRIXBAN!"
+
+#: wrongdistro:103 wrongdistro:96
+msgid "     You need freedom"
+msgstr "     Szükséged van a szabadságra"
+
+#: wrongdistro:106 wrongdistro:99
+msgid "     Press any key and read message on display.."
+msgstr "     Majd nyomj le bármilyen gombot és olvasd el az üzenetet.."
+
+#: wrongdistro:109 wrongdistro:102
+msgid "     Because seems this is the MATRIX as well..."
+msgstr "     Mert úgy látszik ez is a MÁTRIX..."
+
+#: wrongdistro:117 wrongdistro:110
+msgid "     You are now freed by blackPanther OS! NOTICE, please READ FIRST:"
+msgstr ""
+"     A blackPanther OS felszabadított! ÉRTESÍTÉS, kérlek olvasd el először:"
+
+#: wrongdistro:120 wrongdistro:113
+msgid "    * This is a "
+msgstr "    * Ez egy  "
+
+#: wrongdistro:125 wrongdistro:118
+msgid "     and not a"
+msgstr "     és nem egy"
+
+#: wrongdistro:128
+msgid "     Please run blackPanher OS based command instead"
+msgstr "    Kérlek futtass blackPanther OS alapú parancsot ez helyett"
+
+#: wrongdistro:131
+msgid ""
+"     or run commands --help OR simple type and run for available actions: "
+"commands"
+msgstr ""
+"     vagy futtasd 'parancsok --segits' VAGY egyszerűen gépeld be és futtasd "
+"az elérhető műveletekhez: parancsok"
+
+#: swapcheck:44 swapcheck:43 swapcheck:42
+msgid "Swap Not Found"
+msgstr "Lapozófájl nem található"
+
+#: swapcheck:45 swapcheck:44 swapcheck:43
+msgid ""
+"Seem the swap does not available.. Recommend made a swap for your installed "
+"system stabilisation! I will made now, please wait to finish."
+msgstr ""
+"Lapozófájl úgy látszik nem elérhető.. Javasolt egy lapozófájl a "
+"rendszeredhez a rendszer stabilizálásánál! Én most létrehozom, kérlek várj a "
+"befejezésre!"
+
+#: swapcheck:70 swapcheck:69
+msgid "Swap Created!"
+msgstr "Lapzófájl létrehozva!"
+
+#: swapcheck:71 swapcheck:70
+msgid "You can change swap size here:"
+msgstr "Itt változtathatod a lapozófájl méretét:"
+
+#: imsgui:47 imsgui:49
+msgid "RepoConfig"
+msgstr "Tárolóbeállítás"
+
+#: imsgui:47 imsgui:49
+msgid ""
+"Missing Update Repo address, or disabled Update!<br>Please update "
+"repositories manually."
+msgstr ""
+"Hiányzik a frissítőtároló címe, vagy ki van kapcsolva a frissítés!Kérlek "
+"frissítsd a tárolókat kézzel."
+
+#: imsgui:50 imsgui:52
+msgid "Manual"
+msgstr "Kézi"
+
+#: imsgui:54 imsgui:56
+msgid "Automatic"
+msgstr "Automatikus"
+
+#: imsgui:102
+msgid "IMS Repo Rebuild is Running.."
+msgstr "IMS tárló újraépítése elindult.."
+
+#: imsgui:104
+msgid "Cleaning and Rebuild..."
+msgstr "Tisztítás és újraépítés.."
+
+#: imsgui:112 imsgui:102 imsgui:100 imsgui:99
+msgid "IMS Repo Updater Running.."
+msgstr "IMS tárló frissítőprogram elindult.."
+
+#: imsgui:114 drakgrub:62 imsgui:104 imsgui:102 imsgui:101
+msgid "Initializing..."
+msgstr "Előkészítés..."
+
+#: imsgui:119 imsgui:109 imsgui:107 imsgui:106
+msgid "Looking for available repositories.."
+msgstr "Az elérhető tárolók keresése.."
+
+#: imsgui:133 imsgui:123 imsgui:121 imsgui:120
+msgid "Repository Updater is Running.."
+msgstr "A tárolók frissítőprogramja elindult.."
+
+#: imsgui:134 imsgui:124 imsgui:122 imsgui:121
+msgid "The following"
+msgstr "A következő"
+
+#: imsgui:135 imsgui:125
+msgid "repo are in progress.<br>Please wait to finish.."
+msgstr "tároló frissítése folyamatban!<br>Kérlek várj a befejezésre..."
+
+#: imsgui:147 imsgui:137 imsgui:28 imsgui:135 imsgui:134
+msgid "IMSGUI - IMS Settings"
+msgstr "IMSGUI- IMS beállítások"
+
+#: imsgui:148 imsgui:138 imsgui:136 imsgui:135
+msgid "Repositories Updated"
+msgstr "Tárolók frissítve!"
+
+#: imsgui:149 imsgui:139 imsgui:137 imsgui:136
+msgid "You packages database is updated. Have nice day!"
+msgstr "A csomagadatábzis frissítve lett. Legyen szép napod!"
+
+#: imsgui:157 imsgui:173 imsgui:147 imsgui:163 imsgui:145 imsgui:144 imsgui:162
+msgid "IMS Settings"
+msgstr "IMS Beállítások"
+
+#: imsgui:157 imsgui:147 imsgui:145 imsgui:144
+msgid "Intelligent Mirror Selector - Mode:"
+msgstr "Intelligens Mirror Választó - Mód:"
+
+#: imsgui:157 imsgui:173 imsgui:147 imsgui:163 imsgui:145 imsgui:144 imsgui:162
+msgid "Selected Mirror Addr:"
+msgstr "A mirror-szerver címe:"
+
+#: imsgui:157 imsgui:147 imsgui:145 imsgui:144
+msgid "Automatic Mirror Selection [recommend]"
+msgstr "Automatikus mirror választás [javasolt]"
+
+#: imsgui:157 imsgui:147 imsgui:145 imsgui:144
+msgid "Manual Mode - Select Default Mirror"
+msgstr "Kézi mód - Alapértelmezett kiválasztása"
+
+#: imsgui:159 imsgui:149 imsgui:147 imsgui:146
+msgid "Selected Automatic IMS Mode"
+msgstr "Kiválasztott automatikus IMS Mód"
+
+#: imsgui:164 imsgui:154 imsgui:152 imsgui:151
+msgid "Selected Manual IMS Mode"
+msgstr "Kiválasztott kézi IMS mód"
+
+#: imsgui:169 imsgui:189 imsgui:159 imsgui:173 imsgui:158 imsgui:157 imsgui:172
+msgid "Exiting From IMSGUI"
+msgstr "Kilépés az IMSGUI-ból"
+
+#: imsgui:173 imsgui:163 imsgui:162
+msgid "IMS Settings Done!"
+msgstr "IMS Beállítások elkészültek!"
+
+#: imsgui:173 imsgui:163 imsgui:162
+msgid "Selected IMS Mode Now:"
+msgstr "Kiválasztitt IMS mód most:"
+
+#: imsgui:173 imsgui:163 imsgui:162
+msgid "Update Repository Now [recommend]"
+msgstr "A tárolók frissítése most [javasolt]"
+
+#: imsgui:173
+msgid "Rebuild and Refresh Repository"
+msgstr "Újraépíti és frissíti a tárolókat"
+
+#: imsgui:173 imsgui:163 imsgui:162
+msgid "Just Exit Now - Update repos later"
+msgstr "Most csak kilépek - Frissítek később"
+
+#: imsgui:176 imsgui:166 imsgui:165
+msgid "Selected Repository Update.."
+msgstr "A kiválsztott tároló frissítése.."
+
+#: imsgui:180
+msgid "Selected Rebuild Repository.."
+msgstr "A kiválsztott tároló újraépítése.."
+
+#: imsgui:186 imsgui:170 imsgui:169
+msgid "Selected Skip Repo Update.."
+msgstr "Kiválasztva a tároló frissítés kihagyása.."
+
+#: update.repos:47
+msgid "Application Repository"
+msgstr "Alkamazástároló"
+
+#: update.repos:48
+msgid ""
+"Repository auto-update in progress.. Do not restart the computer while "
+"running! Please wait to finish."
+msgstr ""
+"Alkalmazástároló frissítése folyamatban van...Ne indítsd most újra a "
+"számítógépet amíg ez tart! Kérlek várj a befejezére..."
+
+#: update.repos:63
+msgid "new update are available in repository."
+msgstr "új frissítés érhető el a tárolóban."
+
+#: update.repos:65
+msgid "new updates are available in repository."
+msgstr "új frissítés van a tárolóban.."
+
+#: update.repos:67 update.repos:71
+msgid "Repository Updated!"
+msgstr "Tároló Frissítve!"
+
+#: update.repos:68 update.repos:72
+msgid "All repo updating done!"
+msgstr "Minden forrás frissítése kész!"
+
+#: update.repos:70
+msgid "No new updates available.."
+msgstr "Nincs új frissítés.."
+
+#: telepites:53 frissites:17
+msgid ""
+"* You are not system Administrator [root].\\n * Please usage [rootmod] "
+"command to authentication and run this action again OR\\n\\n ** Enter "
+"Administrator password now!\\n"
+msgstr ""
+"* Te most nem vagy rendszergazda (root).\\n * Használd az [rendszergazda] "
+"parancsot a belépéshez és futtasd újra a művelet VAGY\\n\\n add meg a "
+"Rendszergazdai jelszót most!\\n"
+
+#: telepites:54
+msgid "The following package[s] install have in progress:"
+msgstr "A következő csomag[ok] telepítése van folyamatban:"
+
+#: telepites:55
+msgid "Input error! The input only just some *.rpm file are allowed.."
+msgstr ""
+"Bemeneti hiba! Az beneti fájl valamilyen *.rpm fájl engedélyezett csak.."
+
+#: telepites:56
+msgid ""
+"[Error 1000] - The installer engine not found! Please install anyone and run "
+"command again!\\nAvailable engines for blackPanther OS: rpm, dnf, urpmi, "
+"smart, yum, apt-rpm"
+msgstr ""
+"[Error 1000] - A telepítőmotor nem található! Telepíts bármilyet és futtasd "
+"a programot újra!\\nElérhető motorok blackPanther OS.hez: rpm, urpmi, smart, "
+"yum, apt-rpm"
+
+#: telepites:57
+msgid ""
+"So so an error occured during istallaton! [code: 1010]\\\\nPlease run "
+"command again with ${YEL}'--engine='${RED} parameter to finish package "
+"installing or fixing error.\\\\nAvailable additional packager-engines:\\\\n\\"
+"\\n${MAG} * rpm, dnf, urpmi, smart, yum, apt-rpm \\\\n\\\\n${GRN}Usage if "
+"you selected smart engine:\\n${CYN} `basename $0` $@ --engine=smart${DEF} \\"
+"\\n\\\\nPlease run command again:  ${YEL}`basename $0` --help${DEF} to more "
+"information."
+msgstr ""
+"Bizony valami hiba történt a csomagkezelő motornál! (kód: 1010)\\\\nA hiba "
+"kikerüléséhez futtassa újra a programot a(z) ${YEL}'--engine='${RED} "
+"kapcsoló használtával,\\\\na telepítés befejezéséhez vagy a hiba "
+"kijavításához. További elérhető csomagkezelő-motorok:\\\\n\\\\n${MAG} * rpm, "
+"urpmi, smart, yum, apt-rpm \\\\n\\\\n${GRN}Használat ha pl a smart "
+"csomagkezlő-motort válaszjuk:\\\\n${CYN} $(basename $0) $@ --engine=smart"
+"${DEF} \\\\n\\\\nTovábbi részletekért futtassa a ${YEL}$(basename $0) --"
+"segits${DEF} parancsot."
+
+#: telepites:58
+msgid ""
+"Packages and repository management of blackPanther OS based on command promt"
+msgstr ""
+"* blackPanter OS parancssor bázisú csomag és telepítőforrás kezelő "
+"szolgáltatás..."
+
+#: telepites:59
+msgid "Checking Database Status:"
+msgstr "Adatbázis állapota:"
+
+#: telepites:60 frissites:20
+msgid "Checking Database Status Again:"
+msgstr "Adatbázis állapot újraellenőrzése:"
+
+#: telepites:61 frissites:21
+msgid "Checking Internet Status:"
+msgstr "Internet kapcsolat:"
+
+#: telepites:62 frissites:22
+msgid "Access Possible"
+msgstr "Hozzáférés lehetséges"
+
+#: telepites:63 frissites:23
+msgid "The database access timeout. Please try again later!"
+msgstr "Az adatbázis elérés sikertelen. Próbáld később újra"
+
+#: telepites:64
+msgid "Wait to access to database.."
+msgstr "Várakozás az adatbázis elérésre"
+
+#: telepites:65
+msgid ""
+"${GRN}\n"
+"\tThis is smart program for ${BLU}blackPanther OS.${GRN} If you running \n"
+"\tthe script then auto select an installer engine for package install. \n"
+"\tWorking with follow engines : ${YEL}rpm|dnf|urpmi|yum|smart|apt-rpm${GRN}\n"
+"\t\n"
+"\tEasy Usage:\n"
+"\t${CYN}Simple install example  : $(echo `basename $0`) packagename (or "
+"packagename-version-release)\n"
+"\t\n"
+"\t${GRN}or (for advanced users)\n"
+"\t${CYN}Advanced install example: $(echo `basename $0`) packagename --"
+"engine=rpm\n"
+"\t\n"
+"\t${GRN}or (for developers)\n"
+"\t${CYN}Extended install example: $(echo `basename $0`) DEBUG packagename --"
+"engine=rpm\n"
+"\t\n"
+"\t${BLU}Best Regards: Charles Barcza from Hungary\n"
+"\tkbarcza@blackpanther.hu - www.blackpantheros.eu\n"
+"\t/This feature thanks to 10 years old my daughter - New feature: recorded "
+"install for bundled uninstall/\n"
+"\t$DEF"
+msgstr ""
+"${GRN}\n"
+"\tEz egy ügyes program ${BLU}blackPanther OS-hez.${GRN} Ha futtatod\n"
+"\tezt a programot akkor automatikusan kiválasztja a telepítőmotort a "
+"csomagtelepítéshez.\n"
+"\tJelenleg a következő motorokat támogatja : ${YEL}rpm|urpmi|yum|smart|apt-"
+"rpm${GRN}\n"
+"\n"
+"\tIlyen könnyű használni:\n"
+"\t${CYN}Hagyományos telepítési minta : $(echo `basename $0`) csomagneve "
+"(vagy csomagneve-verzió-kiadás)\n"
+"\t\n"
+"\t${GRN}vagy (haladó felhasználóknak)\n"
+"\t${CYN}További telepítési minta: $(echo `basename $0`) csomagneve --"
+"engine=rpm\n"
+"\t\n"
+"\t${GRN}vagy (fejlesztőknek)\n"
+"\t${CYN}Bővített telepítési minta: $(echo `basename $0`) DEBUG csomagneve --"
+"engine=rpm\n"
+"\n"
+"\t${BLU}Üdvözlettel: Barcza Károly\n"
+"\tkbarcza@blackpanther.hu - www.blackpantheros.eu\n"
+"\t/Ezt a feature ötletet köszönöm a 10 éves lányomnak!/"
+
+#: telepites:217 telepites:208
+msgid " * Core filesystem usage is:"
+msgstr " * Gyökérfájlrendszer használata:"
+
+#: telepites:252 telepites:245 telepites:236 telepites:226
+msgid " * This file: "
+msgstr " * Ez a fájl: "
+
+#: telepites:253 telepites:246 telepites:237 telepites:227
+msgid "Not found or path is wrong?"
+msgstr "Nincs meg vagy az útvonal rossz?"
+
+#: telepites:263 telepites:255 telepites:246 telepites:233
+msgid "This item: "
+msgstr "Ez az elem: "
+
+#: telepites:265 telepites:257 telepites:248 telepites:235
+msgid " is a[n]"
+msgstr " ez egy"
+
+#: telepites:267 telepites:259 telepites:250 telepites:237
+msgid "compressed data!"
+msgstr "tömörített adat!"
+
+#: telepites:271 telepites:263 telepites:254
+msgid " Not a installable RPM package.."
+msgstr " Nem egy telepíthető RPM csomag..."
+
+#: rendszernaplo:46
+msgid " === SystemLog Help =="
+msgstr " === RendszerNapló Segítsé =="
+
+#: rendszernaplo:48
+msgid "- Usage: "
+msgstr "- Használat: "
+
+#: rendszernaplo:50
+msgid "name"
+msgstr "név"
+
+#: rendszernaplo:58
+msgid ""
+"You are not root now. Access to full features requires the root permission! "
+"[wait to 3sec]"
+msgstr ""
+"Te most nem vagy rendszuergazda. Minden lehetőség eléréséhez szükséged van "
+"root jogokra![3mp várakozás]"
+
+#: rendszernaplo:100 rendszernaplo:103
+msgid "Filtering log to service name..."
+msgstr "A napló szűrése szolgáltatás névre.."
+
+#: parancsok:92 parancsok:89
+msgid "/display in terminal/"
+msgstr "/megjelenítés terminálban/"
+
+#: parancsok:93 parancsok:90
+msgid "/display in dialog/"
+msgstr "/megjelenítés dialogban/"
+
+#: parancsok:94 parancsok:91
+msgid "/display this help/"
+msgstr "/súgó megjeleníŧése/"
+
+#: netspeed:9
+msgid " - Just run"
+msgstr " - Csak futtasd a "
+
+#: netspeed:9
+msgid "without parameter or look this command:"
+msgstr "-ot paraméterek nélkül vagy nézd meg ezt a parancsot:"
+
+#: menuinstall:28
+msgid "MenuInstall"
+msgstr "MenüTelepítő"
+
+#: menuinstall:28 menuinstall:29
+msgid "Another install command already running! Exiting.."
+msgstr "Egy másik telepítőprogram már fut! Kilépés.."
+
+#: menuinstall:39
+msgid " - Use only for install a application form main menu.. Exiting.."
+msgstr ""
+" - Csak az alkalmazások menüből való telepítésre használható.. kilépés.."
+
+#: listaz:20
+msgid " This is blackPanther OS listing command help!"
+msgstr "Ez a blackPanther OS listázási parancs súgója!"
+
+#: listaz:22
+msgid " - Just run 'listing' command to Files/Directories list"
+msgstr " - Csak futtasd a 'listaz' parancsot a Fájlok/Könyvtárak listájához"
+
+#: listaz:23
+msgid ""
+" - or just run 'listing perm' to Files/Directories list with permissions"
+msgstr ""
+"- vagy csak futtasd 'listaz jogokkal' a Fájlok/Könyvtárak és jogogsultságaik "
+"listájához"
+
+#: listaz:27
+msgid "Switches:"
+msgstr "Kapcsolók:"
+
+#: listaz:28
+msgid "  [-h|--help|h] - Print this help"
+msgstr " [-s|s -h|h] - Megmutatja ezt a súgót"
+
+#: listaz:29
+msgid "  [-perm|perm] - Print files/directories with owners permissions"
+msgstr ""
+"[-jogok|jogok] - Megmutatja a fájlokat/konytvárakat a tulajdonosok jogaival"
+
+#: listaz:30
+msgid "  [-white|white] - Print results without colorize"
+msgstr " [-feher|feher] - Megmutatja az eredményeket színezés nélkül"
+
+#: listaz:31
+msgid "  [-size|size] - Print sizes on this or added path"
+msgstr ""
+" [-meret|meret] - Megmutatja a helyfoglalásokat ezen vagy a megadott "
+"útvonalon"
+
+#: listaz:32
+msgid "  [-mount|mount] - Print mounted disks os filesystems"
+msgstr ""
+" [-csatolasok|csatolasok] Megmutatja a csatolt lemezeket vagy "
+"fájlrendszereket"
+
+#: listaz:33
+msgid "  [-hw|hw|hardware]  -  Print hardwares and kernel modules"
+msgstr " [-eszk|eszkoz|hw] -  Megmutatja a hardvereket és a kernel modulokat"
+
+#: listaz:34
+msgid "  [-usb|--usb|usb] - Print connected USB-devices "
+msgstr "  [-usb|--usb|usb] - Csatlakoztatott USB-eszközök kiírása "
+
+#: listaz:35
+msgid ""
+"  [-modules|--modules|drivers|kernelmodules] - Print loaded kernel modules, "
+"drivers"
+msgstr ""
+"  [-modulok|--modulok|meghajtok|kernelmodulok] - Betöltött kernel modulok/"
+"meghajtók listája "
+
+#: listaz:36
+msgid ""
+"  [-rpm|--installed|rpm]   -     Print installed RPM packages. Additional "
+"parameter are available, example: date"
+msgstr ""
+"  [-rpm|--rpm|rpm|telepitett|csomagok]   -    Telepített RPM csomagok "
+"listája. További kiegészítő kapcsoló eléhető, pl.: dátum"
+
+#: listaz:37
+msgid ""
+"  [-gui|--gui|gui|graphical] -   Print installed graphical packages. "
+"Additional parameter are available, example: date"
+msgstr ""
+"  [-gui|--gui|gui|grafikus] -   Telepített grafikus alkalmazások listája.  "
+"További kiegészítő kapcsoló eléhető, pl.: dátum"
+
+#: listaz:39 listaz:38 listaz:36 listaz:35
+msgid "Have a nice day without Windows !"
+msgstr "Legyen szép Windows mentes napod!"
+
+#: listaz:88 listaz:87 listaz:85
+msgid "HARDVARE LIST"
+msgstr "HARDVER LISTA"
+
+#: listaz:91 listaz:100 listaz:90 listaz:99 listaz:88 listaz:97
+msgid "LIST END"
+msgstr "LISTA VÉGE"
+
+#: listaz:97 listaz:96 listaz:94
+msgid "USB DEV LIST"
+msgstr "USB ESZKÖZLISTA"
+
+#: listaz:109 listaz:105
+msgid "LISTED ALL INSTALLED PACKAGES"
+msgstr "MINDEN TELEPÍTETT CSOMAG LISTÁZVA"
+
+#: listaz:121
+msgid "LISTED ALL INSTALLED DESKTOP APP ONLY"
+msgstr "MINDEN GRAFIKUS TELEPÍTETT CSOMAG LISTÁZVA"
+
+#: listaz:127 listaz:111
+msgid "LOADED KERNEL MODULES/DRIVERS"
+msgstr "BETÖLTÖTT KERNEL MODULOK/MEGHAJTÓK"
+
+#: listaz:128 listaz:112
+msgid "LISTED ALL LOADED KERNEL MODULES"
+msgstr "MNDEN BETÖLTÖTT KERNEL MODUL LISTÁZVA"
+
+#: listaz:131 listaz:115 listaz:101 listaz:86
+msgid "BAD COMMAND OR PARAMETER:"
+msgstr "ROSSZ PARANCS VAGY PARAMÉTER"
+
+#: kotegtelepites:198 csomagkereses:198 csomagkereses:199 csomagkereses:188
+msgid "I have found not anywhere a package with the following name:"
+msgstr "Nem található sehol egy csomag sem, az alábbi néven:"
+
+#: kotegtelepites:206 csomagkereses:206 csomagkereses:207 csomagkereses:196
+msgid "Successful!"
+msgstr "Elkészült!"
+
+#: kotegtelepites:207 csomagkereses:207 csomagkereses:208 csomagkereses:197
+msgid "The discovering progress successful."
+msgstr "A felderíŧési folyamt elkészült."
+
+#: kotegtelepites:219 csomagkereses:219 csomagkereses:220 csomagkereses:209
+msgid "Go to command section"
+msgstr "Ugrás a parancssor szekcióba"
+
+#: kotegtelepites:222 kotegtelepites:259 csomagkereses:222 csomagkereses:259
+#: csomagkereses:223 csomagkereses:260 csomagkereses:212 csomagkereses:242
+msgid "Missing parameter!"
+msgstr "Hiányzó paraméter!"
+
+#: kotegtelepites:227 csomagkereses:227 csomagkereses:228 csomagkereses:217
+msgid "Print Help Text"
+msgstr "Súgó szöveg megjelenítése"
+
+#: kotegtelepites:260 csomagkereses:260 csomagkereses:261 csomagkereses:243
+msgid "Format: command --engine enginetype pacakagename"
+msgstr "Formátum: parancs --motor motortípus csomagnév"
+
+#: kotegtelepites:289 csomagkereses:289 csomagkereses:290 csomagkereses:270
+msgid "An error occured! Please report to me in users group"
+msgstr "Egy hiba történt! Kérlek jelezd nekem a felhasználói csoportban."
+
+#: kotegtelepites:307 csomagkereses:307 csomagkereses:308 csomagkereses:288
+msgid "Go click section"
+msgstr "Irány a kattintás szekció"
+
+#: kotegtelepites:310 csomagkereses:310 csomagkereses:311 csomagkereses:291
+msgid "Empty or missing parameter"
+msgstr "Üres vagy hiányzó paraméter!"
+
+#: kotegtelepites:315 kotegtelepites:327 csomagkereses:315 csomagkereses:327
+#: csomagkereses:316 csomagkereses:328 csomagkereses:296 csomagkereses:305
+msgid "Search"
+msgstr "Keresés"
+
+#: kotegtelepites:332
+msgid "BatchSearch"
+msgstr "Kötegkeresés"
+
+#: kotegtelepites:333 kotegtelepites:343 csomagkereses:333 csomagkereses:343
+#: csomagkereses:335 csomagkereses:345 csomagkereses:311 csomagkereses:321
+msgid "Quick Search Result[s]"
+msgstr "Gyorskeresés eredménye[i]"
+
+#: kotegtelepites:334
+msgid "You can select one or more items to install"
+msgstr "Választani tudsz egy vagy több csomagot telepítésre"
+
+#: kotegtelepites:341 csomagkereses:341 csomagkereses:343 csomagkereses:319
+msgid "Not found"
+msgstr "Nem található"
+
+#: kotegtelepites:344 csomagkereses:344 csomagkereses:346 csomagkereses:322
+msgid "Not found what you find:"
+msgstr "Nincs találat erre amit kerestél:"
+
+#: kotegtelepites:345 csomagkereses:345 csomagkereses:347 csomagkereses:323
+msgid "Do you want run an another searching?"
+msgstr "Futtatni akarsz egy másik keresést?"
+
+#: kotegtelepites:378 csomagkereses:377 csomagkereses:379 csomagkereses:355
+msgid "Nothing was chosen any application, exit"
+msgstr "Nem volt semmi kiválasztva, kilépek"
+
+#: kotegtelepites:386 csomagkereses:385 csomagkereses:387 csomagkereses:363
+msgid "PackageFind Gui Finished"
+msgstr "CsomagkeresésGui befejeződött"
+
+#: kotegtelepites:391 csomagkereses:390 csomagkereses:391 csomagkereses:367
+msgid "PackageFind Ended"
+msgstr "Csomagekeresés véget ért"
+
+#: klonozas:16
+msgid " - blackPanther OS cloning service. Clone anything!"
+msgstr " - blackPanther OS klónozási-szolgáltatás. Klónozz bármit!"
+
+#: klonozas:22
+msgid "ROOT permission requires!"
+msgstr "ROOT jog szükséges!"
+
+#: klonozas:37
+msgid "Cloner component missing! Please install one, example: dd_rescue"
+msgstr "Klónozó komponens hiányzik! Kérlek telepíŧs egyet, például :dd_rescue"
+
+#: klonozas:47
+msgid "Engigne"
+msgstr "Motorja"
+
+#: klonozas:50
+msgid "Quick usage example for disc cloning to image: "
+msgstr "Gyors használati példa a lemezklónüzásra képfájlba: "
+
+#: klonozas:52
+msgid " /dev/sdb1 /home/anyusername/my_sdb1_disc.img"
+msgstr " /dev/sdb1 /home/valamilyenfelhasználónév/az_én_sdb1_lemezem.img"
+
+#: kdesu:28 draksamba:29
+msgid "Error"
+msgstr "Hiba"
+
+#: kdesu:28
+msgid ""
+"Graphical SU application not found! Please report this error to blackPanther "
+"Developers"
+msgstr ""
+"Grafikus SU nem található! Kérlek jelezd ezt a blackPanther OS "
+"fejlesztőknek. A parancsodat pedig használni tudod egy terminálban."
+
+#: kdesu:31
+msgid ""
+"Graphical SU not found! Please report this error to blackPanther OS "
+"developers. You can use your command in terminal."
+msgstr ""
+"Grafikus SU nem található! Kérlek jelezd ezt a blackPanther OS "
+"fejlesztőknek. A parancsodat pedig használni tudod egy terminálban."
+
+#: frissites:18
+msgid ""
+"* Packages and repository management of blackPanther OS based on command "
+"promt"
+msgstr ""
+"* blackPanter OS parancssor bázisú csomag és telepítőforrás kezelő "
+"szolgáltatás..."
+
+#: frissites:19
+msgid "Check Local Package DB Status:"
+msgstr "Helyi csomag-DB állapot:"
+
+#: frissites:24
+msgid "The Database Busy Now. I Wait to Database Access"
+msgstr "Az adatbázis jelenleg foglalt. Várakozok az adatbázis elérésére"
+
+#: frissites:25
+msgid ""
+"   [all | packages]  and/or  [repos | repo]  - to packages and/or repository "
+"update\\n\\t\\t[system] - to system upgrade\\n\\t\\t[help] - to short help "
+"display\\n\\t\\t[--info|--help|usage] - to long help to usage\\n\\n\\t\\t[db|"
+"database] - to fixating broken RPM Database\\n\\t\\t[fix|repair] - Repair "
+"the RPM packages connections Run: updating repo first!\\n\\t\\t[clean] - "
+"Clean downloaded RPM cache or broken packages\\n\\t\\t[--verbose] - Display "
+"detailed informations\\n\\t\\t[--force] - Clean caches first and rebuild all "
+"newone\\n"
+msgstr ""
+"   [minden | csomagok]  és/vagy  [forrasok | forras] - a csomagok és/vagy a "
+"tárolók frissítése\\n\\t\\t[rendszer] - a rendszer felfrissítése\\n\\t"
+"\\t[segits] - a rövid tájékoztató megjelenítése\\n\\t\\t[--info|--segits|"
+"hasznalat] - hosszú tájékoztató megjelenítése\\n\\n\\t\\t[db|adatbazis] - "
+"azRPM adabázis újraépítése. Először futtasd: frissites forrasok\\n\\t\\t[fix|"
+"javitas] - Csomagkapcsolatok javítása. Először futtasd a frissites forrasok "
+"parancsot!\\n\\t\\t[tisztit] - A gyorstárazott vagy sérült RPM csomagok "
+"eltávolítása\\n\\t\\t[--reszletes] - Részletes információk mutatása\\n\\t"
+"\\t[--force] - Gyorsítótár tisztítása kényszerítve és at összes felépítése "
+"újra\\n"
+
+#: frissites:26
+msgid "OK"
+msgstr "OK"
+
+#: frissites:27
+msgid "FAIL"
+msgstr "SIKERTELEN"
+
+#: frissites:28
+#, sh-format
+msgid "You know that ${YEL}Devel${RED} repo is ENABLED ?!"
+msgstr "Tudtad, hogy a ${YEL}Devel${RED} tároló engedélyezve van?!"
+
+#: frissites:42
+msgid " - Your"
+msgstr " - A te"
+
+#: frissites:43
+msgid "[/] filesystem usage is:"
+msgstr "[/] fájlrendszered használata:"
+
+#: frissites:91 frissites:89
+msgid "DATABASE LOCKED! "
+msgstr "ZÁROLT ADATBÁZIS! "
+
+#: frissites:96 frissites:94
+msgid "Another package manager is running!"
+msgstr "Egy másik csomagkezelő már fut!"
+
+#: frissites:98 frissites:96
+msgid "=> DB Locked by: "
+msgstr "==> DB zárolva emiatt: "
+
+#: frissites:100
+msgid " => Please close this application first or type here: "
+msgstr "=> Kérlek zárd be ezt az alkalmazást először vagy gépeld ide: "
+
+#: frissites:102 frissites:100
+msgid " and press enter"
+msgstr " és üss entert"
+
+#: frissites:112 frissites:110 frissites:103
+msgid "Smart Found on Your System!"
+msgstr "A Smart megtalálható a rendszeren!"
+
+#: frissites:122 frissites:120 frissites:113
+msgid "Slave RPM engine found on Your System!"
+msgstr "Másodlagos RPM-motor megtalálható a rendszeren!"
+
+#: frissites:156 drakgrub:108 frissites:154 frissites:147
+msgid "ERROR"
+msgstr "HIBA"
+
+#: frissites:161 frissites:159 frissites:311 frissites:310
+msgid "[ -- Done ------------------------------------------ ]"
+msgstr "[ -- Befejeződött ------------------------------------- ]"
+
+#: frissites:176 frissites:174 frissites:159
+msgid "Previous backup exists here:"
+msgstr "Elősző biztonsági mentés létezik itt:"
+
+#: frissites:187 frissites:185 frissites:170 frissites:169
+msgid "Missing SMART engine for Fixating System Packages"
+msgstr "Hiányzik a SMART motor a rendszercsomagok javításához"
+
+#: frissites:229 frissites:227
+msgid " => Go to cache cleaning task..."
+msgstr " => Ugrás a gyorstár tisztíási feladatra.."
+
+#: frissites:243 frissites:241 frissites:223 frissites:222
+msgid " Unknown"
+msgstr " Ismeretlen"
+
+#: frissites:243 frissites:241 frissites:223 frissites:222
+msgid " option! Try with --help option. This is not a Mandriva/Mandrake!\\n"
+msgstr "opció! Próbáld a --segits opciót. Ez nem egy Mandriva/Mandrake!\\n"
+
+#: frissites:246 frissites:244 frissites:226 frissites:225
+msgid "Options of Updating Application:"
+msgstr "Frissítőalkalmazás Opciói:"
+
+#: frissites:249 frissites:247 frissites:229 frissites:228
+msgid "\\tExample:"
+msgstr "\\tPéldául:"
+
+#: frissites:249 frissites:247 frissites:229 frissites:228
+msgid "repo XYREPONAME"
+msgstr "forras XYFORRÁSNEVE"
+
+#: frissites:285 frissites:283 frissites:265 frissites:264
+msgid "[ -- Started ---------------------------------------------------- ]"
+msgstr "[ -- Elindítva --------------------------------------------------- ]"
+
+#: frissites:288 frissites:286 frissites:268 frissites:267
+msgid "the Slave Database Update :"
+msgstr "a másodlagos adatbázis frissítése:"
+
+#: frissites:288 frissites:295 frissites:297 frissites:305 frissites:307
+#: frissites:320 frissites:286 frissites:293 frissites:303 frissites:318
+#: frissites:268 frissites:267 frissites:287
+msgid "Done"
+msgstr "Kész"
+
+#: frissites:289 frissites:287 frissites:269 frissites:268
+msgid " - the Slave database update in background.. "
+msgstr " - a másodlagos adatbázis frissítése a háttérben.."
+
+#: frissites:295 frissites:297 frissites:305 frissites:307 frissites:322
+#: frissites:293 frissites:303 frissites:320
+msgid "Database Busy"
+msgstr "Adatbázis foglalt"
+
+#: frissites:316 frissites:314 frissites:284 frissites:283
+msgid " - the main database update in background.. "
+msgstr " - most a főadatbázis frissítése folyik a háttérben.."
+
+#: frissites:320 frissites:318 frissites:288 frissites:287
+msgid "the Main Database Update :"
+msgstr "a főadatbázis frissítése:"
+
+#: frissites:326 frissites:338 frissites:324 frissites:336 frissites:294
+#: frissites:306 frissites:293 frissites:305
+msgid " This Command Successfully Completed"
+msgstr "A parancs sikeresen befejeződött"
+
+#: frissites:336 frissites:334 frissites:304 frissites:303
+msgid " * This mission running in background.. Please wait to finish!"
+msgstr " * Ez a művelet a háttérben fut... Kérlek várj a befejezésre!"
+
+#: draksound:33
+msgid ""
+"Error occurred while select a Sound Manager Applicaion. Please report me!"
+msgstr ""
+"Egy hiba történt a Hang-kezelő alkalmazás kiválasztásakor. Kérlek jelezd "
+"nekem!"
+
+#: draksound:37 drakscan:29 draksamba:33 drakprint:31 drakpartition:31
+#: draknfsm:30 draknetsec:32 draknet:31 drakmice:32 drakgrub:124 drakfw:33
+#: drakfileshare:32 drakdvbtv:31 drakdevices:31 checkupdates:66
+#: browserselector:39 drakfileshare:31 browserselector:29
+msgid "blackPanther Live System!"
+msgstr "blackPanther Live Rendszer!"
+
+#: draksound:38 drakscan:30 draksamba:34 drakprint:32 drakpartition:32
+#: draknfsm:31 draknetsec:33 draknet:32 drakmice:33 drakgrub:125 drakfw:34
+#: drakfileshare:33 drakdvbtv:32 drakdevices:32 browserselector:39
+#: drakfileshare:32 browserselector:29
+msgid ""
+"Please install blackPanther OS first to available free space before using "
+"this operation"
+msgstr "Kérjük telepítse először a blackPanther OS-t egy üres területre"
+
+#: draksound:42 drakscan:35 drakprint:47 drakpartition:38 draknet:37
+#: drakmice:38 drakgrub:131 drakfw:40 browserselector:86 browserselector:76
+msgid "Component Missing!"
+msgstr "Hiányzó összetevő!"
+
+#: draksound:43 drakscan:36 drakprint:48 drakpartition:39 draknet:38
+#: drakmice:39 drakgrub:132 drakfw:41 browserselector:87 browserselector:77
+msgid "Component auto installing in progress! Please wait to finish..."
+msgstr ""
+"Az összetevő automatikus telepítése folyamatban van! kérlek várj a "
+"befejezésre..."
+
+#: draksound:48 drakscan:41 draksamba:42 drakprint:53 drakpartition:44
+#: draknfsm:39 draknetsec:41 draknet:43 drakmice:44 drakgrub:137 drakfw:46
+#: drakfileshare:41 drakdvbtv:41 drakdevices:40 browserselector:92
+#: drakfileshare:40 browserselector:82
+msgid "Component is Missing!"
+msgstr "Hiányzó összetevő!"
+
+#: draksound:49 drakscan:42 draksamba:43 drakpartition:45 draknfsm:40
+#: draknetsec:42 draknet:44 drakmice:45 drakfw:47 drakfileshare:42 drakdvbtv:42
+#: drakdevices:41 browserselector:93 drakfileshare:41 browserselector:83
+msgid "Component isntall failed!"
+msgstr "Sikertelen az összetevő telepítése!"
+
+#: draksound:56 drakscan:49 draksamba:50 drakprint:61 drakpartition:52
+#: draknfsm:47 draknetsec:49 draknet:51 drakmice:52 drakgrub:145 drakfw:54
+#: drakfileshare:50 drakdvbtv:49 drakdevices:48 browserselector:45
+#: drakfileshare:49 browserselector:35
+msgid "Force resolve?"
+msgstr "Kényszerített feloldás?"
+
+#: draksound:57 drakscan:50 draksamba:51 drakprint:62 drakpartition:53
+#: draknfsm:48 draknetsec:50 draknet:52 drakmice:53 drakgrub:146 drakfw:55
+#: drakfileshare:51 drakdvbtv:50 drakdevices:49 browserselector:46
+#: drakfileshare:50 browserselector:36
+msgid "The lockfile will be force deleted if you try the start again!"
+msgstr "A zárolási fájl törlése kényszerítve lesz, ha még egyszer elindítod!"
+
+#: draksound:59 drakscan:52 draksamba:53 drakprint:64 drakpartition:55
+#: draknfsm:50 draknetsec:52 draknet:54 drakmice:55 drakgrub:148 drakfw:57
+#: drakfileshare:53 drakdvbtv:52 drakdevices:51 browserselector:48
+#: drakfileshare:52 browserselector:38
+msgid "Already Running!"
+msgstr "Már fut!"
+
+#: draksound:60
+msgid "The sound manager already running. Be patient or close first"
+msgstr "A hangkezelő már fut. Légy türelmes vagy szár be először."
+
+#: draksound:67 drakscan:60 draksamba:61 drakprint:71 drakpartition:63
+#: draknfsm:58 draknetsec:60 draknet:62 drakmice:63 drakgrub:156 drakfw:91
+#: drakfileshare:61 drakdvbtv:60 drakdevices:59 browserselector:68
+#: drakfileshare:60 browserselector:58
+msgid "Force resolve lockfile.."
+msgstr "Zárolás kényszerített feloldása.."
+
+#: draksound:78 drakscan:70 draksamba:72 drakprint:81 drakpartition:73
+#: draknfsm:68 draknetsec:70 draknet:73 drakmice:73 drakgrub:167 drakfw:103
+#: drakfileshare:71 drakdvbtv:70 drakdevices:69 drakfileshare:70
+msgid "System Installer"
+msgstr "Rendszertelepítő"
+
+#: draksound:78
+msgid "System Sound-System Manager - <b><u>Install</b></u> / Run.."
+msgstr "Rendszerszintű Hangrendszer kezelő-<b><u>Telepít</b></u>/Futtat.."
+
+#: draksound:78
+msgid "SoundSystem Manager [important!]"
+msgstr "Hangrendszer kezelő [fontos!]"
+
+#: draksound:78
+msgid "Plasma PulseAudio Manager"
+msgstr "Plasma PulseAudio Kezlő"
+
+#: draksound:78
+msgid "Gtk PulseAudio Manager"
+msgstr "Gtk PulseAudio Kezlő"
+
+#: draksound:78
+msgid "PulseAudio EQ Manager"
+msgstr "PulseAudio EQ kezelő"
+
+#: draksound:81 draksound:84 draksound:87 drakscan:78 drakscan:81 draksamba:75
+#: draksamba:78 drakprint:85 drakprint:92 drakpartition:76 drakpartition:79
+#: draknfsm:71 draknfsm:74 draknetsec:73 draknetsec:76 draknet:81 draknet:84
+#: drakmice:81 drakmice:84 drakgrub:170 drakgrub:173 drakfw:111 drakfw:114
+#: drakfileshare:74 drakfileshare:77 drakdvbtv:73 drakdevices:72
+#: drakfileshare:73 drakfileshare:76
+msgid "Mission has finished!<br>Please repeat original action now!"
+msgstr "Küldetés befejezve! <br>Csak indítsd újra az eredeti műveletet."
+
+#: draksound:95
+msgid "System-Sound-Settings"
+msgstr "Rendszer-hangbeállítása"
+
+#: draksound:97 draksound:99 draksound:120
+msgid "Pulse-SoundServer-Manager"
+msgstr "Pulse-Hangszerver-kezlő"
+
+#: draksound:101 draksound:121
+msgid "PulseAudio-Manager-Qt"
+msgstr "PulseAudio-kezelő-Qt"
+
+#: draksound:102 draksound:122
+msgid "PulseAudio-Manager-Gtk"
+msgstr "PulseAudio-kezelő-Gtk"
+
+#: draksound:103 draksound:124
+msgid "EQ-PulseAudio-Equalizer-Gtk"
+msgstr "EQ-PulseAudio-Equalizer-Gtk"
+
+#: draksound:104 draksound:123
+msgid "PulseEffects-Equalizer"
+msgstr "PulseEffekt-Equalizer"
+
+#: draksound:106 draksound:126
+msgid "Jack-AudioSystem-Control"
+msgstr "Jack-hangrendszer-vezérlő"
+
+#: draksound:107 draksound:127
+msgid "Simple-Aumix-Mixer"
+msgstr "Hagyományos-Aumix-mixer"
+
+#: draksound:108 draksound:128
+msgid "Firewire-Ffado-Mixer"
+msgstr "Firewire-Ffado-mixer"
+
+#: draksound:109 draksound:129
+msgid "AlsaMixer-konsole"
+msgstr "AlsaMixer-konzol"
+
+#: draksound:110
+msgid "SoundServer-Settings"
+msgstr "Hangszerver-beállítása"
+
+#: draksound:114 draksound:116 drakdvbtv:92 drakdvbtv:94 drakdevices:90
+#: drakdevices:92
+msgid "Search for other quick installable device tools.."
+msgstr "Villámtelepíthető eszközkezelők keresése.."
+
+#: draksound:131 drakscan:102 draksamba:110 drakprint:110 drakpartition:108
+#: draknfsm:97 draknetsec:106 draknet:105 drakmice:111 drakgrub:202 drakfw:144
+#: drakfileshare:114 drakdvbtv:104 drakdevices:103 browserselector:129
+#: drakfileshare:112 drakfileshare:111 browserselector:119
+msgid "Installed-on-system"
+msgstr "Telepítve-a-rendszerre"
+
+#: draksound:131 drakscan:102 draksamba:110 drakprint:110 drakpartition:108
+#: draknfsm:97 draknetsec:106 draknet:105 drakmice:111 drakgrub:202 drakfw:144
+#: drakfileshare:114 drakdvbtv:104 drakdevices:103 browserselector:129
+#: drakfileshare:112 drakfileshare:111 browserselector:119
+msgid "More-Installable"
+msgstr "További-telepíthető"
+
+#: draksound:133 drakscan:104 draksamba:112 drakprint:112 drakpartition:110
+#: draknfsm:99 draknetsec:108 draknet:107 drakmice:113 drakgrub:204 drakfw:146
+#: drakfileshare:116 drakdvbtv:106 drakdevices:105 browserselector:133
+#: drakfileshare:114 drakfileshare:113 browserselector:123
+msgid "System Admin"
+msgstr "Rendszer-Admin"
+
+#: draksound:133
+msgid "Possible Managing Sound System with.. <br>[please select]"
+msgstr ""
+"A hangrendszered kezelése az alábbiakkal <br>lehetséges..[kérlek válassz]"
+
+#: draksound:148 drakscan:117 drakpartition:126 draknet:124 draknet:137
+#: drakmice:126 drakgrub:222 drakfw:159 browserselector:177 browserselector:167
+msgid "!DANGER-ACTION!"
+msgstr "!VESZÉLYES-MŰVELET!"
+
+#: draksound:148 drakscan:117 drakpartition:126 draknet:137 drakmice:126
+#: drakgrub:222 drakfw:159 drakdvbtv:126 drakdevices:121 browserselector:177
+#: browserselector:167
+msgid "Please enter the applicaion path, name and/or parameter"
+msgstr "Kérlek add meg az alkalmazás útvonalát, nevét és/vagy paraméterét"
+
+#: drakscan:23
+msgid "DrakScan"
+msgstr "DrakScan"
+
+#: drakscan:25
+msgid ""
+"Error occurred while select a Scanner Manager Applicaion. Please report me!"
+msgstr ""
+"Egy hiba történt a szkenner kezelő alkalmazás kiválasztásakor. Kérlek jelezd "
+"nekem!"
+
+#: drakscan:53
+msgid "The scanner manager already running. Be patient or close first"
+msgstr "A szkennerkezelő már fut. Légy türelmes vagy zárd be először"
+
+#: drakscan:70
+msgid "System Scanner Manager - <b><u>Install</b></u> / Run.."
+msgstr "Szkenner kezelő-<b><u>Telepít</b></u>/Futtat.."
+
+#: drakscan:70 draknet:73 drakfw:103
+msgid "System NetworkManager [important!]"
+msgstr "Rendszer Hálózat kezelője [fontos!]"
+
+#: drakscan:70
+msgid "DrakScan Scanner Manager [for expert]"
+msgstr "DrakScan hálózat kezelő [szakértőknek]"
+
+#: drakscan:88 drakscan:100
+msgid "SkanLite-Qt5"
+msgstr "SkanLite-Qt5"
+
+#: drakscan:89 drakscan:97
+msgid "Simple-Scan"
+msgstr "Egyszerű-Szkenner"
+
+#: drakscan:90 drakscan:96
+msgid "System-Scanner-Wizard"
+msgstr "Rendszer-szkenner-varázsló"
+
+#: drakscan:91 drakscan:98
+msgid "XSane"
+msgstr "XSane"
+
+#: drakscan:92 drakscan:99
+msgid "XScanImage"
+msgstr "XScanImage"
+
+#: drakscan:93 drakscan:101
+msgid "Sane-PyGtk"
+msgstr "Sane-PyGtk"
+
+#: drakscan:94
+msgid "Other-Scanner-Config"
+msgstr "Egyéb-szkenner-beállítások"
+
+#: drakscan:104
+msgid "Possible Managing Scanner Devices with.. <br>[please select]"
+msgstr ""
+"A szkenner eszközök kezelése az alábbiakkal<br>lehetséges..[kérlek válassz]"
+
+#: draksamba:29
+msgid ""
+"Unknown Error occurred while select a SAMBA Manager Applicaion. Please "
+"report me!"
+msgstr ""
+"Egy hiba történt a SAMBA kezelő alkalmazás kiválasztásakor.<br>Kérlek jelezd "
+"nekem!"
+
+#: draksamba:54
+msgid "The Samba manager already running. Be patient or close first"
+msgstr "A Samba-kezlő már fut. Légy türelmes vagy zárd be először"
+
+#: draksamba:72
+msgid "Samba Manager - Install / Run.."
+msgstr "Samba kezelése - Telepít/Futtat.."
+
+#: draksamba:72
+msgid "DrakSambaShare Manager [important!]"
+msgstr "DrakSambaMegosztá kezelő [fontos!]"
+
+#: draksamba:72
+msgid "Other Samba Manager [for expert]"
+msgstr "Egyéb Samba kezelő [szakértőknek]"
+
+#: draksamba:86 draksamba:103
+msgid "SambaDrake-SambaServer-Manager"
+msgstr "SambaDrake-SambaSzerver-Kezelő"
+
+#: draksamba:87 draksamba:104
+msgid "System-Config-SambaServer-Manager"
+msgstr "System-Config-SambaSzerver-Kezelő"
+
+#: draksamba:88 draksamba:105
+msgid "SambaScanner-ShareMount-Manager"
+msgstr "SambaSzkenner-SambaCsatolás-Kezelő"
+
+#: draksamba:89 draksamba:106
+msgid "Gigolo-GVFS-Manager"
+msgstr "Gigolo-GVFS-Kezelő"
+
+#: draksamba:90 draksamba:107 draknetsec:103
+msgid "QtSMBStatus-SambaManager"
+msgstr "QtSMBStatus-SambaKezelő"
+
+#: draksamba:91 draksamba:92 draksamba:108
+msgid "Smb4K-SambaManager"
+msgstr "Smb4k-SambaKezelő"
+
+#: draksamba:93 draknetsec:91 drakfileshare:94 drakfileshare:93
+#: drakfileshare:92
+msgid "Other-SambaManager"
+msgstr "Egyéb-SambaKezlő"
+
+#: draksamba:97 draksamba:99 drakfileshare:98 drakfileshare:100
+#: drakfileshare:97 drakfileshare:99 drakfileshare:96
+msgid "Search for other quick installable share tools.."
+msgstr "Villámtelepíthető megosztás-eszközök keresése.."
+
+#: draksamba:109
+msgid "Komba2-SambaManager"
+msgstr "Komba2-SambaKezelő"
+
+#: draksamba:112
+msgid "Possible Managing Samba Shares with.. <br>[please select]"
+msgstr ""
+"A SAMBA megosztások kezelése az alábbiakkal <br>lehetséges..[kérlek válassz]"
+
+#: drakprint:27
+msgid ""
+"Error occurred while select a Printer Manager Applicaion. Please report me!"
+msgstr ""
+"Egy hiba történt a nyomtatókezelő alkalmazás kiválasztásakor. Kérlek jelezd "
+"nekem!"
+
+#: drakprint:42 browserselector:60 browserselector:147 browserselector:50
+#: browserselector:137
+msgid "Update Repos!"
+msgstr "Csomagtárolók frissítése!"
+
+#: drakprint:43 browserselector:61 browserselector:148 browserselector:51
+#: browserselector:138
+msgid "Please run [updating repos] command first before installing!"
+msgstr "Kérem futtassa  először a 'frissites forrasok' parancsot!"
+
+#: drakprint:54 drakgrub:138
+msgid "Component install failed!"
+msgstr "Sikertelen az összetevő telepítése!"
+
+#: drakprint:65
+msgid "The printing manager already running. Be patient or close first"
+msgstr "A nyomtatókezlő már fut. Légy türelmes vagy zárd be először"
+
+#: drakprint:81
+msgid "Cups Printing System and Printer Manager - Install/Run.."
+msgstr ""
+"A cups nyomtatási rendszer és nyomtató kezelő<br>Telepítése/Futtatása.."
+
+#: drakprint:81
+msgid "Install full printing system now [important!]"
+msgstr "Telepítse a teljes nyomtatási rendszert [fontos!)"
+
+#: drakprint:81
+msgid "Run Plasma Printer manager [for expert]"
+msgstr "Plasma nyomtatókezelő futtatása [szakértőknek]"
+
+#: drakprint:102 drakprint:109
+msgid "Plasma-Printer-Manager"
+msgstr "Plasma-Nyomtatókezelő"
+
+#: drakprint:103 drakprint:107
+msgid "Systeme-Config-Printer"
+msgstr "Rendszer-Nyomtató-megjelenítő"
+
+#: drakprint:104 drakprint:108
+msgid "Systeme-Config-Printer-as-root"
+msgstr "Rendszer-Nyomtató-beállítás-mint-root"
+
+#: drakprint:105
+msgid "CUPS-Web-Interface"
+msgstr "CUPS-Webes-felület"
+
+#: drakprint:112
+msgid "The Printing System Manager Open.. [please select]"
+msgstr "A nyomtatási rendszer megnyitása..[kérlek válassz]"
+
+#: drakprint:143
+msgid ""
+"Printer Manager is Missing!\\nPlease install a printer manager gui.\\n"
+"\\nExample: system-config-printer or printer-manager"
+msgstr ""
+"Nyomtatókezelő nincs meg!\\nkérlek telepíts egy nyomtatókezelő gui-t\\n"
+"\\nPéldául: system-config-printer vagy printer-manager"
+
+#: drakpartition:27
+msgid ""
+"Error occurred while select a Partition Manager Applicaion. Please report me!"
+msgstr ""
+"Egy hiba történt a partíciókezelő alkalmazás kiválasztásakor. Kérlek jelezd "
+"nekem!"
+
+#: drakpartition:56
+msgid "The partitions manager already running. Be patient or close first"
+msgstr "A partíciókezlő már fut. Légy türelmes vagy zárd be először"
+
+#: drakpartition:73
+msgid "A Storage and Partitions Manager - <b><u>Install</b></u> / Run.."
+msgstr "Egy adathordozó és particíók kezelése - <b><u>Telepít</b></u>/Futtat.."
+
+#: drakpartition:73
+msgid "System Disks Partitinon Manager [important!]"
+msgstr "Rendszerlemezek, particíók kezelése [fontos!]"
+
+#: drakpartition:73
+msgid "Plasma Partition Manager [for expert]"
+msgstr "Plasma particiókezelő [szakértőknek]"
+
+#: drakpartition:86 drakpartition:102
+msgid "DiskDrake-PartitionManager"
+msgstr "DiskDrake-particiokezelő"
+
+#: drakpartition:87 drakpartition:103
+msgid "Plasma-PartitionManager"
+msgstr "Plasma-particiókezelő"
+
+#: drakpartition:88 drakpartition:104
+msgid "StorageDisk-Monitor"
+msgstr "Tárolólemez-monitor"
+
+#: drakpartition:89 drakpartition:105
+msgid "GParted-PartitionManager"
+msgstr "GParted-particiókezelo"
+
+#: drakpartition:90 drakpartition:106
+msgid "GnomeDisks-PartitionManager"
+msgstr "GnomeDisks-particíókezelő"
+
+#: drakpartition:91 drakpartition:107
+msgid "GSmartControl-PartitionManager"
+msgstr "GSmartControl-lemezkezelo"
+
+#: drakpartition:92
+msgid "Other-PartitionManager"
+msgstr "Egyéb-particíókezlő"
+
+#: drakpartition:96 drakpartition:98
+msgid "Search for other quick installable partition tools.."
+msgstr "Villámtelepíthető partícióesszközök keresése.."
+
+#: drakpartition:110
+msgid "Possible Managing System Partitions with.. <br>[please select]"
+msgstr ""
+"A rendszerparticíók kezelése az alábbiakkal<br>lehetséges..[kérlek válassz]"
+
+#: draknfsm:26
+msgid "Error occurred while select a NFS Manager Applicaion. Please report me!"
+msgstr ""
+"Egy hiba történt az NFS-kezelő alkalmazás kiválasztásakor. Kérlek jelezd "
+"nekem!"
+
+#: draknfsm:51
+msgid "The NFS-manager already running. Be patient or close first"
+msgstr "Az NFS-kezelő már fut. Légy türelmes vagy zárd be először"
+
+#: draknfsm:68
+msgid "NFS Manager - Install / Run.."
+msgstr "NFS kezelése - Telepít/Futtat.."
+
+#: draknfsm:68
+msgid "DrakNFSShare Manager [important!]"
+msgstr "DrakNFSMegosztás kezelő [fontos!]"
+
+#: draknfsm:68
+msgid "Other NFS Manager [for expert]"
+msgstr "Egyéb NFS kezelő [szakértőknek]"
+
+#: draknfsm:82
+msgid "NFS-Local-Server-Shares-Settings"
+msgstr "NFS-Helyi-Szerver-Megosztások-beállítása"
+
+#: draknfsm:83
+msgid "NFS-Remote-Share-Scanner-and-mount-as-Client"
+msgstr "Távoli-NFS-Megosztás-keresése-Csatolása-kliensként"
+
+#: draknfsm:84
+msgid "System-Config-NFS-Server-and-Local-Share-Manager"
+msgstr "System-Config-NFS-Szerver-és-Helyi-Megosztások-kezelése"
+
+#: draknfsm:85
+msgid "Other-NFSManager"
+msgstr "Egyéb-NFS-Kezlő"
+
+#: draknfsm:89 draknfsm:91 draknetsec:95 draknetsec:97
+msgid "Search for other quick installable security tools.."
+msgstr "Villámtelepíthető biztonsági eszközök keresése.."
+
+#: draknfsm:94
+msgid "System-NFSDrake-Manager"
+msgstr "Rendszer-NFSDrake-Kezelő"
+
+#: draknfsm:95
+msgid "NFS-Share-Scanner-as-Client"
+msgstr "NFS-Megosztáskereső-mint-kliens"
+
+#: draknfsm:96
+msgid "System-Config-NFS-Server-Manager"
+msgstr "System-Config-NFS-Szerverkezelő"
+
+#: draknfsm:99
+msgid "Possible Managing NFS Shares with.. <br>[please select]"
+msgstr ""
+"Az NFS megosztások kezelése az alábbiakkal<br>lehetséges..[kérlek válassz]"
+
+#: draknetsec:28
+msgid ""
+"Error occurred while select a Security Manager Applicaion. Please report me!"
+msgstr ""
+"Egy hiba történt a biztonságot kezelő alkalmazás kiválasztásakor. Kérlek "
+"jelezd nekem!"
+
+#: draknetsec:53
+msgid "The network security manager already running. Be patient or close first"
+msgstr ""
+"A hálózati-biztonság kezelő már fut. Légy türelmes vagy zárd be először"
+
+#: draknetsec:70
+msgid "Security Manager - Install / Run.."
+msgstr "Biztonságkezelő - Telepít/Futtat.."
+
+#: draknetsec:70
+msgid "Security Manager [important!]"
+msgstr "Biztonságkezelő [fontos!]"
+
+#: draknetsec:70
+msgid "Other Security Manager [for expert]"
+msgstr "Egyéb biztonságkezelő [szakértőknek]"
+
+#: draknetsec:84
+msgid "Firewalls-Config-Wizards"
+msgstr "Tűzfalbeállítás-varázsló"
+
+#: draknetsec:85
+msgid "Proxy-Config-Wizard"
+msgstr "Proxy-beállítás-varázsló"
+
+#: draknetsec:86
+msgid "VPN-Config-Settings"
+msgstr "VPN-konfiguráció-beállítások"
+
+#: draknetsec:101 draknetsec:102 drakfileshare:104 drakfileshare:105
+#: drakfileshare:103 drakfileshare:102
+msgid "blackPanther-Apps-Wizards"
+msgstr "blackPanther-App-varázslók"
+
+#: draknetsec:108
+msgid "Possible Managing Network Security with.. <br>[please select]"
+msgstr ""
+"A hálózati kapcsolatok biztonságának kezelése az alábbiakkal<br>lehetséges.."
+"[kérem válasszon]"
+
+#: draknet:27
+msgid ""
+"Error occurred while select a Network Manager Applicaion. Please report me!"
+msgstr ""
+"Egy hiba történt a hálózatkezelő alkalmazás kiválasztásakor. Kérlek jelezd "
+"nekem!"
+
+#: draknet:55
+msgid "The networks manager already running. Be patient or close first"
+msgstr "A hálózatok kezelője már fut. Légy türelmes vagy zárd be először"
+
+#: draknet:73
+msgid "System Network Manager - <b><u>Install</b></u> / Run.."
+msgstr "Hálózati kapcsolat kezelő-<b><u>Telepít</b></u>/Futtat.."
+
+#: draknet:73
+msgid "DrakNet Network Manager [for expert]"
+msgstr "DrakNet hálózat kezelő [szakértőknek]"
+
+#: draknet:91 draknet:92
+msgid "NetworkManager-Connection-Editor"
+msgstr "NetworkManager-Kapcsolat-szerkesztő"
+
+#: draknet:93 draknet:104
+msgid "NetProfile-Manager"
+msgstr "Hálózati-profilok-kezelése"
+
+#: draknet:94 draknet:101
+msgid "DrakNetCenter-Manager"
+msgstr "DrakNet-Hálózati-központ-kezelő"
+
+#: draknet:95 draknet:102
+msgid "DrakConnect-Wizard"
+msgstr "DrakConnect-Kapcsolat-varázsló"
+
+#: draknet:96 draknet:103
+msgid "DrakRoaming-Wizard"
+msgstr "DrakRoaming-varázsló"
+
+#: draknet:97
+msgid "Other-Network-Configurator"
+msgstr "Egyéb-hálózati-beállítások"
+
+#: draknet:99
+msgid "NetworkManager-Settings-Plasma"
+msgstr "NetworkManager-Beállítások-Plazma"
+
+#: draknet:100
+msgid "NetworkManager-Settings-Gtk"
+msgstr "NetworkManager-Beállítások-Gtk"
+
+#: draknet:107
+msgid "Possible Managing Network Connections with.. <br>[please select]"
+msgstr ""
+"A hálózati kapcsolatok kezelése az alábbiakkal<br>lehetséges..[kérem "
+"válasszon]"
+
+#: draknet:125
+msgid "POSSIBLE DANGER ACTION!"
+msgstr "LEHETSÉGES VESZÉLYES-MŰVELET!"
+
+#: draknet:127
+msgid ""
+"This is an old legacy network settings method! Any wrong modification will "
+"be kill Network Manager settings <br><br>If you are not an expert, please "
+"exit now and use <u>NetworkManager</u> from system tray!"
+msgstr ""
+"Ez egy régi örökölt hálózatbeállítási művelet! Bármilyen rossz módosítás ki "
+"fogyja nyírni a Network Manager beállításokat <br><br>Ha te nem szakértő "
+"vagy, lépj ki most és használd a <u>NetworkManager</u>-t a rendszertálcáról!"
+
+#: drakmice:28
+msgid ""
+"Error occurred while select a Mouse/Touchpad Manager Applicaion. Please "
+"report me!"
+msgstr ""
+"Egy hiba történt az Egér/Érintőtábla alkalmazás kiválasztásakor. Kérlek "
+"jelezd nekem!"
+
+#: drakmice:56
+msgid "The mouse manager already running. Be patient or close first"
+msgstr "Az egérkezelő már fut. Légy türelmes vagy zárd be először"
+
+#: drakmice:73
+msgid "System Mouse/Touchpad Manager - <b><u>Install</b></u> / Run.."
+msgstr "Egér/Érintőtábla kezelő - <b><u>Telepít</b></u>/Futtat.."
+
+#: drakmice:73
+msgid "System Settings [important!]"
+msgstr "Rendszerbeállítások [fontos!]"
+
+#: drakmice:73
+msgid "DrakMouse-Manager"
+msgstr "DrakMouse-kezelő"
+
+#: drakmice:92
+msgid "Mouse-user-settings"
+msgstr "Egér-felhasználói-beáll."
+
+#: drakmice:93
+msgid "Touchpad-user-settings"
+msgstr "Érintőtábla-felhasználói-beáll."
+
+#: drakmice:94
+msgid "TouchScreen-gestures"
+msgstr "Érintőképernyő-gesztusok"
+
+#: drakmice:95
+msgid "Mouse-Ports-settings"
+msgstr "Egér-port-beállítások"
+
+#: drakmice:96 drakmice:110
+msgid "Mouse-automation-tool"
+msgstr "Egérautomatizáció"
+
+#: drakmice:97
+msgid "Mouse-dbp-config"
+msgstr "Egér-dpi-beállító"
+
+#: drakmice:101 drakmice:103
+msgid "Search for other quick installable mouse tools.."
+msgstr "Villámtelepíthető egér eszközök keresése.."
+
+#: drakmice:107
+msgid "Mouse-hardware-manager"
+msgstr "Egér-Hardver-Kezelő"
+
+#: drakmice:108
+msgid "Mouse-in-Plasma"
+msgstr "Egér-a-Plasmaban"
+
+#: drakmice:109
+msgid "TouchScreen-in-KWIN"
+msgstr "Érintőképernyő-a-KWIN-ben"
+
+#: drakmice:113
+msgid "Possible Managing Mouse/Touchpad with.. <br>[please select]"
+msgstr ""
+"Az Egér/Érntőtábla kezelése az alábbiakkal<br>lehetséges..[kérlek válassz]"
+
+#: drakgrub:61
+msgid " New Initrd Regenerator.."
+msgstr " Új Initrd-generátor.."
+
+#: drakgrub:82
+msgid "Generate new ramdisk.."
+msgstr "Új ramdiszk generálása.."
+
+#: drakgrub:86
+msgid "Working on new ramdisk, this is a long process.."
+msgstr "Munka az új ramdiszken, ez egy hosszabb folyamat..."
+
+#: drakgrub:92
+msgid "Detecting new ramdisk.."
+msgstr "Űj ramdisul érzékelése.."
+
+#: drakgrub:97
+msgid "New ramdisk is exists!"
+msgstr "Az Új ramdiszk megvan!"
+
+#: drakgrub:103
+msgid "New ramdisk MISSING!"
+msgstr "Az új ramdiszk HIÁNYZIK!"
+
+#: drakgrub:109
+msgid "Generator Error!"
+msgstr "Generátor Hiba!"
+
+#: drakgrub:110
+msgid "Error occured when tried generate new ramdisk!"
+msgstr "Hiba történt mikor próbáltuk létrehozni a ramdiszket!"
+
+#: drakgrub:111
+msgid "Backup is restored now!"
+msgstr "Biztonsági mentés most visszaállítva!"
+
+#: drakgrub:112
+msgid "Try run manually this command as root:"
+msgstr "Próbáld futtatni kézzel ezt a parnacsot root joggal:"
+
+#: drakgrub:120
+msgid ""
+"Error occurred while select a Grub Manager Applicaion. Please report me!"
+msgstr ""
+"Egy hiba történt a Grub rendszerbetöltő alkalmazás kiválasztásakor. Kérlek "
+"jelezd nekem!"
+
+#: drakgrub:149
+msgid "The bootloader manager already running. Be patient or close first"
+msgstr "A rendszerbetöltő-kezlő már fut. Légy türelmes vagy zárd be először"
+
+#: drakgrub:167
+msgid "Grub2 System Loader Manager - <b><u>Install</b></u> / Run.."
+msgstr "Grub2 rendszerbetöltő kezelő-<b><u>Telepít</b></u>/Futtat.."
+
+#: drakgrub:167
+msgid "System Grub2 Manager [important!]"
+msgstr "Rendszer Grup2 kezelő [fontos!]"
+
+#: drakgrub:167
+msgid "System Loaders Manager [for expert]"
+msgstr "Grub rendszerbetöltő kezelő [szakértőknek]"
+
+#: drakgrub:184 drakgrub:199
+msgid "BootkDrake-GrubManager"
+msgstr "BootDrake-GrubKezelő"
+
+#: drakgrub:185 drakgrub:201
+msgid "Grub-Customizer"
+msgstr "Grub-customizer"
+
+#: drakgrub:186
+msgid "Starter-Ramdisk-Initrd-regenerator"
+msgstr "Indítási-Ramdiszk-Initrd-újragenerálása"
+
+#: drakgrub:187 drakgrub:200
+msgid "Systemd-Services-Settings"
+msgstr "Systemd-folyamatok-beállítása"
+
+#: drakgrub:188
+msgid "ReGeneratie-Grub2-conf"
+msgstr "Grub2-conf-újragenerálása"
+
+#: drakgrub:189
+msgid "Create-Grub2-config-and-more"
+msgstr "Grub2-config-létrehozása-még-több"
+
+#: drakgrub:193 drakgrub:195
+msgid "Search for other quick installable bootloader tools.."
+msgstr "Villámtelepíthető rendszerbetöltő eszközök keresése.."
+
+#: drakgrub:204
+msgid "Possible Managing System Loaders with.. <br>[please select]"
+msgstr ""
+"A rendszerbetöltő kezelése az alábbiakkal<br>lehetséges..[kérlek válassz]"
+
+#: drakgrub:231
+msgid "Initrd-generator"
+msgstr "Initrd-generátor"
+
+#: drakgrub:231
+msgid "Do you want run mkInitrd ?"
+msgstr "Szeretnéd futtatni az mkInitrd-t?"
+
+#: drakgrub:235
+msgid "!DANGER!"
+msgstr "!VESZÉLYES-MŰVELET!"
+
+#: drakgrub:236
+msgid "System starter ramdisk is missing! Does NOT restart computer now!"
+msgstr "Rendszerindító ramdisk hiányzik! NE indítsd újra a számítógépet!"
+
+#: drakgrub:237
+msgid "Run this command manually to solve this problem as root:"
+msgstr "Futtasd ezt a parancsot kézzel a probléma megoldásához root joggal:"
+
+#: drakfw:29
+msgid ""
+"Error occurred while select a Firewall Manager Applicaion. Please report me!"
+msgstr ""
+"Egy hiba történt a tűzfalkezlő alkalmazás kiválasztásakor. Kérlek jelezd "
+"nekem!"
+
+#: drakfw:58
+msgid "The firewall manager already running. Be patient or close first"
+msgstr "A tűzfalkezelő már fut. Légy türelmes vagy zárd be először"
+
+#: drakfw:79 beallitas:306 beallitas:333 beallitas:350 beallitas:367
+#: beallitas:372 beallitas:403 beallitas:435 beallitas:440 beallitas:294
+#: beallitas:320 beallitas:336 beallitas:352 beallitas:357 beallitas:388
+#: beallitas:419 beallitas:424 beallitas:293 beallitas:317 beallitas:345
+#: beallitas:316 beallitas:341 beallitas:506 beallitas:450
+msgid "Warning!"
+msgstr "Figyelem!"
+
+#: drakfw:81
+msgid ""
+"<h2>The following network name[s] is too long!</h2> These interface[s] have "
+"too long name[s]:"
+msgstr ""
+"<h2>A következő hálózati nevek túl hosszúak!</h2> Az alábbi csaló[k]nak túl "
+"hosszú neve van:"
+
+#: drakfw:83
+msgid ""
+"The firewall supports up to 15 characters long name, please rename [essid] "
+"or delete unneccary networks!"
+msgstr ""
+"A tűzfal maximum 15 karakter hosszúságú nevet támogat, kérlek nevezd át "
+"[essid] vagy töröld szükségtelen hálózatokat!"
+
+#: drakfw:84
+msgid ""
+"If you want fix before you apply firewall settings, click Cancel on the next "
+"dialog!"
+msgstr ""
+"Ha szeretnéd javítani mielőtt alkalmazod a tűzfal beállításokat, a következő "
+"ablakon csak kattints a Mégsem gombra!"
+
+#: drakfw:103
+msgid "System Firewall Manager - <b><u>Install</b></u> / Run.."
+msgstr "Rendszer tűzfal kezelő - <b><u>Telepít</b></u>/Futtat.."
+
+#: drakfw:103
+msgid "DrakNet Firewall Manager [for expert]"
+msgstr "DrakNet Tűzfal kezelő [szakértőknek]"
+
+#: drakfw:122
+msgid "System-Firewall-Manager"
+msgstr "Rendszer-Tűzfal-Kezelő"
+
+#: drakfw:123
+msgid "Invictus-Firewall"
+msgstr "Invictus-tűzfal"
+
+#: drakfw:124 drakfw:140
+msgid "Interactive-Firewall"
+msgstr "Interaktív-Tűzfal"
+
+#: drakfw:125 drakfw:141
+msgid "FirewallD-Config"
+msgstr "TűzfalD-beállítások"
+
+#: drakfw:126
+msgid "Gtk-UFW"
+msgstr "Gtk-UFW"
+
+#: drakfw:127 drakfw:143
+msgid "Firewall-Builder"
+msgstr "Tűzfal-építő"
+
+#: drakfw:128
+msgid "Other-Firewall-Config"
+msgstr "Egyéb-tűzfal-beállítások"
+
+#: drakfw:132 drakfw:134
+msgid "Search for other quick installable firewalls.."
+msgstr "Villámtelepíthető tűzfalak keresés.."
+
+#: drakfw:138
+msgid "System-DrakFirewall"
+msgstr "Rendszer-Tűzfal-Kezelő"
+
+#: drakfw:139
+msgid "Invictus-DrakFirewall"
+msgstr "Invictus-Tűzfal"
+
+#: drakfw:142
+msgid "Gtk-UFW-tool"
+msgstr "Gtk-UFW-eszköz"
+
+#: drakfw:146
+msgid "Possible Managing Firewall Connections with.. <br>[please select]"
+msgstr ""
+"A rendszertűzfal szabályok kezelése az alábbiakkal<br>lehetséges..[kérem "
+"válasszon]"
+
+#: drakfileshare:28 drakfileshare:27
+msgid ""
+"Error occurred while select a FileShare Manager Applicaion.<br>Please report "
+"me!"
+msgstr ""
+"Egy hiba történt a fájlmegosztás kezelő alkalmazás kiválasztásakor."
+"<br>Kérlek jelezd nekem!"
+
+#: drakfileshare:54 drakfileshare:53
+msgid "The fileshare manager already running. Be patient or close first"
+msgstr "A fájlmegosztáskezelő már fut. Légy türelmes vagy zárd be először"
+
+#: drakfileshare:71 drakfileshare:70
+msgid "Share Manager - Install / Run.."
+msgstr "Megosztáskezelő - Telepít/Futtat.."
+
+#: drakfileshare:71 drakfileshare:70
+msgid "Share Manager [important!]"
+msgstr "Megosztáskezelő [fontos!]"
+
+#: drakfileshare:71 drakfileshare:70
+msgid "Other Share Manager [for expert]"
+msgstr "Egyéb megosztáskezelő [szakértőknek]"
+
+#: drakfileshare:85 drakfileshare:84
+msgid "Samba-Config-Wizards"
+msgstr "Samba-konfiguráció-varázsló"
+
+#: drakfileshare:86 drakfileshare:85
+msgid "NFS-Config-Wizards"
+msgstr "NFS-konfiguráció-varázsló"
+
+#: drakfileshare:87 drakfileshare:86
+msgid "DLNA-MediaShare-Settings"
+msgstr "DLNA-Médiamegosztás-beállítása"
+
+#: drakfileshare:88 drakfileshare:87
+msgid "ProftpD-Settings"
+msgstr "ProftpD-beállítások"
+
+#: drakfileshare:89 drakfileshare:88
+msgid "Network-Discover-Avahi"
+msgstr "Hálózatfelderítő-Avahi"
+
+#: drakfileshare:91 drakfileshare:90
+msgid "Global-Sharing-Settings"
+msgstr "Helyi-Megosztások-beállítása"
+
+#: drakfileshare:92 drakfileshare:91
+msgid "Global-DavFS-Settings"
+msgstr "Helyi-DavFS-Beállítások"
+
+#: drakfileshare:93 drakfileshare:107
+msgid "CurlFTPfs-Manager"
+msgstr "CurlFTPfs-Kezelő"
+
+#: drakfileshare:106 drakfileshare:105 drakfileshare:104
+msgid "DLNA-MediaShare"
+msgstr "DLNA-Médamegosztás"
+
+#: drakfileshare:108 drakfileshare:106 drakfileshare:105
+msgid "ProFTP-Server"
+msgstr "ProFTP-Szerver"
+
+#: drakfileshare:109 drakfileshare:107 drakfileshare:106
+msgid "Avahi-Discover"
+msgstr "Avahi-felderítő"
+
+#: drakfileshare:110 drakfileshare:108 drakfileshare:107
+msgid "Global-Shares-Manager"
+msgstr "Helyi-megszotások-kezelése"
+
+#: drakfileshare:116 drakfileshare:114 drakfileshare:113
+msgid "Possible Managing FileShares with.. <br>[please select]"
+msgstr ""
+"A fájlmegosztások kezelése az alábbiakkal<br>lehetséges..[kérlek válassz]"
+
+#: drakdvbtv:27 drakdevices:27
+msgid ""
+"Error occurred while select a Hardware Manager Applicaion. Please report me!"
+msgstr ""
+"Egy hiba történt a hardverkezelő alkalmazás kiválasztásakor. Kérlek jelezd "
+"nekem!"
+
+#: drakdvbtv:53
+msgid "The TV-device manager already running. Be patient or close first"
+msgstr "A TV-eszközkezelő már fut. Légy türelmes vagy zárd be először"
+
+#: drakdvbtv:70 drakdevices:69
+msgid "System HardwareManager GUI - <u><b>Install</b></u> / Run.."
+msgstr "Rendszer Hardverkezlő felület-<b><u>Telepít</b></u>/Futtat.."
+
+#: drakdvbtv:70 drakdevices:69
+msgid "A Hardware Manager [important!]"
+msgstr "Egy hardver-kezelő [fontos!]"
+
+#: drakdvbtv:70 drakdevices:69
+msgid "Run Other Hardware Manager [for expert]"
+msgstr "Futtat egy másik hardver kezelőt [szakértők]"
+
+#: drakdvbtv:83
+msgid "System-DrakDVB-Manager"
+msgstr "Rendszer-DrakDVB-Kezelő"
+
+#: drakdvbtv:84
+msgid "System-DrakxTv-Analog-Devices"
+msgstr "Rendszer-DrakxTV-analóg-eszközök"
+
+#: drakdvbtv:85
+msgid "System-DVB-t-scanner"
+msgstr "Rendszer-DVB-t-szkenner"
+
+#: drakdvbtv:98 drakdevices:81 drakdevices:96
+msgid "System-Hardware-Manager"
+msgstr "Rendszer-Hardver-Kezelő"
+
+#: drakdvbtv:99 drakdevices:82 drakdevices:97
+msgid "Hardinfo-and-Benchmark-Manager"
+msgstr "Hardinfo-és-telesítményteszt"
+
+#: drakdvbtv:106 drakdevices:105
+msgid "Possible Managing Your Harwares with.. <br>[please select]"
+msgstr ""
+"A hardvereid kezelése az alábbi alkalmazásokkal<br>lehetséges..[kérlek "
+"válassz]"
+
+#: drakdvbtv:120
+msgid "DVB-Scan?"
+msgstr "DVB-Keresés?"
+
+#: drakdvbtv:120
+msgid "Do you want run the DVB-T channel scanning?"
+msgstr "Futtatni akarod a DVB-T csatorna keresést?"
+
+#: drakdvbtv:126 drakdevices:121
+msgid "Add-HW-Manager"
+msgstr "HW-kezelő-megadása"
+
+#: drakdevices:52
+msgid "The device manager already running. Be patient or close first"
+msgstr "A eszközkezelő már fut. Légy türelmes vagy zárd be először"
+
+#: drakdevices:83 drakdevices:98
+msgid "USB-Devices-View"
+msgstr "USB-Eszközök-megjelenítése"
+
+#: drakdevices:84 drakdevices:99
+msgid "Lstopology-HardwareTopology"
+msgstr "Lstopology-Hardver-topológia"
+
+#: drakdevices:85 drakdevices:100
+msgid "LSPCIDrake-in-terminal"
+msgstr "LSPCIDrake-terminálban"
+
+#: drakdevices:86
+msgid "Other-HardwareManager"
+msgstr "Egyéb-HardverKezlő"
+
+#: drakcheck:24 drakcheck:21
+msgid "== HELP for blackPanther OS Device Checker =="
+msgstr "== SÚGÜ a blacKPanther OS eszközellenőrzőhöz =="
+
+#: drakcheck:26 drakcheck:23
+msgid " --help|-h = This help screemn"
+msgstr " --segits|-h - Megmutatja ezt a súgót"
+
+#: drakcheck:27 drakcheck:24
+msgid "[commandparamter] DEBUG = Enable verbose/debug mode"
+msgstr "[parancsparaméter] DEBUG = Bekapcsolja a beszédes/debug módot"
+
+#: drakcheck:28 drakcheck:25
+msgid "vganum|videonum|vdevice|-vganum = Print number of video devices"
+msgstr "vganum|videonum|vdevice|-vganum = Kiírja a videoeszközök számát"
+
+#: drakcheck:29 drakcheck:26
+msgid "vga|video|vdevice|-vga = Print list of videocards in your system"
+msgstr "vga|video|vdevice|-vga = Kilistázza a videokártyákat a rendszerből"
+
+#: drakcheck:30 drakcheck:27
+msgid ""
+"3DVendor|3dvendor|gfxvendor|openglvendor|glvendor|-gv = Print vendor of "
+"active device"
+msgstr ""
+"3DVendor|3dvendor|gfxvendor|openglvendor|glvendor|-gv = Kiírja az aktív "
+"eszköz gyártóját"
+
+#: drakcheck:31 drakcheck:28
+msgid "activevga|activegpu|videorender|avga|-ar = Print active video/3D device"
+msgstr ""
+"activevga|activegpu|videorender|avga|-ar = Kiírja az aktív videó/3D eszközt"
+
+#: drakcheck:33 drakcheck:30
+msgid "soundnum|sndnum = Print number of sound devices"
+msgstr "soundnum|sndnum = Kiírja a hangeszközök számát"
+
+#: drakcheck:34 drakcheck:31
+msgid "sound|snd = Print list of sound devices"
+msgstr "sound|snd = Kilistázza a hangeszközöket"
+
+#: drakcheck:36 drakcheck:33
+msgid "all|-a = Print all available lists of multimedia/sound/video devices"
+msgstr "all|-a = Kiír minden elérhető listát a multimédia/hang/videoeszkökről"
+
+#: drakcheck:83 drakcheck:88 drakcheck:93 drakcheck:99 drakcheck:104
+#: drakcheck:109 drakcheck:114 drakcheck:119 drakcheck:124 drakcheck:76
+#: drakcheck:81 drakcheck:86 drakcheck:92 drakcheck:97 drakcheck:102
+#: drakcheck:107 drakcheck:112 drakcheck:117
+msgid "Devices check..."
+msgstr "Harvereszköz ellenőrzés.."
+
+#: drakcheck:133 drakcheck:126
+msgid "Please add parameter for check..."
+msgstr "Kérlek adj meg egy paramétert az ellenőzéshez.."
+
+#: csomagkereses:332 csomagkereses:334 csomagkereses:310
+msgid "QuickSearch"
+msgstr "Gyorskeresés"
+
+#: csomagkereses:334 csomagkereses:336 csomagkereses:312
+msgid "Please select a package to quick install"
+msgstr "Kérlek válassz egy csomagot a gyorstelepítéshez"
+
+#: checkupdates:53 checkupdates:57 checkupdates:85 checkupdates:88
+#: checkupdates:221 checkupdates:224 checkupdates:218
+msgid "Easy System Updater"
+msgstr "Egyszerű rendszerfrissítő"
+
+#: checkupdates:54
+msgid "Failed: tried 3 times query updates! Try again later.."
+msgstr "Sikertelen: 3 alkalommal lett kérve frissíŧés, próbáld később újra.."
+
+#: checkupdates:58
+msgid "Failed: tried 3 times query updates! Try later.."
+msgstr "Sikertelen: 3 alkalommal lett kérve frissíŧés, próbáld később.."
+
+#: checkupdates:67
+msgid ""
+"Please install blackPanther OS to available free space before using system "
+"operations."
+msgstr ""
+"Kérjük telepítse először a blackPanther OS-t egy üres területre mielőtt "
+"használja a rendszerműveleteket."
+
+#: checkupdates:86 checkupdates:89 checkupdates:222 checkupdates:225
+#: checkupdates:219
+msgid "No internet or package repository access!"
+msgstr "Nincs internet vagy csomagtároló elérés!"
+
+#: checkupdates:196 checkupdates:193
+msgid "packages"
+msgstr "csomag"
+
+#: checkupdates:198 checkupdates:195
+msgid "package"
+msgstr "csomag"
+
+#: checkupdates:203 checkupdates:200
+msgid "Update Check Warning!"
+msgstr "Frissítési figyelmezetetés!"
+
+#: checkupdates:204 checkupdates:201
+msgid "is waiting for update that is older than"
+msgstr "vár frissítésre amely 5 napnál régebbi"
+
+#: checkupdates:205 checkupdates:202
+msgid "5 days! Please update system now..."
+msgstr "Kérlek frissítsd a rendszert most.."
+
+#: checkupdates:210 checkupdates:207
+msgid "Easy System Updates!"
+msgstr "Egyszerű rendszerfrissítő!"
+
+#: checkupdates:211 checkupdates:208
+msgid "update are available!"
+msgstr "új frissítés érhető el!"
+
+#: browserselector:35 browserselector:25
+msgid "Error occurred while select a Browser Applicaion. Please report me!"
+msgstr ""
+"Egy hiba történt a böngészőalkalmazás kiválasztásakor. Kérlek jelezd nekem!"
+
+#: browserselector:49 browserselector:39
+msgid "The Browser Selector already running. Be patient or close first"
+msgstr "A böngésző-választó már fut. Légy türelmes vagy zárd be először"
+
+#: browserselector:78 browserselector:68
+msgid "Empty-RepoCache"
+msgstr "Üres-gyorstár"
+
+#: browserselector:79 browserselector:69
+msgid ""
+"<h2>Browser selector started first time</h2>The install repository cache "
+"still empty.<br>Update requires for new browsers install.<br>Do you want run "
+"repo updater now?"
+msgstr ""
+"<h2>Böngésző-választó első indítás</h2>A telepítési tároló gyorstára még "
+"üres.<br>Frissítés szükséges az új böngészők telepítéséhez.<br> Akarod most "
+"futtatni a tárolófrissítőt?"
+
+#: browserselector:99 browserselector:119 browserselector:89
+#: browserselector:109
+msgid "Google-Chromium"
+msgstr "Google-Chromium-böngésző"
+
+#: browserselector:100 browserselector:120 browserselector:90
+#: browserselector:110
+msgid "Google-Chrome"
+msgstr "Google-Chrome-böngésző"
+
+#: browserselector:101 browserselector:121 browserselector:91
+#: browserselector:111
+msgid "Firefox-Quantum"
+msgstr "Firefox-Quantum-böngésző"
+
+#: browserselector:102 browserselector:122 browserselector:92
+#: browserselector:112
+msgid "Vivaldi-Browser"
+msgstr "Vivaldi-böngésző"
+
+#: browserselector:103 browserselector:123 browserselector:93
+#: browserselector:113
+msgid "Opera-Browser"
+msgstr "Opera-böngésző"
+
+#: browserselector:104 browserselector:124 browserselector:94
+#: browserselector:114
+msgid "Brave-Browser"
+msgstr "Brave-böngésző"
+
+#: browserselector:105 browserselector:125 browserselector:95
+#: browserselector:115
+msgid "Waterfox-Browser"
+msgstr "Waterfox-böngésző"
+
+#: browserselector:106 browserselector:126 browserselector:96
+#: browserselector:116
+msgid "Otter-Browser"
+msgstr "Otter-böngésző"
+
+#: browserselector:107 browserselector:127 browserselector:97
+#: browserselector:117
+msgid "Falkon-Browser"
+msgstr "Falkon-böngésző"
+
+#: browserselector:108 browserselector:128 browserselector:98
+#: browserselector:118
+msgid "Konqueror-Browser"
+msgstr "Konqueror-böngésző"
+
+#: browserselector:114 browserselector:116 browserselector:104
+#: browserselector:106
+msgid "Search for other quick installable browsers.."
+msgstr "Villámtelepíthető böngészők keresése.."
+
+#: browserselector:133 browserselector:123
+msgid "blackPanther Browser Selector"
+msgstr "blackPanther Böngésző-választó"
+
+#: browserselector:133 browserselector:123
+msgid ""
+"There are available Internet Browsers for your system.. <br>[please select "
+"or install]"
+msgstr ""
+"Itt találhatóak a rendszeredre elérhető Internet-böngészők.. "
+"<br>[Kérlekválassz vagy telepíts egyet.]"
+
+#: browserselector:146 browserselector:136
+msgid "Double Check Fail: Exiting Manual Update Requires..."
+msgstr "Másodellenőrzés Sikertelen: Kézi frissítés szükséges.."
+
+#: browserselector:153 browserselector:143
+msgid "Switch to search new available browsers.."
+msgstr "Villámtelepíthető új böngészők keresése.."
+
+#: browserselector:166 browserselector:156
+msgid "Chrome-Installer"
+msgstr "Chrome-telepítő"
+
+#: browserselector:167 browserselector:157
+msgid ""
+"<h2>The Google Chrome downloading and auto-install still running in "
+"background!</h2>Until it is in progress, the application restarts for the "
+"usability of<br>the internet and when the download is completed will be "
+"added to the seletable list."
+msgstr ""
+"<h2>A Google Chrome letöltése és automatikus telepítése folyamatban van "
+"aháttérben!</h2>Ameddig ez a folyamat tart, az alkalmazás újraindul az az "
+"internet<br> használhatóságához. Amikor a letöltés befejeződött, hozzá lesz "
+"adva a választhatóak listájához."
+
+#: beallitas:307 beallitas:295 beallitas:294 beallitas:506 beallitas:450
+msgid ""
+"This is Xorg Server custom settings <b>ONLY for Experts.</b> <br>The "
+"modification will rewrite the system settings. If you do not know what can "
+"you do, then will you kill your screen and you get a blank screen."
+msgstr ""
+"Ezek az Xorg szerver egyéni beállításai <b>CSAK SZAKÉRTŐKNEK,</b> <br>A  "
+"módosítás felül fogja írni a rendszerbeállításokat. Ha nem tudod mit "
+"csinálsz, ki fogod nyírni a képernyőbeállítást és egy üres képernyőt kapsz."
+
+#: beallitas:310 beallitas:298 beallitas:297
+msgid ""
+"This is Xorg Server custom settings, ONLY for Experts! Any modifications "
+"will rewrite the system settings..."
+msgstr ""
+"Ezek az Xorg szerver egyéni beállításai, CSAK SZAKÉRTŐKNEK! Bármilyen "
+"módosítás felül fogja írni a rendszerbeállításokat..."
+
+#: beallitas:311 beallitas:299 beallitas:298
+msgid ""
+"If you do not know what can you do, then will you kill your screen, and you "
+"will get a blank screen..."
+msgstr ""
+"Ha nem tudod mit csinálsz, ki fogod nyírni a képernyőbeállítást és egy üres "
+"képernyőt fogsz kapni..."
+
+#: beallitas:313 beallitas:301 beallitas:300
+msgid "Do you wish to install this program?"
+msgstr "Szeretnéd telepíteni ezt a programot?"
+
+#: beallitas:314 beallitas:420 beallitas:302 beallitas:404 beallitas:301
+#: beallitas:332 beallitas:329
+msgid "Yes"
+msgstr "Igen"
+
+#: beallitas:314 beallitas:420 beallitas:302 beallitas:404 beallitas:301
+#: beallitas:332 beallitas:329
+msgid "No"
+msgstr "Nem"
+
+#: beallitas:314 beallitas:420 beallitas:302 beallitas:404 beallitas:301
+#: beallitas:332 beallitas:329
+msgid "Cancel"
+msgstr "Mégse"
+
+#: beallitas:316 beallitas:304 beallitas:303
+msgid "The potentional risk is accepted..."
+msgstr "A potenciális kockázat elfogadva..."
+
+#: beallitas:334 beallitas:351 beallitas:321 beallitas:337
+msgid "<h2>Multiple VGA devices detected!</h2>"
+msgstr "<h2>Többszörös VGA felismerve!</h2>"
+
+#: beallitas:336
+msgid ""
+"This is NOT compatible with Optimus!<br>Do you want try run Xorg settings?!"
+"<br> - Yes = Continue and install optimus components<br> - No = Run Xorg "
+"config wizard <br> - Cancel = Just exit <br><br>If you do not know what can "
+"you do, then will you kill your screen and you get a blank screen..."
+msgstr ""
+"Ez NEM kompatibilis az Optimus-al! Szeretnéd folytatni az Xorg beállítását?"
+"<br> - Igen = Folytatja és telepíti az optimus komponenseket.<br> - Nem = "
+"Futtatja az Xorg beállításvarázslót <br> - Mégsem = Csak kilép <br><br>Ha "
+"nem tudod mit csinálsz, ki fogod nyírni a képernyőbeállítást és egy üres "
+"képernyőt kapsz."
+
+#: beallitas:343 beallitas:360 beallitas:329 beallitas:345
+msgid "Multiple VGA: Selected exit.."
+msgstr "Multiple VGA: Kilépés választva.."
+
+#: beallitas:353
+msgid ""
+"This is OLD Optimus method detected!<br><b>Bumblebee</b> recommend use for "
+"this system! Do you wan continue install?<br> - Yes = Continue and install "
+"Bumblebee<br> - No = Run Xorg config wizard <br> - Cancel = Just exit "
+"<br><br>If you do not know what can you do, then will you kill your screen "
+"and you get a blank screen..."
+msgstr ""
+"A RÉGI Optimus eljárás felismerve!<br><b>Bumblebee</b> használata javasolt "
+"ehhez a rendszerhez! Szeretnéd folytatni a telepítést?<br> - Igen = Folytatja "
+"és telepíti a Bumblebee-t.<br> - Nem = Futtatja az Xorg beállításvarázslót "
+"<br> - Mégsem = Csak kilép <br><br>Ha nem tudod mit csinálsz, ki fogod nyírni "
+"a képernyőbeállítást és egy üres képernyőt kapsz."
+
+#: beallitas:368 beallitas:436 beallitas:353 beallitas:420 beallitas:346
+#: beallitas:342
+msgid "<h2>Restart requires...</h2>"
+msgstr "<h2>Újraindítás szükséges...</h2>"
+
+#: beallitas:369 beallitas:437 beallitas:354 beallitas:421 beallitas:347
+#: beallitas:343
+msgid "Restart system to apply new settings...<br>"
+msgstr "Újraindítás szükséges az új beállítások alkalmazásához...<br>"
+
+#: beallitas:370 beallitas:355
+msgid "Bumblebe will available your menu and on system tray after restart."
+msgstr ""
+"Az Bumblebee elérhető lesz a menüdben és a rendszertálcán újraindítás után."
+
+#: beallitas:373 beallitas:441 beallitas:358 beallitas:425 beallitas:351
+msgid "<h2>Already installed...</h2>"
+msgstr "<h2>Már telepítve van...</h2>"
+
+#: beallitas:374 beallitas:359
+msgid ""
+"If you have any problem with Bumblebee, remove first and run settings "
+"again..."
+msgstr ""
+"Ha bármilyen problémád van a Bumblebee-vel, először távolítsd el és futtasd "
+"a bállításokat újra..."
+
+#: beallitas:383 beallitas:450 beallitas:368 beallitas:434 beallitas:357
+#: beallitas:348
+msgid "Restart system to apply new settings..."
+msgstr "Újraindítás szükséges az új beállítások alkalmazásához..."
+
+#: beallitas:384 beallitas:369
+msgid "Bumblebee available your menu and on system tray after restart."
+msgstr ""
+"A Bumblebee elérhető lesz a menüdben és a rendszertálcán újraindítás után."
+
+#: beallitas:385 beallitas:370
+msgid "For manual gpu test ex.: optirun glxspheres64"
+msgstr "A kézi gpu teszhez pl.: optirun glxspheres64"
+
+#: beallitas:389 beallitas:456 beallitas:374 beallitas:440 beallitas:363
+msgid "Already installed..."
+msgstr "Már telepítve van..."
+
+#: beallitas:390 beallitas:442 beallitas:457 beallitas:375 beallitas:426
+#: beallitas:441 beallitas:352 beallitas:364
+msgid ""
+"If you have any problem with Optimus-Manager, remove first and run settings "
+"again..."
+msgstr ""
+"Ha bármilyen problémád van az Optimus-Kezelővel, először távolítsd el és "
+"futtasd a bállításokat újra..."
+
+#: beallitas:404 beallitas:389 beallitas:318 beallitas:317
+msgid "<h2>Dual Optimus VGA is detected!</h2>"
+msgstr "<h2>Dual Optimus VGA felismerve!</h2>"
+
+#: beallitas:406
+msgid ""
+"Thats correct?!<br>Do you wish to continue progress of Nvidia Optimus "
+"settings?<br> - Yes = Continue and install optimus components<br> - No = Run "
+"Xorg config wizard <br> - Cancel = Just exit <br><br> If you do not know "
+"what can you do, then will you kill your screen and you get a blank screen..."
+msgstr ""
+"Ez így helyes?<br>Biztosan folytatni akarod az Nvidia Optimus beállítását?"
+"<br> - Igen = Folytatja és telepíti az optimus komponenseket.<br> - Nem = "
+"Futtatja az Xorg beállításvarázslót <br> - Mégsem = Csak kilép <br><br>Ha "
+"nem tudod mit csinálsz, ki fogod nyírni a képernyőbeállítást és egy üres "
+"képernyőt kapsz."
+
+#: beallitas:412 beallitas:396 beallitas:325 beallitas:322
+msgid "DUAL VGA: Selected exit.."
+msgstr "DUAL VGA: Kilépés választva.."
+
+#: beallitas:418 beallitas:402 beallitas:330 beallitas:327
+msgid "Dual Optimus VGA is detected..."
+msgstr "DUAL Optimus VGA felismerve..."
+
+#: beallitas:419 beallitas:403 beallitas:331 beallitas:328
+msgid "Thats correct?! Do you wish to continue progress?"
+msgstr "Ez így helyes?! Szeretnéd folytatni a folyamatot?"
+
+#: beallitas:422 beallitas:406 beallitas:334 beallitas:331
+msgid "Optimus settings is accepted..."
+msgstr "Optimus beállítások elfogadva..."
+
+#: beallitas:438 beallitas:422 beallitas:348 beallitas:344
+msgid ""
+"Optimus-Manager will available your menu and on system tray after restart."
+msgstr ""
+"Az Optimus-kezelő elérhető lesz a menüdben és a rendszertálcán újraindítás "
+"után."
+
+#: beallitas:451 beallitas:435 beallitas:358 beallitas:349
+msgid "Optimus-Manager available your menu and on system tray after restart."
+msgstr ""
+"Az Optimus-kezelő elérhető lesz a menüdben és a rendszertálcán újraindítás "
+"után."
+
+#: beallitas:452 beallitas:436 beallitas:359 beallitas:350
+msgid "For manual vga switching: optimus-manager --switch integrated/or/nvidia"
+msgstr ""
+"A manuális vga váltáshoz: optimus-manager --switch integrated/vagy/nvidia"
+
+#: beallitas:503 beallitas:514 beallitas:487 beallitas:498 beallitas:410
+#: beallitas:421 beallitas:395 beallitas:406 beallitas:325 beallitas:336
+msgid "Missing Connection Manager!"
+msgstr "Kapcsolatkezelő nincs meg!"
+
+#: beallitas:644 beallitas:649 beallitas:654 beallitas:658 beallitas:693
+#: beallitas:628 beallitas:633 beallitas:638 beallitas:642 beallitas:677
+#: beallitas:551 beallitas:556 beallitas:561 beallitas:565 beallitas:600
+#: beallitas:536 beallitas:541 beallitas:546 beallitas:550 beallitas:585
+#: beallitas:466 beallitas:471 beallitas:476 beallitas:480 beallitas:516
+#: beallitas:410 beallitas:415 beallitas:420 beallitas:424 beallitas:460
+msgid "This configurator cannot be run in console mode, sorry"
+msgstr "Ez a beállítás nem futtatható konzolos módba, bocsi"
+
+#: beallitas:709 beallitas:693 beallitas:616 beallitas:601 beallitas:532
+#: beallitas:476
+msgid "Service not available or system already installed"
+msgstr "A szolgáltatás nem elérhető vagy a rendszer már telepítve van"
+
+#: beallitas:740 beallitas:724 beallitas:647 beallitas:632 beallitas:563
+#: beallitas:507
+msgid "Exiting.. Not the KDE Install mode !"
+msgstr "Kilépés... Nem KDE telepítési mód!"
+
+#: autoupdater:251 autoupdater:250 autoupdater:249
+msgid "package error!"
+msgstr "csomaghiba!"
+
+#: autoupdater:252 autoupdater:251 autoupdater:250
+msgid "Stopped! Maybe this a modified or malicious software!"
+msgstr "Megállítva! Ez talán egy módosíttt vagy kártékony program!"
+
+#: autoupdater:400 autoupdater:403 autoupdater:397 autoupdater:390
+#: autoupdater:393
+msgid "Updates found in repo!"
+msgstr "Frissítés található a tárolóban!"
+
+#: autoupdater:401 autoupdater:404 autoupdater:398 autoupdater:391
+#: autoupdater:394
+msgid "Repository Auto Update in progress.. please wait to finish"
+msgstr ""
+"A tároló automatikus frissítése folyamatban van! Kérlek várj a befejezésre..."
+
+#: beallitas:353 beallitas:339
+msgid ""
+"This is OLD Optimus method detected!<br><b>Bumblebee</b> recommend use for "
+"this system! Do you wan continue install?<br><br>If you do not know what can "
+"you do, then will you kill your screen and you get a blank screen..."
+msgstr ""
+"A RÉGI Optimus eljárás felismerve!<br><b>Bumblebee</b> használata javasolt "
+"ehhez a rendszerhez! Szeretnéd folytatni az Nvidia Optimus beállítási "
+"folyamatot?! Ha nem tudod mit csinálsz, ki fogod nyírni a képernyőbeállítást "
+"és egy üres képernyőt kapsz."
+
+#: beallitas:406 beallitas:391 beallitas:320 beallitas:319
+msgid ""
+"Thats correct?!<br>Do you wish to continue progress of Nvidia Optimus "
+"settings?<br> If you do not know what can you do, then will you kill your "
+"screen and you get a blank screen..."
+msgstr ""
+"Ez így helyes?! Szeretnéd folytatni az Nvidia Optimus beállítási folyamatot? "
+"Ha nem tudod mit csinálsz, ki fogod nyírni a képernyőbeállítást és egy üres "
+"képernyőt kapsz."
+
+#: beallitas:336 beallitas:323
+msgid ""
+"This is NOT compatible with Optimus!<br>Do you want try run Xorg settings?!"
+"<br><br>If you do not know what can you do, then will you kill your screen "
+"and you get a blank screen..."
+msgstr ""
+"Ez NEM kompatibilis az Optimus-al! Szeretnéd folytatni az Xorg beállítását?"
+"<br><br>Ha nem tudod mit csinálsz, ki fogod nyírni a képernyőbeállítást és "
+"egy üres képernyőt kapsz."
+
+#: imsgui:29
+msgid "You are not a administrator [root].."
+msgstr "Te nem vagy adminisztrátor [root].."
+
+#: imsgui:30
+msgid "Please run imsgui as root or enter the root password to next dialog"
+msgstr ""
+"Kérlek futtasd az imsgui-t mint root vagy add meg a root jelszót a következő "
+"felbukkanó ablakban"
+
+#: imsgui:123 imsgui:122
+msgid "repo are in progress, please wait.."
+msgstr "tároló frissítése van folyamatban<br>Kérlek várj a befejezésre..."
+
+#: frissites:25
+msgid ""
+"   [all | packages]  and/or  [repos | repo]  - to packages and/or repository "
+"update\\n\\t\\t[system] - to system upgrade\\n\\t\\t[help] - to short help "
+"display\\n\\t\\t[--info|--help|usage] - to long help to usage\\n\\n\\t\\t[db|"
+"database] - to fixating broken RPM Database\\n\\t\\t[fix|repair] - Repair "
+"the RPM packages connections Run: updating repo first!\\n\\t\\t[clean] - "
+"Clean downloaded RPM cache or broken packages\\n\\t\\t[--verbose] - Display "
+"detailed informations\\n"
+msgstr ""
+"   [minden | csomagok]  és/vagy  [forrasok | forras] - a csomagok és/vagy a "
+"tárolók frissítése\\n\\t\\t[rendszer] - a rendszer felfrissítése\\n\\t"
+"\\t[segits] - a rövid tájékoztató megjelenítése\\n\\t\\t[--info|--segits|"
+"hasznalat] - hosszú tájékoztató megjelenítése\\n\\n\\t\\t[db|adatbazis] - "
+"azRPM adabázis újraépítése. Először futtasd: frissites forrasok\\n\\t\\t[fix|"
+"javitas] - Csomagkapcsolatok javítása. Először futtasd a frissites forrasok "
+"parancsot!\\n\\t\\t[tisztit] - A gyorstárazott vagy sérült RPM csomagok "
+"eltávolítása\\n\\t\\t[--reszletes] - Részletes információk mutatása"
+
+#: frissites:93
+msgid "Another package manager is running! Exiting.."
+msgstr "Egy másik telepítőprogram már fut! Kilépés.."
+
+#: checkupdates:200
+msgid "Update Check Warning"
+msgstr "Frissítési figyelmezetetés"
+
+#: wrongdistro:121
+msgid ""
+"     Please run installing / updating / uninstall command on blackPanher OS "
+"instead"
+msgstr ""
+"     Kérlek futtasd a telepites / frissites / eltavolitas parancsokat "
+"blackPanher OS-en az alább helyett:"
+
+#: wrongdistro:124
+msgid ""
+"     or run yourcommand --help OR simple type and run for available actions: "
+"commands"
+msgstr ""
+"     vagy futtasd 'parancsok --segits' VAGY egyszerűen gépeld be és futtasd "
+"az elérhető műveletekhez: parancsok"
+
+#~ msgid ""
+#~ "Error occurred while select a SAMBA Manager Applicaion. Please report me!"
+#~ msgstr ""
+#~ "Egy hiba történt az SAMBA-kezelő alkalmazás kiválasztásakor. Kérlek "
+#~ "jelezd nekem!"
+
+#~ msgid " - Start query: "
+#~ msgstr " - Indítási kérés: "
+
+#~ msgid " - Restart query: "
+#~ msgstr " - Újraindítási kérés: "
+
+#~ msgid " - Stop query: "
+#~ msgstr " - Leállítási kérés: "
+
+#~ msgid " - Status query: "
+#~ msgstr " - Állapot lekérés: "
+
+#~ msgid " - Enable query: "
+#~ msgstr " - Bekapcsolási kérés: "
+
+#~ msgid " enabled "
+#~ msgstr " bekapcsolt "
+
+#~ msgid " - Disable query: "
+#~ msgstr " - Kikapcsolási kérés: "
+
+#~ msgid " disabled "
+#~ msgstr " kikapcsolt "
+
+#~ msgid "SambaDrake-SambaManager"
+#~ msgstr "SambaDrake-SambaSzerver-Kezelő"
+
+#~ msgid "System-Config-Samba-Manager"
+#~ msgstr "SystemConfig-Samba-Kezelő"
+
+#~ msgid "The Sound Manager already running. Be patient or close first"
+#~ msgstr "A hangkezelő már fut. Légy türelmes vagy szár be először."
+
+#~ msgid "The Scanner Manager already running. Be patient or close first"
+#~ msgstr "A szkennerkezelő már fut. Légy türelmes vagy zárd be először"
+
+#~ msgid "The Samba Manager already running. Be patient or close first"
+#~ msgstr "A Samba-kezlő már fut. Légy türelmes vagy zárd be először"
+
+#~ msgid "The Printer Manager already running. Be patient or close first"
+#~ msgstr "A nyomtatókezlő már fut. Légy türelmes vagy zárd be először"
+
+#~ msgid "The Partititon Manager already running. Be patient or close first"
+#~ msgstr "A partíciókezlő már fut. Légy türelmes vagy zárd be először"
+
+#~ msgid "The NFS Manager already running. Be patient or close first"
+#~ msgstr "Az NFS-kezelő már fut. Légy türelmes vagy zárd be először"
+
+#~ msgid ""
+#~ "The Network Security Manager already running. Be patient or close first"
+#~ msgstr ""
+#~ "A hálózati biztonságkezelő már fut. Légy türelmes vagy zárd be először"
+
+#~ msgid "The Network Manager already running. Be patient or close first"
+#~ msgstr "A hálózatkezelő már fut. Légy türelmes vagy zárd be először"
+
+#~ msgid "The Mouse Manager already running. Be patient or close first"
+#~ msgstr "A egérkezelő már fut. Légy türelmes vagy zárd be először"
+
+#~ msgid "The Bootloader Manager already running. Be patient or close first"
+#~ msgstr "A rendszerbetöltő-kezlő már fut. Légy türelmes vagy zárd be először"
+
+#~ msgid "The Firewall Manager already running. Be patient or close first"
+#~ msgstr "A tűzfalkezelő már fut. Légy türelmes vagy zárd be először"
+
+#~ msgid "The FileShare already running. Be patient or close first"
+#~ msgstr "A fájlmegosztáskezlő már fut. Légy türelmes vagy zárd be először"
+
+#~ msgid "The Device Manager already running. Be patient or close first"
+#~ msgstr "Az eszközkezelő már fut. Légy türelmes vagy zárd be először"
+
+#~ msgid "The Browser Selector already running. Be patient or close first.."
+#~ msgstr "A böngésző-választó már fut. Légy türelmes vagy zárd be először"
+
+#~ msgid "Authentication"
+#~ msgstr "Hitelesítés"
+
+#~ msgid "Find Updatable Repos :"
+#~ msgstr "Frissíthető tárolók keresése :"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror-böngésző"
+
+#~ msgid "Generata new ramdisk.."
+#~ msgstr "Új ramdiszk generálása.."
+
+#~ msgid "System-Config-MFS-Manager"
+#~ msgstr "System-ConfigNFS-kezelő"
+
+#~ msgid "NFS-Scanner-Share-MountManager"
+#~ msgstr "NFS-kereső-megosztás-csatolás-Kezelő"
+
+#~ msgid ""
+#~ "Sorry. Browser not detected, please install on PC (etc: installing "
+#~ "firefox)"
+#~ msgstr ""
+#~ "Sajnálom: Böngésző alkalmazás nem található, kérlek telepíts egyet a PC-"
+#~ "re. (pl: telepites kwrite)"
+
+#~ msgid ""
+#~ "Sorry. Browser not detected! Please install on PC (etc: installing "
+#~ "firefox)"
+#~ msgstr ""
+#~ "Sajnálom: Böngésző alkalmazás nem található, kérlek telepíts egyet a PC-"
+#~ "re. (pl: telepites kwrite)"
+
+#~ msgid ""
+#~ "Sorry. Systemsettings applications not detected, please install on PC "
+#~ "(etc: installing k3b)"
+#~ msgstr ""
+#~ "Sajnálom: Rendszerbeállító alkalmazás nem található, kérlek telepíts "
+#~ "egyet a PC-re. (pl: telepites systemsettings)"
+
+#~ msgid ""
+#~ "Sorry.  Systemsettings not detected! Please install on PC (etc: "
+#~ "installing k3b)"
+#~ msgstr ""
+#~ "Sajnálom: Rendszerbeállító alkalmazás nem található, kérlek telepíts "
+#~ "egyet a PC-re. (pl: telepites systemsettings)"
+
+#~ msgid ""
+#~ "Sorry. Partition manager applications not detected, please install on PC "
+#~ "(etc: installing k3b)"
+#~ msgstr ""
+#~ "Sajnálom: Partíciókezelő alkalmazás nem található, kérlek telepíts egyet "
+#~ "a PC-re. (pl: telepites partitionmanager)"
+
+#~ msgid ""
+#~ "Sorry. Partition manager not detected! Please install on PC (etc: "
+#~ "installing k3b)"
+#~ msgstr ""
+#~ "Sajnálom: Partíciókezelő alkalmazás nem található, kérlek telepíts egyet "
+#~ "a PC-re. (pl: telepites partitionmanager)"
+
+#~ msgid "Core-SoundSystem-Manager"
+#~ msgstr "Fő-hangrendszer-kezlő"
+
+#~ msgid "EQ-PulseAudio-Equalizer-Qt"
+#~ msgstr "EQ-PulseAudio-Equalizer-Qt"
+
+#~ msgid "Plasma-settings"
+#~ msgstr "Plasma-beállítások"
+
+#~ msgid ""
+#~ "   [all | packages]  and/or  [repos | repo]  - to packages and/or "
+#~ "repository update\\n\\t\\t[system] - to system upgrade\\n\\t\\t[help] - "
+#~ "to short help display\\n\\t\\t[--info|--help|usage] - to long help to "
+#~ "usage\\n\\n\\t\\t[db|database] - to fixating broken RPM Database\\n\\t"
+#~ "\\t[fix|repair] - Repair the RPM packages connections Run: updating repo "
+#~ "first!\\n\\t\\t[clean] - Clean downloaded RPM cache or broken packages\\n"
+#~ msgstr ""
+#~ "   [minden | csomagok]  és/vagy  [forrasok | forras] - a csomagok és/vagy "
+#~ "a tárolók frissítése\\n\\t\\t[rendszer] - a rendszer felfrissítése\\n\\t"
+#~ "\\t[segits] - a rövid tájékoztató megjelenítése\\n\\t\\t[--info|--segits|"
+#~ "hasznalat] - hosszú tájékoztató megjelenítése\\n\\n\\t\\t[db|adatbazis] - "
+#~ "azRPM adabázis újraépítése. Először futtasd: frissites forrasok\\n\\t"
+#~ "\\t[fix|javitas] - Csomagkapcsolatok javítása. Először futtasd a "
+#~ "frissites forrasok parancsot!\\n\\t\\t[tisztit] - A gyorstárazott vagy "
+#~ "sérült RPM csomagok eltávolítása\\n"
+
+#~ msgid "[+] This Command Successfully Completed"
+#~ msgstr "[+] A parancs sikeresen befejeződött"
+
+#~ msgid " - Your [/] filesystem usage is:"
+#~ msgstr " - A [/] fájlrendszered használata:"
+
+#~ msgid "the SMART Database Update :"
+#~ msgstr "a SMART adatbázis frissítése:"
+
+#~ msgid " - the SMART database update in background.. "
+#~ msgstr " - a SMART adatbázis frissítése a háttérben.."
+
+#~ msgid "DrakNet Scanner Manager [for expert]"
+#~ msgstr "DrakScan hálózat kezelő [szakértőknek]"
+
+#~ msgid "An error occured! Please report me in users group"
+#~ msgstr "Egy hiba történt! Kérlek jelezd nekem a felhasználói csoportban."
+
+#~ msgid "Updating has finished!"
+#~ msgstr "A tároló frissítése sikeresen befejeződött!"
+
+#~ msgid "Repository update is done."
+#~ msgstr "A tárolók frissítése elkészült."
+
+#~ msgid "Printing Sytem and printers as User"
+#~ msgstr "Nyomtatási rendszer és nyomtatók mint felhasználó"
+
+#~ msgid "Printing Sytem and printers as Admin"
+#~ msgstr "Nyomtatási rendszer és nyomtatók mint Admin"
+
+#~ msgid "Run Plasma Printer manager"
+#~ msgstr "Plasma nyomtatókezelő futtatása"
+
+#~ msgid ""
+#~ "DrakSound is Missing!<br><br>Please reinstall the Drakx packages or "
+#~ "report the bug to developers..."
+#~ msgstr ""
+#~ "DrakSound nincs meg!<br><br>Kérjük telepítse újra a Drakx csomagokatvagy "
+#~ "jelentse ezt a hibát a fejleszőnek..."
+
+#~ msgid "draksambashare manager [important!]"
+#~ msgstr "draksambashare kezelő [fontos!]"
+
+#~ msgid "Run Samba Manager [for expert]"
+#~ msgstr "Samba kezelő futtatása [szakértőknek]"
+
+#~ msgid "  -dev|dev  Print mounted disks os filesystems"
+#~ msgstr " -eszkoz|eszkoz|hw Megmutatja a hardvereket és a kernel moduljaikat"
+
+#~ msgid "Partitions Manager - Install / Run.."
+#~ msgstr "Particíók kezelése - Telepít/Futtat.."
+
+#~ msgid "drakdisk partitinon manager [important!]"
+#~ msgstr "drakdisk particíókezelő [fontos!]"
+
+#~ msgid "Run Plasma Partition Manager [for expert]"
+#~ msgstr "Plasma particiókezelő futtatása [szakértőknek]"
+
+#~ msgid ""
+#~ " * You are not system admin [root]. Please usage su command to login and "
+#~ "run this application again or please enter root password now!"
+#~ msgstr ""
+#~ "* Te nem vagy adminisztrátor (root) . Használd az 'su' parancsot a "
+#~ "belépéshez és futtasd a programot újra vagy add meg a root jelszót most!"
+
+#~ msgid ""
+#~ "* You are not system admin [root]. Please usage [rootmod] command to "
+#~ "login and run this action again OR enter Admin password now!"
+#~ msgstr ""
+#~ "* Te nem vagy rendszergazda (root) . Használd az [rendszergazda] "
+#~ "parancsot a belépéshez és futtasd újra a művelet vagy add meg a jelszót "
+#~ "most!"
+
+#~ msgid ""
+#~ "* You are not system admin [root]. Please usage [su] command to login and "
+#~ "run this application again or please enter root password now!"
+#~ msgstr ""
+#~ "* Te nem vagy adminisztrátor (root) . Használd az 'su' parancsot a "
+#~ "belépéshez és futtasd a programot újra vagy add meg a root jelszót most!"
+
+#~ msgid "DiskDrake_Partition_Manager"
+#~ msgstr "DiskDrake__particíó_kezelő"
+
+#~ msgid "Plasma_Partition_Manager"
+#~ msgstr "Plasma_particíó_kezelő"
+
+#~ msgid "GParted_Partition_manager"
+#~ msgstr "GParted_partíció_kezelő"
+
+#~ msgid "Other_Partition_manager"
+#~ msgstr "Egyéb_Particio_kezelő"
+
+#~ msgid "Managing System Partitions with.. [please select]"
+#~ msgstr "A nyomtatási rendszer megnyitása..[kérlek válassz]"
+
+#~ msgid "Please run 'updating repos' command first before installing!"
+#~ msgstr "Kérem futtassa  először a 'frissites forrasok' parancsot!"
+
+#~ msgid "Component isntall failed!."
+#~ msgstr "Sikertelen az összetevő telepítése!"
+
+#~ msgid "Printing System Manager Open.."
+#~ msgstr "Nyomtatási rendszer megnyitása.."
+
+#~ msgid ""
+#~ "<img src=/usr/share/icons/blackPanther-dark.png><br><big>blackPanther OS</"
+#~ "big><br>Printing System Manager Install/Run.."
+#~ msgstr ""
+#~ "<img src=/usr/share/icons/blackPanther-dark.png><br><big>blackPanther OS</"
+#~ "big><br>Nyomtatási rendszer telepítő/Indító.."
+
+#~ msgid ""
+#~ "<img src=/usr/share/icons/blackPanther-dark.png><br><big>blackPanther OS</"
+#~ "big><br>Printing System Manager Open.."
+#~ msgstr ""
+#~ "<img src=/usr/share/icons/blackPanther-dark.png><br><big>blackPanther OS</"
+#~ "big><br>Nyomtatási rendszer megnyitása.."
